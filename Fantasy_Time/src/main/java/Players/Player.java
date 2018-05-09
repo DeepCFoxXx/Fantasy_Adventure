@@ -13,4 +13,8 @@ public abstract class Player {
     public String getName() {
         return this.name;
     }
+
+    public int getHealthValue() {
+        return this.healthValue;
+    }
 }

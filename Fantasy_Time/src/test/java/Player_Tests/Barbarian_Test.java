@@ -20,4 +20,9 @@ public class Barbarian_Test {
         assertEquals("Conan", barbarian.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(600, barbarian.getHealthValue());
+    }
+
 }
