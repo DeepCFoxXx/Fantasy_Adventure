@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/BattleAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/OrcishSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/WarMace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/Barbarian_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/Barbarian_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -68,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WarMace.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WarMace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/WarMace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -76,6 +71,34 @@
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Warhammer_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BroadSword_Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -560,6 +583,7 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/OrcishSword.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/BattleAxe.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/WarMace.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java" />
       </list>
     </option>
   </component>
@@ -642,36 +666,6 @@
               <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="Warriors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="Warriors" type="462c0819:PsiDirectoryNode" />
-              <item name="Weapons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -689,25 +683,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Enemy_Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Player_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Enemy_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -734,7 +710,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.EnemyHasHealthValue">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -781,19 +757,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Barbarian_Test.EnemyHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Warhammer_Test.PlayerHasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="PATTERN" value="Enemy_Weapon_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
-      <option name="METHOD_NAME" value="EnemyHasName" />
+      <option name="PACKAGE_NAME" value="Enemy_Weapon_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Weapon_Tests.Warhammer_Test" />
+      <option name="METHOD_NAME" value="PlayerHasHealthValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -804,19 +780,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BroadSword_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Warhammer_Test.PlayerHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Weapon_Tests.*" />
+          <option name="PATTERN" value="Enemy_Weapon_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Weapon_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Weapon_Tests.BroadSword_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="PACKAGE_NAME" value="Enemy_Weapon_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Weapon_Tests.Warhammer_Test" />
+      <option name="METHOD_NAME" value="PlayerHasName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -827,19 +803,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Trident_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Warhammer_Test.canDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Weapon_Tests.*" />
+          <option name="PATTERN" value="Enemy_Weapon_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Weapon_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Weapon_Tests.Trident_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="PACKAGE_NAME" value="Enemy_Weapon_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Weapon_Tests.Warhammer_Test" />
+      <option name="METHOD_NAME" value="canDamage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -902,19 +878,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Trident_Test.canAttack" />
-      <item itemvalue="JUnit.BroadSword_Test.canAttack" />
-      <item itemvalue="JUnit.Barbarian_Test.EnemyHasName" />
       <item itemvalue="JUnit.Barbarian_Test.EnemyHasHealthValue" />
+      <item itemvalue="JUnit.Warhammer_Test.canDamage" />
+      <item itemvalue="JUnit.Warhammer_Test.PlayerHasName" />
+      <item itemvalue="JUnit.Warhammer_Test.PlayerHasHealthValue" />
+      <item itemvalue="JUnit.All in Fantasy_Time_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Barbarian_Test.EnemyHasHealthValue" />
-        <item itemvalue="JUnit.Barbarian_Test.EnemyHasName" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.BroadSword_Test.canAttack" />
-        <item itemvalue="JUnit.Trident_Test.canAttack" />
+        <item itemvalue="JUnit.Warhammer_Test.PlayerHasHealthValue" />
+        <item itemvalue="JUnit.Warhammer_Test.PlayerHasName" />
+        <item itemvalue="JUnit.Warhammer_Test.canDamage" />
+        <item itemvalue="JUnit.Barbarian_Test.EnemyHasHealthValue" />
       </list>
     </recent_temporary>
   </component>
@@ -1172,20 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1296,6 +1258,30 @@
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
