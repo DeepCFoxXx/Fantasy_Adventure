@@ -48,4 +48,11 @@ public class Barbarian_Test {
         assertEquals(450, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        barbarian.setWeapon(warAxe);
+        barbarian.attack(enemy);
+        assertEquals(800, enemy.getHealthValue());
+    }
+
 }
