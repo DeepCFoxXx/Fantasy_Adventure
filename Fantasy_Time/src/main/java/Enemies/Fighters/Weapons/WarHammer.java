@@ -1,4 +1,11 @@
 package Enemies.Fighters.Weapons;
 
-public class WarHammer {
+import Players.Player;
+
+public class WarHammer implements IWeaponEnemy{
+
+    public void attack(Player player) {
+        player.takeDamage(200);
+    }
+
 }

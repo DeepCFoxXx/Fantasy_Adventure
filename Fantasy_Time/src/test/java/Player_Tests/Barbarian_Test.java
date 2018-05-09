@@ -2,6 +2,7 @@ package Player_Tests;
 
 import Enemies.Enemy;
 import Enemies.Fighters.Orc;
+import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
 import Players.Warriors.Weapons.IWeapon;
@@ -17,11 +18,12 @@ public class Barbarian_Test {
     Enemy enemy;
     IWeapon greatSword;
     IWeapon warAxe;
+    IWeaponEnemy warhammer;
 
     @Before
     public void before() {
         barbarian = new Barbarian("Conan", 600, greatSword);
-        enemy = new Orc("Uzul", 1000);
+        enemy = new Orc("Uzul", 1000, warhammer);
         greatSword = new GreatSword();
         warAxe = new WarAxe();
     }
