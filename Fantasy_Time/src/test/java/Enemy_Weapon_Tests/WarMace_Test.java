@@ -1,7 +1,6 @@
 package Enemy_Weapon_Tests;
 
-import Enemies.Fighters.Weapons.IWeaponEnemy;
-import Enemies.Fighters.Weapons.WarHammer;
+import Enemies.Fighters.Weapons.WarMace;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.IWeapon;
@@ -10,22 +9,22 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Warhammer_Test {
+public class WarMace_Test {
 
-    WarHammer warHammer;
+    WarMace warMace;
     Player barbarian;
     IWeapon greatSword;
 
     @Before
     public void before() {
-        warHammer = new WarHammer();
+        warMace = new WarMace();
         barbarian = new Barbarian("Conan", 600, greatSword);
     }
 
     @Test
     public void canDamage() {
-        warHammer.attack(barbarian);
-        assertEquals(400, barbarian.getHealthValue());
+        warMace.attack(barbarian);
+        assertEquals(470, barbarian.getHealthValue());
     }
 
     @Test
@@ -37,5 +36,6 @@ public class Warhammer_Test {
     public void PlayerHasHealthValue() {
         assertEquals(600, barbarian.getHealthValue());
     }
+
 
 }
