@@ -10,4 +10,7 @@ public abstract class Enemy {
         this.healthValue = healthValue;
     }
 
+    public String getName() {
+        return this.name;
+    }
 }
