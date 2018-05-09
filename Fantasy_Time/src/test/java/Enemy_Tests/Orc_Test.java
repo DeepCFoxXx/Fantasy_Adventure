@@ -20,4 +20,9 @@ public class Orc_Test {
         assertEquals("Uzul", orc.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(1000, orc.getHealthValue());
+    }
+
 }
