@@ -62,4 +62,14 @@ public class Paladin_Test {
         assertEquals(800, enemy.getHealthValue());
     }
 
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
 }
