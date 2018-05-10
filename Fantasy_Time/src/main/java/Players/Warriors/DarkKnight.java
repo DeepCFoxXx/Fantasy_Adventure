@@ -1,6 +1,6 @@
-package Players.Warriors.Weapons;
+package Players.Warriors;
 
-import Players.Warriors.Warrior;
+import Players.Warriors.Weapons.IWeapon;
 
 public class DarkKnight extends Warrior {
 

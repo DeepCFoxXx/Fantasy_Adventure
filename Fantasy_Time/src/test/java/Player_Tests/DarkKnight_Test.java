@@ -3,6 +3,7 @@ package Player_Tests;
 import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
+import Players.Warriors.DarkKnight;
 import Players.Warriors.Weapons.*;
 import org.junit.Before;
 import org.junit.Test;
