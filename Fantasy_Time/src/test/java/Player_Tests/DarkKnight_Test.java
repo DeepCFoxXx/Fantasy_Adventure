@@ -52,4 +52,11 @@ public class DarkKnight_Test {
         assertEquals(400, darkKnight.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        darkKnight.setWeapon(trident);
+        darkKnight.attack(enemy);
+        assertEquals(860, enemy.getHealthValue());
+    }
+
 }
