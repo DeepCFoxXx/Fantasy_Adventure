@@ -45,14 +45,21 @@ public class Paladin_Test {
 
     @Test
     public void canAttack() {
-        paladin.attack(enemy, warAxe);
-        assertEquals(800, enemy.getHealthValue());
+        paladin.attack(enemy, broadSword);
+        assertEquals(875, enemy.getHealthValue());
     }
 
     @Test
     public void canTakeDamage() {
         paladin.takeDamage(100);
         assertEquals(450, paladin.getHealthValue());
+    }
+
+    @Test
+    public void canSwapWeapon() {
+        paladin.setWeapon(warAxe);
+        paladin.attack(enemy);
+        assertEquals(800, enemy.getHealthValue());
     }
 
 }
