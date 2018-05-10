@@ -43,4 +43,10 @@ public class Paladin_Test {
         assertEquals(100, paladin.getShieldValue());
     }
 
+    @Test
+    public void canAttack() {
+        paladin.attack(enemy, warAxe);
+        assertEquals(800, enemy.getHealthValue());
+    }
+
 }

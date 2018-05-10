@@ -694,7 +694,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Paladin_Test.hasShieldValue">
+  <component name="RunManager" selected="JUnit.Paladin_Test.canAttack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -718,7 +718,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Barbarian_Test.hasVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Paladin_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -729,8 +729,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
-      <option name="METHOD_NAME" value="hasVitality" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
+      <option name="METHOD_NAME" value="canAttack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -863,18 +863,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Barbarian_Test.hasVitality" />
       <item itemvalue="JUnit.Paladin_Test.hasName" />
       <item itemvalue="JUnit.Paladin_Test.hasHealthValue" />
       <item itemvalue="JUnit.Paladin_Test.hasShieldValue" />
+      <item itemvalue="JUnit.Paladin_Test.canAttack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Paladin_Test.canAttack" />
         <item itemvalue="JUnit.Paladin_Test.hasShieldValue" />
         <item itemvalue="JUnit.Paladin_Test.hasHealthValue" />
         <item itemvalue="JUnit.Paladin_Test.hasName" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Barbarian_Test.hasVitality" />
       </list>
     </recent_temporary>
   </component>
