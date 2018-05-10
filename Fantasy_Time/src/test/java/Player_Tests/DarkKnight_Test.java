@@ -45,5 +45,11 @@ public class DarkKnight_Test {
         darkKnight.attack(enemy, broadSword);
         assertEquals(875, enemy.getHealthValue());
     }
-    
+
+    @Test
+    public void canTakeDamage() {
+        darkKnight.takeDamage(100);
+        assertEquals(400, darkKnight.getHealthValue());
+    }
+
 }
