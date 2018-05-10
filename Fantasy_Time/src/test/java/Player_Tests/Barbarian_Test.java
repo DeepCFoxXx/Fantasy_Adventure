@@ -39,6 +39,11 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void hasVitality() {
+        assertEquals(80, barbarian.getVitality());
+    }
+
+    @Test
     public void canAttack() {
         barbarian.attack(enemy, greatSword);
         assertEquals(820, enemy.getHealthValue());
