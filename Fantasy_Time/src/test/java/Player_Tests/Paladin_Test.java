@@ -33,4 +33,9 @@ public class Paladin_Test {
         assertEquals("Duncan", paladin.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(550, paladin.getHealthValue());
+    }
+
 }

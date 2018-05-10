@@ -689,7 +689,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Paladin_Test.hasName">
+  <component name="RunManager" selected="JUnit.Paladin_Test.hasHealthValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -759,7 +759,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DarkKnight_Test.canSwapWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Paladin_Test.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -770,8 +770,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" value="canSwapWeapon" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
+      <option name="METHOD_NAME" value="hasHealthValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -858,18 +858,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.DarkKnight_Test.canSwapWeapon" />
       <item itemvalue="JUnit.DarkKnight_Test" />
       <item itemvalue="JUnit.Barbarian_Test.hasVitality" />
       <item itemvalue="JUnit.Paladin_Test.hasName" />
+      <item itemvalue="JUnit.Paladin_Test.hasHealthValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Paladin_Test.hasHealthValue" />
         <item itemvalue="JUnit.Paladin_Test.hasName" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Barbarian_Test.hasVitality" />
         <item itemvalue="JUnit.DarkKnight_Test" />
-        <item itemvalue="JUnit.DarkKnight_Test.canSwapWeapon" />
       </list>
     </recent_temporary>
   </component>
