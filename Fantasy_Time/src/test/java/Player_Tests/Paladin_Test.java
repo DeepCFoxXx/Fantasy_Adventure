@@ -38,4 +38,9 @@ public class Paladin_Test {
         assertEquals(550, paladin.getHealthValue());
     }
 
+    @Test
+    public void hasShieldValue() {
+        assertEquals(100, paladin.getShieldValue());
+    }
+
 }

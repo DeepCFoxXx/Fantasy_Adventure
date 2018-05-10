@@ -11,4 +11,8 @@ public class Paladin extends Warrior {
         this.shieldValue = shieldValue;
     }
 
+    public int getShieldValue() {
+        return this.shieldValue;
+    }
+
 }
