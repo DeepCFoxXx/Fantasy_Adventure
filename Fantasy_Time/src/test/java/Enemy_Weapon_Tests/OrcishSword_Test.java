@@ -19,7 +19,7 @@ public class OrcishSword_Test {
     @Before
     public void before() {
         orcishSword = new OrcishSword();
-        barbarian = new Barbarian("Conan", 600, greatSword);
+        barbarian = new Barbarian("Conan", 600, greatSword, 80);
     }
 
     @Test

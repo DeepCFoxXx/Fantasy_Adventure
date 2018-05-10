@@ -19,7 +19,7 @@ public class Warhammer_Test {
     @Before
     public void before() {
         warHammer = new WarHammer();
-        barbarian = new Barbarian("Conan", 600, greatSword);
+        barbarian = new Barbarian("Conan", 600, greatSword, 80);
     }
 
     @Test

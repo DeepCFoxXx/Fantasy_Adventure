@@ -59,4 +59,14 @@ public class DarkKnight_Test {
         assertEquals(860, enemy.getHealthValue());
     }
 
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
 }

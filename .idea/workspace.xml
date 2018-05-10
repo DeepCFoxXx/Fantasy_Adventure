@@ -53,8 +53,8 @@
       <file leaf-file-name="Barbarian_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+            <state relative-caret-position="243">
+              <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
@@ -73,8 +73,8 @@
       <file leaf-file-name="DarkKnight_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="409">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#630#631#0" expanded="true" />
@@ -83,6 +83,10 @@
                 <element signature="e#811#812#0" expanded="true" />
                 <element signature="e#889#890#0" expanded="true" />
                 <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -708,7 +712,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarkKnight_Test.canSwapWeapon">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -732,7 +736,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DarkKnight_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DarkKnight_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -744,8 +748,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -877,18 +881,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.DarkKnight_Test.canAttack" />
       <item itemvalue="JUnit.DarkKnight_Test.hasArmourValue" />
       <item itemvalue="JUnit.DarkKnight_Test.canTakeDamage" />
       <item itemvalue="JUnit.DarkKnight_Test.canSwapWeapon" />
+      <item itemvalue="JUnit.DarkKnight_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.DarkKnight_Test" />
         <item itemvalue="JUnit.DarkKnight_Test.canSwapWeapon" />
         <item itemvalue="JUnit.DarkKnight_Test.canTakeDamage" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.DarkKnight_Test.hasArmourValue" />
-        <item itemvalue="JUnit.DarkKnight_Test.canAttack" />
       </list>
     </recent_temporary>
   </component>
@@ -906,12 +910,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BattleAxe_Test_canDamage - 2018.05.09 at 15h 15m 28s.xml">
-      <configuration name="BattleAxe_Test.canDamage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.09 at 15h 15m 33s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.10 at 14h 39m 10s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -935,6 +933,12 @@
     </history-entry>
     <history-entry file="DarkKnight_Test_canTakeDamage - 2018.05.10 at 15h 01m 54s.xml">
       <configuration name="DarkKnight_Test.canTakeDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canSwapWeapon - 2018.05.10 at 15h 10m 34s.xml">
+      <configuration name="DarkKnight_Test.canSwapWeapon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canSwapWeapon - 2018.05.10 at 15h 10m 42s.xml">
+      <configuration name="DarkKnight_Test.canSwapWeapon" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1211,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        <state relative-caret-position="243">
+          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#784#785#0" expanded="true" />
@@ -1229,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="409">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#630#631#0" expanded="true" />
@@ -1239,6 +1243,10 @@
             <element signature="e#811#812#0" expanded="true" />
             <element signature="e#889#890#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
           </folding>
         </state>
       </provider>
