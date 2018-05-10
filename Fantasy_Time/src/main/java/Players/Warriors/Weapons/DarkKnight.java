@@ -10,4 +10,8 @@ public class DarkKnight extends Warrior {
         super(name, healthValue, weapon);
         this.armourValue = armourValue;
     }
+
+    public int getArmourValue() {
+        return this.armourValue;
+    }
 }
