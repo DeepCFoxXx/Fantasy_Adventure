@@ -28,4 +28,5 @@ public abstract class Player {
     public void takeDamage(int value) {
         this.healthValue -= value;
     }
+
 }

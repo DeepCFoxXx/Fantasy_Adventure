@@ -70,4 +70,10 @@ public class ShadowRogue_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
+    @Test
+    public void catTakeStatDamage() {
+        shadowRogue.takeStatDamage(50);
+        assertEquals(150, shadowRogue.getStealthValue());
+    }
+
 }

@@ -14,4 +14,8 @@ public class ShadowRogue extends Warrior {
     public int getStealthValue() {
         return this.stealthValue;
     }
+
+    public void takeStatDamage(int value) {
+        this.stealthValue -= value;
+    }
 }
