@@ -14,4 +14,8 @@ public class DarkKnight extends Warrior {
     public int getArmourValue() {
         return this.armourValue;
     }
+
+    public void takeStatDamage(int value) {
+        this.armourValue -= value;
+    }
 }

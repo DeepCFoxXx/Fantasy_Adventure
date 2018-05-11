@@ -70,4 +70,10 @@ public class DarkKnight_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
+    @Test
+    public void catTakeStatDamage() {
+        darkKnight.takeStatDamage(50);
+        assertEquals(200, darkKnight.getArmourValue());
+    }
+
 }
