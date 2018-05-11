@@ -693,21 +693,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarkElf_Test.canTakeDamage">
+  <component name="RunManager" selected="JUnit.DarkElf_Test.canAttack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in Fantasy_Time_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DarkElf_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Enemy_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.DarkElf_Test" />
+      <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -861,19 +867,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.DarkElf_Test.hasName" />
       <item itemvalue="JUnit.DarkElf_Test.hasHealthValue" />
       <item itemvalue="JUnit.DarkElf_Test.hasMagicalResistance" />
       <item itemvalue="JUnit.DarkElf_Test.canTakeDamage" />
+      <item itemvalue="JUnit.DarkElf_Test.canAttack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DarkElf_Test.canAttack" />
         <item itemvalue="JUnit.DarkElf_Test.canTakeDamage" />
         <item itemvalue="JUnit.DarkElf_Test.hasMagicalResistance" />
         <item itemvalue="JUnit.DarkElf_Test.hasHealthValue" />
         <item itemvalue="JUnit.DarkElf_Test.hasName" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
       </list>
     </recent_temporary>
   </component>

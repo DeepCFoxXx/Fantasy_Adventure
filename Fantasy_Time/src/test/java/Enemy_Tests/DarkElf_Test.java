@@ -50,4 +50,10 @@ public class DarkElf_Test {
         assertEquals(550, darkElf.getHealthValue());
     }
 
+    @Test
+    public void canAttack() {
+        darkElf.attack(player, warMace);
+        assertEquals(470, player.getHealthValue());
+    }
+
 }
