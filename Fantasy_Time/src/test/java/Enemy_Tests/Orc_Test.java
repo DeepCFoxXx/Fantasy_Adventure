@@ -64,4 +64,20 @@ public class Orc_Test {
         assertEquals(475, player.getHealthValue());
     }
 
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
+    @Test
+    public void canDamageStats() {
+        orc.takeStatDamage(25);
+        assertEquals(75, orc.getPhysicalResistance());
+    }
+
 }

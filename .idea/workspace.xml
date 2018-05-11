@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Barbarian_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="233">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#793#794#0" expanded="true" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="Orc_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="394">
+              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#840#841#0" expanded="true" />
@@ -60,6 +59,10 @@
                 <element signature="e#993#994#0" expanded="true" />
                 <element signature="e#1046#1047#0" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1729#1730#0" expanded="true" />
+                <element signature="e#1787#1788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -742,29 +745,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BloodDagger_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Weapon_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Weapon_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Weapon_Tests.BloodDagger_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Orc_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -778,6 +758,29 @@
       <option name="PACKAGE_NAME" value="Enemy_Tests" />
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.Orc_Test" />
       <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Orc_Test.canDamageStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Enemy_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.Orc_Test" />
+      <option name="METHOD_NAME" value="canDamageStats" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -887,18 +890,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.BloodDagger_Test" />
       <item itemvalue="JUnit.Orc_Test.canTakeDamage" />
       <item itemvalue="JUnit.Orc_Test.canAttack" />
       <item itemvalue="JUnit.Orc_Test.canSwapWeapon" />
+      <item itemvalue="JUnit.Orc_Test.canDamageStats" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.Orc_Test.canDamageStats" />
         <item itemvalue="JUnit.Orc_Test.canAttack" />
         <item itemvalue="JUnit.Orc_Test.canTakeDamage" />
         <item itemvalue="JUnit.Orc_Test.canSwapWeapon" />
-        <item itemvalue="JUnit.BloodDagger_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -916,21 +919,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Orc_Test_canTakeDamage - 2018.05.11 at 12h 07m 57s.xml">
-      <configuration name="Orc_Test.canTakeDamage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 11m 14s.xml">
-      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Orc_Test_canSwapWeapon - 2018.05.11 at 12h 17m 19s.xml">
-      <configuration name="Orc_Test.canSwapWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Orc_Test_canSwapWeapon - 2018.05.11 at 12h 17m 39s.xml">
-      <configuration name="Orc_Test.canSwapWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Orc_Test_canTakeDamage - 2018.05.11 at 12h 18m 41s.xml">
-      <configuration name="Orc_Test.canTakeDamage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Orc_Test_canTakeDamage - 2018.05.11 at 12h 19m 31s.xml">
       <configuration name="Orc_Test.canTakeDamage" configurationId="JUnit" />
     </history-entry>
@@ -946,6 +934,21 @@
     <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 25m 48s.xml">
       <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 27m 10s.xml">
+      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 27m 19s.xml">
+      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.11 at 12h 27m 25s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 31m 00s.xml">
+      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.11 at 12h 31m 06s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -959,12 +962,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1457,8 +1460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="233">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#793#794#0" expanded="true" />
@@ -1477,8 +1480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="394">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#840#841#0" expanded="true" />
@@ -1487,6 +1490,10 @@
             <element signature="e#993#994#0" expanded="true" />
             <element signature="e#1046#1047#0" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
           </folding>
         </state>
       </provider>

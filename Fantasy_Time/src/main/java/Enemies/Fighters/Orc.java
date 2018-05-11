@@ -14,4 +14,8 @@ public class Orc extends Fighter {
     public int getPhysicalResistance() {
         return this.physicalResistance;
     }
+
+    public void takeStatDamage(int value) {
+        this.physicalResistance -= value;
+    }
 }
