@@ -63,4 +63,20 @@ public class DarkElf_Test {
         assertEquals(500, player.getHealthValue());
     }
 
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
+    @Test
+    public void canDamageStats() {
+        darkElf.takeStatDamage(20);
+        assertEquals(40, darkElf.getMagicalResistance());
+    }
+
 }

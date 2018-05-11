@@ -14,4 +14,8 @@ public class DarkElf extends Fighter {
     public int getMagicalResistance() {
         return this.magicalResistance;
     }
+
+    public void takeStatDamage(int value) {
+        this.magicalResistance -= value;
+    }
 }
