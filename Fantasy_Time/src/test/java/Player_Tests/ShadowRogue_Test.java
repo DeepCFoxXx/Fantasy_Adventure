@@ -36,4 +36,15 @@ public class ShadowRogue_Test {
         assertEquals(400, shadowRogue.getHealthValue());
     }
 
+    @Test
+    public void hasStelthValue() {
+        assertEquals(200, shadowRogue.getStealthValue());
+    }
+
+    @Test
+    public void canAttack() {
+        shadowRogue.attack(enemy, katana);
+        assertEquals(790, enemy.getHealthValue());
+    }
+
 }
