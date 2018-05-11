@@ -44,4 +44,10 @@ public class DarkElf_Test {
         assertEquals(60, darkElf.getMagicalResistance());
     }
 
+    @Test
+    public void canTakeDamage() {
+        darkElf.takeDamage(150);
+        assertEquals(550, darkElf.getHealthValue());
+    }
+
 }
