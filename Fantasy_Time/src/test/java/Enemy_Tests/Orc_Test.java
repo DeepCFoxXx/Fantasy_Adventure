@@ -49,4 +49,17 @@ public class Orc_Test {
         assertEquals(750, orc.getHealthValue());
     }
 
+//    @Test
+//    public void canAttack() {
+//        orc.attack(player);
+//        assertEquals(400, player.getHealthValue());
+//    }
+
+    @Test
+    public void canSwapWeapon() {
+        orc.setWeapon(orcishSword);
+        orc.attack(player);
+        assertEquals(475, player.getHealthValue());
+    }
+
 }
