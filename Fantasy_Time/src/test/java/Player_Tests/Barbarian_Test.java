@@ -72,4 +72,10 @@ public class Barbarian_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
+    @Test
+    public void catTakeStatDamage() {
+        barbarian.takeStatDamage(20);
+        assertEquals(60, barbarian.getVitality());
+    }
+
 }

@@ -15,4 +15,8 @@ public class Barbarian extends Warrior {
     public int getVitality() {
         return this.vitality;
     }
+
+    public void takeStatDamage(int value) {
+        this.vitality -= value;
+    }
 }
