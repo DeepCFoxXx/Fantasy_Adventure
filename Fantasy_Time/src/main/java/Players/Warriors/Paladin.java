@@ -15,4 +15,7 @@ public class Paladin extends Warrior {
         return this.shieldValue;
     }
 
+    public void takeStatDamage(int value) {
+        this.shieldValue -= value;
+    }
 }

@@ -72,4 +72,10 @@ public class Paladin_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
+    @Test
+    public void catTakeStatDamage() {
+        paladin.takeStatDamage(25);
+        assertEquals(75, paladin.getShieldValue());
+    }
+
 }

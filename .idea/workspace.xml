@@ -717,7 +717,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShadowRogue_Test.catTakeStatDamage">
+  <component name="RunManager" selected="JUnit.Paladin_Test.catTakeStatDamage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -741,7 +741,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ShadowRogue_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Paladin_Test.catTakeStatDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -752,8 +752,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.ShadowRogue_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
+      <option name="METHOD_NAME" value="catTakeStatDamage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -885,19 +885,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ShadowRogue_Test.canAttack" />
       <item itemvalue="JUnit.ShadowRogue_Test.canTakeDamage" />
       <item itemvalue="JUnit.ShadowRogue_Test.canSwapWeapon" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.ShadowRogue_Test.catTakeStatDamage" />
+      <item itemvalue="JUnit.Paladin_Test.catTakeStatDamage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Paladin_Test.catTakeStatDamage" />
         <item itemvalue="JUnit.ShadowRogue_Test.catTakeStatDamage" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.ShadowRogue_Test.canSwapWeapon" />
         <item itemvalue="JUnit.ShadowRogue_Test.canTakeDamage" />
-        <item itemvalue="JUnit.ShadowRogue_Test.canAttack" />
       </list>
     </recent_temporary>
   </component>
