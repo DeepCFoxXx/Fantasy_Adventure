@@ -56,4 +56,11 @@ public class DarkElf_Test {
         assertEquals(470, player.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        darkElf.setWeapon(bloodDagger);
+        darkElf.attack(player);
+        assertEquals(500, player.getHealthValue());
+    }
+
 }
