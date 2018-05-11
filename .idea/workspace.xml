@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,6 +22,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Fantasy_Adventure" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -50,10 +53,16 @@
       <file leaf-file-name="DarkElf_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -556,8 +565,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Orc.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" />
       </list>
     </option>
   </component>
@@ -684,7 +693,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarkElf_Test.hasHealthValue">
+  <component name="RunManager" selected="JUnit.DarkElf_Test.hasMagicalResistance">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -731,6 +740,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DarkElf_Test.hasMagicalResistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Enemy_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.DarkElf_Test" />
+      <option name="METHOD_NAME" value="hasMagicalResistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="DarkElf_Test.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -744,29 +776,6 @@
       <option name="PACKAGE_NAME" value="Enemy_Tests" />
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.DarkElf_Test" />
       <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Orc_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.Orc_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -853,18 +862,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Orc_Test.canAttack" />
       <item itemvalue="JUnit.Orc_Test.canDamageStats" />
       <item itemvalue="JUnit.DarkElf_Test.hasName" />
       <item itemvalue="JUnit.DarkElf_Test.hasHealthValue" />
+      <item itemvalue="JUnit.DarkElf_Test.hasMagicalResistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DarkElf_Test.hasMagicalResistance" />
         <item itemvalue="JUnit.DarkElf_Test.hasHealthValue" />
         <item itemvalue="JUnit.DarkElf_Test.hasName" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Orc_Test.canDamageStats" />
-        <item itemvalue="JUnit.Orc_Test.canAttack" />
       </list>
     </recent_temporary>
   </component>
@@ -882,12 +891,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 23m 25s.xml">
-      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 25m 48s.xml">
-      <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Orc_Test_canAttack - 2018.05.11 at 12h 27m 10s.xml">
       <configuration name="Orc_Test.canAttack" configurationId="JUnit" />
     </history-entry>
@@ -912,6 +915,12 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.11 at 12h 33m 59s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DarkElf_Test_hasName - 2018.05.11 at 12h 44m 11s.xml">
+      <configuration name="DarkElf_Test.hasName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkElf_Test_hasHealthValue - 2018.05.11 at 12h 45m 11s.xml">
+      <configuration name="DarkElf_Test.hasHealthValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -930,14 +939,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.26171243" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5020576" side_tool="true" weight="0.26171243" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1446,7 +1455,11 @@
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1472,10 +1485,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
           </folding>
         </state>
       </provider>

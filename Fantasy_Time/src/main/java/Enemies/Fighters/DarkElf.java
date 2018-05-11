@@ -6,9 +6,12 @@ public class DarkElf extends Fighter {
 
     private int magicalResistance;
 
-    public DarkElf(String name, int healthValue, IWeaponEnemy weaponEnemy, int physicalResistance) {
+    public DarkElf(String name, int healthValue, IWeaponEnemy weaponEnemy, int magicalResistance) {
         super(name, healthValue, weaponEnemy);
         this.magicalResistance = magicalResistance;
     }
 
+    public int getMagicalResistance() {
+        return this.magicalResistance;
+    }
 }

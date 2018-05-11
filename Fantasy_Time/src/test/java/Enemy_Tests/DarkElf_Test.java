@@ -39,4 +39,9 @@ public class DarkElf_Test {
         assertEquals(700, darkElf.getHealthValue());
     }
 
+    @Test
+    public void hasMagicalResistance() {
+        assertEquals(60, darkElf.getMagicalResistance());
+    }
+
 }
