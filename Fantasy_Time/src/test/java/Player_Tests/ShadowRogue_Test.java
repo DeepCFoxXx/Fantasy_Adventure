@@ -3,27 +3,32 @@ package Player_Tests;
 import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
-import Players.Warriors.Paladin;
 import Players.Warriors.ShadowRogue;
-import Players.Warriors.Weapons.BroadSword;
-import Players.Warriors.Weapons.IWeapon;
-import Players.Warriors.Weapons.WarAxe;
+import Players.Warriors.Weapons.*;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class ShadowRogue_Test {
 
     ShadowRogue shadowRogue;
     Enemy enemy;
-    IWeapon broadSword;
-    IWeapon warAxe;
+    IWeapon katana;
+    IWeapon trident;
     IWeaponEnemy warhammer;
 
     @Before
     public void before() {
-        shadowRogue = new ShadowRogue("Kara", 400, broadSword, 200);
+        shadowRogue = new ShadowRogue("Kara", 400, katana, 200);
         enemy = new Orc("Uzul", 1000, warhammer);
-        broadSword = new BroadSword();
-        warAxe = new WarAxe();
+        katana = new Katana();
+        trident = new Trident();
+    }
+
+    @Test
+    public void hasName() {
+        assertEquals("Kara", shadowRogue.getName());
     }
 
 }
