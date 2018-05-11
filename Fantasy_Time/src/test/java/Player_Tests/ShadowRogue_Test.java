@@ -53,4 +53,21 @@ public class ShadowRogue_Test {
         assertEquals(300, shadowRogue.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        shadowRogue.setWeapon(trident);
+        shadowRogue.attack(enemy);
+        assertEquals(860, enemy.getHealthValue());
+    }
+
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
 }
