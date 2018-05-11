@@ -3,6 +3,7 @@ package Enemy_Tests;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Enemies.Fighters.Weapons.OrcishSword;
+import Enemies.Fighters.Weapons.WarHammer;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
@@ -26,6 +27,7 @@ public class Orc_Test {
         orcishSword = new OrcishSword();
         player = new Barbarian("Conan", 600, greatsword, 80);
         greatsword = new GreatSword();
+        warhammer = new WarHammer();
     }
 
     @Test
@@ -49,11 +51,11 @@ public class Orc_Test {
         assertEquals(750, orc.getHealthValue());
     }
 
-//    @Test
-//    public void canAttack() {
-//        orc.attack(player);
-//        assertEquals(400, player.getHealthValue());
-//    }
+    @Test
+    public void canAttack() {
+        orc.attack(player, warhammer);
+        assertEquals(400, player.getHealthValue());
+    }
 
     @Test
     public void canSwapWeapon() {

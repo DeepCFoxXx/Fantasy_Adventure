@@ -1,5 +1,8 @@
 package Enemies;
 
+import Enemies.Fighters.Weapons.IWeaponEnemy;
+import Players.Player;
+
 public abstract class Enemy {
 
     private String name;
@@ -20,5 +23,9 @@ public abstract class Enemy {
 
     public void takeDamage(int value) {
         this.healthValue -= value;
+    }
+
+    public void attack(Player player, IWeaponEnemy weaponEnemy){
+        weaponEnemy.attack(player);
     }
 }
