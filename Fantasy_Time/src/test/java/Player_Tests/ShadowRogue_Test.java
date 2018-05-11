@@ -31,4 +31,9 @@ public class ShadowRogue_Test {
         assertEquals("Kara", shadowRogue.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(400, shadowRogue.getHealthValue());
+    }
+
 }

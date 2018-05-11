@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/Katana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/Katana_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/ShadowRogue_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/ShadowRogue_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,27 +60,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShadowRogue_Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShadowRogue_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="289">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Katana_Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/Katana_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -576,10 +563,10 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Paladin.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/ShadowRogue.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/Katana.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Katana_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/Katana_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
       </list>
     </option>
   </component>
@@ -683,15 +670,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Player_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -715,7 +693,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShadowRogue_Test.hasName">
+  <component name="RunManager" selected="JUnit.ShadowRogue_Test.hasHealthValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -785,7 +763,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Paladin_Test.canSwapWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShadowRogue_Test.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -796,8 +774,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
-      <option name="METHOD_NAME" value="canSwapWeapon" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.ShadowRogue_Test" />
+      <option name="METHOD_NAME" value="hasHealthValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -883,19 +861,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Paladin_Test.canSwapWeapon" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.Katana_Test.canDamage" />
       <item itemvalue="JUnit.Katana_Test" />
       <item itemvalue="JUnit.ShadowRogue_Test.hasName" />
+      <item itemvalue="JUnit.ShadowRogue_Test.hasHealthValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShadowRogue_Test.hasHealthValue" />
         <item itemvalue="JUnit.ShadowRogue_Test.hasName" />
         <item itemvalue="JUnit.Katana_Test" />
         <item itemvalue="JUnit.Katana_Test.canDamage" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Paladin_Test.canSwapWeapon" />
       </list>
     </recent_temporary>
   </component>
@@ -913,18 +891,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Paladin_Test_hasShieldValue - 2018.05.10 at 17h 12m 13s.xml">
-      <configuration name="Paladin_Test.hasShieldValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paladin_Test_canAttack - 2018.05.10 at 17h 13m 08s.xml">
-      <configuration name="Paladin_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paladin_Test_canAttack - 2018.05.10 at 17h 13m 17s.xml">
-      <configuration name="Paladin_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paladin_Test_canTakeDamage - 2018.05.10 at 17h 14m 48s.xml">
-      <configuration name="Paladin_Test.canTakeDamage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Paladin_Test_canSwapWeapon - 2018.05.10 at 17h 16m 12s.xml">
       <configuration name="Paladin_Test.canSwapWeapon" configurationId="JUnit" />
     </history-entry>
@@ -943,6 +909,18 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.10 at 17h 19m 40s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Katana_Test_canDamage - 2018.05.11 at 11h 16m 51s.xml">
+      <configuration name="Katana_Test.canDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Katana_Test_canDamage - 2018.05.11 at 11h 17m 08s.xml">
+      <configuration name="Katana_Test.canDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Katana_Test - 2018.05.11 at 11h 17m 43s.xml">
+      <configuration name="Katana_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowRogue_Test_hasName - 2018.05.11 at 11h 20m 34s.xml">
+      <configuration name="ShadowRogue_Test.hasName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -950,17 +928,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -975,7 +954,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.27310345" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1329,16 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1351,22 +1319,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="22" />
+        <state relative-caret-position="364">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/Katana_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
           </folding>
         </state>
       </provider>
