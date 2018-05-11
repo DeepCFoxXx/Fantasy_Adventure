@@ -34,4 +34,9 @@ public class DarkElf_Test {
         assertEquals("Llarayna", darkElf.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(700, darkElf.getHealthValue());
+    }
+
 }
