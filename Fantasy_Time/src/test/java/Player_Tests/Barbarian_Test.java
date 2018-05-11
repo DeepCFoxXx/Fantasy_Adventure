@@ -23,7 +23,7 @@ public class Barbarian_Test {
     @Before
     public void before() {
         barbarian = new Barbarian("Conan", 600, greatSword, 80);
-        enemy = new Orc("Uzul", 1000, warhammer);
+        enemy = new Orc("Uzul", 1000, warhammer, 100);
         greatSword = new GreatSword();
         warAxe = new WarAxe();
     }

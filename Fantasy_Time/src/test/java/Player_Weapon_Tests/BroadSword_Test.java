@@ -19,7 +19,7 @@ public class BroadSword_Test {
     @Before
     public void before() {
         broadSword = new BroadSword();
-        enemy = new Orc("Uzul", 1000, warhammer);
+        enemy = new Orc("Uzul", 1000, warhammer, 100);
     }
 
     @Test

@@ -18,7 +18,7 @@ public class WarAxe_Test {
     @Before
     public void before() {
         warAxe = new WarAxe();
-        enemy = new Orc("Uzul", 1000, warhammer);
+        enemy = new Orc("Uzul", 1000, warhammer, 100);
     }
 
     @Test

@@ -14,7 +14,7 @@ public class Orc_Test {
 
     @Before
     public void before() {
-        orc = new Orc("Uzul", 1000, warhammer);
+        orc = new Orc("Uzul", 1000, warhammer, 100);
     }
 
     @Test
@@ -25,6 +25,11 @@ public class Orc_Test {
     @Test
     public void hasHealthValue() {
         assertEquals(1000, orc.getHealthValue());
+    }
+
+    @Test
+    public void hasPhysicalResistance() {
+        assertEquals(100, orc.getPhysicalResistance());
     }
 
 }

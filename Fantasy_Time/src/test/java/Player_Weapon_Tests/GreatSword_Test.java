@@ -18,7 +18,7 @@ public class GreatSword_Test {
     @Before
     public void before() {
         greatSword = new GreatSword();
-        enemy = new Orc("Uzul", 1000, warhammer);
+        enemy = new Orc("Uzul", 1000, warhammer, 100);
     }
 
     @Test

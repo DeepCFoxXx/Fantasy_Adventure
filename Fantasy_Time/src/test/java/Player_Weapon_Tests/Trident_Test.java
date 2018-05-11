@@ -20,7 +20,7 @@ public class Trident_Test {
     @Before
     public void before() {
         trident = new Trident();
-        enemy = new Orc("Uzul", 1000, warhammer);
+        enemy = new Orc("Uzul", 1000, warhammer, 100);
     }
 
     @Test
