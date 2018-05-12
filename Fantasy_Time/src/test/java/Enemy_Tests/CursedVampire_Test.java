@@ -45,4 +45,10 @@ public class CursedVampire_Test {
         assertEquals(100, cursedVampire.getThirstValue());
     }
 
+    @Test
+    public void canTakeDamage() {
+        cursedVampire.takeDamage(200);
+        assertEquals(300, cursedVampire.getHealthValue());
+    }
+
 }
