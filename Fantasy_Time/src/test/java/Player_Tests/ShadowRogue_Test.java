@@ -37,10 +37,54 @@ public class ShadowRogue_Test {
     }
 
     @Test
-    public void hasStelthValue() {
+    public void hasStrength() {
+        assertEquals(30, shadowRogue.getStrength());
+    }
+
+    @Test
+    public void hasMagic() {
+        assertEquals(30, shadowRogue.getMagic());
+    }
+
+    @Test
+    public void hasDefence() {
+        assertEquals(50, paladin.getDefence());
+    }
+
+    @Test
+    public void hasVitality() {
+        assertEquals(60, paladin.getVitality());
+    }
+
+    @Test
+    public void hasLuck() {
+        assertEquals(40, paladin.getLuck());
+    }
+
+    @Test
+    public void poisonStatusStartsFalse() {
+        assertEquals(false, paladin.getPoisonStatus());
+    }
+
+    @Test
+    public void poisonStatusCanBeTrue() {
+        paladin.getsPoisoned();
+        assertEquals(true, paladin.getPoisonStatus());
+    }
+
+    //ShadowRogue Tests
+    @Test
+    public void hasStealthValue() {
         assertEquals(100, shadowRogue.getStealthValue());
     }
 
+    @Test
+    public void catReduceStealthValue() {
+        shadowRogue.reduceStealthValue(50);
+        assertEquals(50, shadowRogue.getStealthValue());
+    }
+
+    //Warrior Tests
     @Test
     public void canAttack() {
         shadowRogue.attack(enemy, katana);
@@ -60,6 +104,7 @@ public class ShadowRogue_Test {
         assertEquals(860, enemy.getHealthValue());
     }
 
+    //Enemy Tests
     @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
@@ -70,10 +115,5 @@ public class ShadowRogue_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
-    @Test
-    public void catReduceStealthValue() {
-        shadowRogue.reduceStealthValue(50);
-        assertEquals(50, shadowRogue.getStealthValue());
-    }
 
 }

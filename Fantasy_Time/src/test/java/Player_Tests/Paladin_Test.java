@@ -28,6 +28,7 @@ public class Paladin_Test {
         warAxe = new WarAxe();
     }
 
+    //Player Stat Tests
     @Test
     public void hasName() {
         assertEquals("Duncan", paladin.getName());
@@ -39,10 +40,54 @@ public class Paladin_Test {
     }
 
     @Test
+    public void hasStrength() {
+        assertEquals(40, paladin.getStrength());
+    }
+
+    @Test
+    public void hasMagic() {
+        assertEquals(40, paladin.getMagic());
+    }
+
+    @Test
+    public void hasDefence() {
+        assertEquals(50, paladin.getDefence());
+    }
+
+    @Test
+    public void hasVitality() {
+        assertEquals(60, paladin.getVitality());
+    }
+
+    @Test
+    public void hasLuck() {
+        assertEquals(40, paladin.getLuck());
+    }
+
+    @Test
+    public void poisonStatusStartsFalse() {
+        assertEquals(false, paladin.getPoisonStatus());
+    }
+
+    @Test
+    public void poisonStatusCanBeTrue() {
+        paladin.getsPoisoned();
+        assertEquals(true, paladin.getPoisonStatus());
+    }
+
+    //Paladin Tests
+    @Test
     public void hasShieldValue() {
         assertEquals(100, paladin.getShieldValue());
     }
 
+    @Test
+    public void canTakeShieldDamage() {
+        paladin.takeShieldDamage(25);
+        assertEquals(75, paladin.getShieldValue());
+    }
+
+    //Warrior Tests
     @Test
     public void canAttack() {
         paladin.attack(enemy, broadSword);
@@ -62,6 +107,7 @@ public class Paladin_Test {
         assertEquals(800, enemy.getHealthValue());
     }
 
+    //Enemy Tests
     @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
@@ -72,10 +118,14 @@ public class Paladin_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
-    @Test
-    public void canTakeShieldDamage() {
-        paladin.takeShieldDamage(25);
-        assertEquals(75, paladin.getShieldValue());
-    }
+    //    @Test
+//    public void enemyHasPhysicalResistance() {
+//        assertEquals(100, enemy.getPhysicalResistance());
+//    }
+//
+//    @Test
+//    public void enemyHasMagicalResistance() {
+//        assertEquals(100, enemy.getMagicalResistance());
+//    }
 
 }
