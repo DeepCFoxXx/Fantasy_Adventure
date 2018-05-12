@@ -28,6 +28,7 @@ public class Barbarian_Test {
         warAxe = new WarAxe();
     }
 
+    //Player Stat Tests
     @Test
     public void hasName() {
         assertEquals("Conan", barbarian.getName());
@@ -64,10 +65,23 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void poisonStatusStartsFalse() {
+        assertEquals(false, barbarian.getPoisonStatus());
+    }
+
+    //Barbarian Tests
+    @Test
     public void hasBerserkRage() {
         assertEquals(100, barbarian.getBerserkRage());
     }
 
+    @Test
+    public void canReduceBerserkRage() {
+        barbarian.reduceBerserkRage(50);
+        assertEquals(50, barbarian.getBerserkRage());
+    }
+
+    //Warrior Tests
     @Test
     public void canAttack() {
         barbarian.attack(enemy, greatSword);
@@ -87,6 +101,7 @@ public class Barbarian_Test {
         assertEquals(800, enemy.getHealthValue());
     }
 
+    //Enemy Tests
     @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
@@ -97,10 +112,6 @@ public class Barbarian_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
-    @Test
-    public void canReduceBerserkRage() {
-        barbarian.reduceBerserkRage(50);
-        assertEquals(50, barbarian.getBerserkRage());
-    }
+
 
 }

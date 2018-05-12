@@ -60,4 +60,8 @@ public abstract class Player {
     public int getLuck() {
         return this.luck;
     }
+
+    public boolean getPoisonStatus() {
+        return this.poisoned;
+    }
 }
