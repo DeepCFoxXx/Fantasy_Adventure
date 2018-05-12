@@ -6,8 +6,8 @@ public class ShadowRogue extends Warrior {
 
     private int stealthValue;
 
-    public ShadowRogue(String name, int healthValue, IWeapon weapon, int stealthValue){
-        super(name, healthValue, weapon);
+    public ShadowRogue(String name, int healthValue, int strength, int magic, int defence, int vitality, int luck, boolean poisoned, IWeapon weapon, int stealthValue) {
+        super(name, healthValue, weapon, strength,  magic, defence, vitality, luck, poisoned);
         this.stealthValue = stealthValue;
     }
 
@@ -15,7 +15,7 @@ public class ShadowRogue extends Warrior {
         return this.stealthValue;
     }
 
-    public void takeStatDamage(int value) {
+    public void reduceStealthValue(int value) {
         this.stealthValue -= value;
     }
 }

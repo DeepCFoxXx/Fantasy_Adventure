@@ -1,7 +1,6 @@
 package Enemy_Weapon_Tests;
 
 import Enemies.Fighters.Weapons.OrcishSword;
-import Enemies.Fighters.Weapons.WarMace;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.IWeapon;
@@ -19,7 +18,7 @@ public class OrcishSword_Test {
     @Before
     public void before() {
         orcishSword = new OrcishSword();
-        barbarian = new Barbarian("Conan", 600, greatSword, 80);
+        barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
     }
 
     @Test

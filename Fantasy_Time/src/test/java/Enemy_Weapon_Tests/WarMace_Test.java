@@ -18,7 +18,7 @@ public class WarMace_Test {
     @Before
     public void before() {
         warMace = new WarMace();
-        barbarian = new Barbarian("Conan", 600, greatSword, 80);
+        barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
     }
 
     @Test

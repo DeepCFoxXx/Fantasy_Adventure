@@ -20,7 +20,7 @@ public class ShadowRogue_Test {
 
     @Before
     public void before() {
-        shadowRogue = new ShadowRogue("Kara", 400, katana, 200);
+        shadowRogue = new ShadowRogue("Kara", 500, 30, 30, 40, 60, 70,  false, katana, 100);
         enemy = new Orc("Uzul", 1000, warhammer, 100);
         katana = new Katana();
         trident = new Trident();
@@ -33,12 +33,12 @@ public class ShadowRogue_Test {
 
     @Test
     public void hasHealthValue() {
-        assertEquals(400, shadowRogue.getHealthValue());
+        assertEquals(500, shadowRogue.getHealthValue());
     }
 
     @Test
     public void hasStelthValue() {
-        assertEquals(200, shadowRogue.getStealthValue());
+        assertEquals(100, shadowRogue.getStealthValue());
     }
 
     @Test
@@ -50,7 +50,7 @@ public class ShadowRogue_Test {
     @Test
     public void canTakeDamage() {
         shadowRogue.takeDamage(100);
-        assertEquals(300, shadowRogue.getHealthValue());
+        assertEquals(400, shadowRogue.getHealthValue());
     }
 
     @Test
@@ -71,9 +71,9 @@ public class ShadowRogue_Test {
     }
 
     @Test
-    public void catTakeStatDamage() {
-        shadowRogue.takeStatDamage(50);
-        assertEquals(150, shadowRogue.getStealthValue());
+    public void catReduceStealthValue() {
+        shadowRogue.reduceStealthValue(50);
+        assertEquals(50, shadowRogue.getStealthValue());
     }
 
 }

@@ -19,15 +19,15 @@ public class HellKnight_Test {
     IWeaponEnemy battleAxe;
     IWeaponEnemy orcishSword;
     Player player;
-    IWeapon greatsword;
+    IWeapon greatSword;
 
     @Before
     public void before() {
         hellKnight = new HellKnight("Dante", 1200, battleAxe, 20);
         battleAxe = new BattleAxe();
         orcishSword = new OrcishSword();
-        player = new Barbarian("Conan", 600, greatsword, 80);
-        greatsword = new GreatSword();
+        player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
+        greatSword = new GreatSword();
     }
 
     @Test

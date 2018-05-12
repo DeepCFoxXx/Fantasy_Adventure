@@ -1,6 +1,5 @@
 package Enemy_Weapon_Tests;
 
-import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Enemies.Fighters.Weapons.WarHammer;
 import Players.Player;
 import Players.Warriors.Barbarian;
@@ -19,7 +18,7 @@ public class Warhammer_Test {
     @Before
     public void before() {
         warHammer = new WarHammer();
-        barbarian = new Barbarian("Conan", 600, greatSword, 80);
+        barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
     }
 
     @Test

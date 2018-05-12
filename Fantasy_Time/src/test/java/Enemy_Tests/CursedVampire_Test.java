@@ -19,15 +19,15 @@ public class CursedVampire_Test {
     IWeaponEnemy bloodDagger;
     IWeaponEnemy battleAxe;
     Player player;
-    IWeapon greatsword;
+    IWeapon greatSword;
 
     @Before
     public void before() {
         cursedVampire = new CursedVampire("Bella", 500, bloodDagger, 100);
         battleAxe = new BattleAxe();
         bloodDagger = new BloodDagger();
-        player = new Barbarian("Conan", 600, greatsword, 80);
-        greatsword = new GreatSword();
+        player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
+        greatSword = new GreatSword();
     }
 
     @Test

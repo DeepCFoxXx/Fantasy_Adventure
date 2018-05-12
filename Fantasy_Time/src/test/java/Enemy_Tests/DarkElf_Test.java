@@ -18,15 +18,15 @@ public class DarkElf_Test {
     IWeaponEnemy warMace;
     IWeaponEnemy bloodDagger;
     Player player;
-    IWeapon greatsword;
+    IWeapon greatSword;
 
     @Before
     public void before() {
         darkElf = new DarkElf("Llarayna", 700, warMace, 60);
         warMace = new WarMace();
         bloodDagger = new BloodDagger();
-        player = new Barbarian("Conan", 600, greatsword, 80);
-        greatsword = new GreatSword();
+        player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
+        greatSword = new GreatSword();
     }
 
     @Test

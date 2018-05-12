@@ -19,14 +19,14 @@ public class Orc_Test {
     IWeaponEnemy warhammer;
     IWeaponEnemy orcishSword;
     Player player;
-    IWeapon greatsword;
+    IWeapon greatSword;
 
     @Before
     public void before() {
         orc = new Orc("Uzul", 1000, warhammer, 100);
         orcishSword = new OrcishSword();
-        player = new Barbarian("Conan", 600, greatsword, 80);
-        greatsword = new GreatSword();
+        player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
+        greatSword = new GreatSword();
         warhammer = new WarHammer();
     }
 
