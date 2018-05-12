@@ -14,9 +14,15 @@ public abstract class Player {
     private int luck;
     private boolean poisoned;
 
-    public Player(String name, int healthValue){
+    public Player(String name, int healthValue, int strength, int magic, int defence, int vitality, int luck, boolean poisoned){
         this.name = name;
         this.healthValue = healthValue;
+        this.strength = strength;
+        this.magic = magic;
+        this.defence = defence;
+        this.vitality = vitality;
+        this.luck = luck;
+        this.poisoned = false;
     }
 
     public String getName() {
