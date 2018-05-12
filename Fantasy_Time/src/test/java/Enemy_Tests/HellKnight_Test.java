@@ -35,4 +35,9 @@ public class HellKnight_Test {
         assertEquals("Dante", hellKnight.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(1200, hellKnight.getHealthValue());
+    }
+
 }
