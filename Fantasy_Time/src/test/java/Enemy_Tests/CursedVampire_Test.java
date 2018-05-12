@@ -40,4 +40,9 @@ public class CursedVampire_Test {
         assertEquals(500, cursedVampire.getHealthValue());
     }
 
+    @Test
+    public void hasThirstValue() {
+        assertEquals(100, cursedVampire.getThirstValue());
+    }
+
 }

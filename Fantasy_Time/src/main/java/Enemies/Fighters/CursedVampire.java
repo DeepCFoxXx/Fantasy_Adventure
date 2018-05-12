@@ -11,4 +11,7 @@ public class CursedVampire extends Fighter {
         this.thirstValue = thirstValue;
     }
 
+    public int getThirstValue() {
+        return this.thirstValue;
+    }
 }
