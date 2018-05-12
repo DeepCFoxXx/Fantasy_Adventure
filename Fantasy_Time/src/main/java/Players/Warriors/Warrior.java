@@ -8,8 +8,8 @@ public abstract class Warrior extends Player {
 
     private IWeapon weapon;
 
-    public Warrior(String name, int healthValue, IWeapon weapon){
-        super(name, healthValue);
+    public Warrior(String name, int healthValue, IWeapon weapon, int strength, int magic, int defence, int vitality, int luck, boolean poisoned){
+        super(name, healthValue, strength, magic, defence, vitality, luck, poisoned);
         this.weapon = weapon;
     }
 
