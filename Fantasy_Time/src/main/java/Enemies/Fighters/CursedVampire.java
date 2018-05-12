@@ -14,4 +14,8 @@ public class CursedVampire extends Fighter {
     public int getThirstValue() {
         return this.thirstValue;
     }
+
+    public void takeStatDamage(int value) {
+        this.thirstValue -= value;
+    }
 }

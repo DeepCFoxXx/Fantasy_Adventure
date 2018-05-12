@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="" />
+    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,8 +46,8 @@
       <file leaf-file-name="DarkElf_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="337">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#825#826#0" expanded="true" />
@@ -65,11 +68,13 @@
       <file leaf-file-name="CursedVampire.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +83,8 @@
       <file leaf-file-name="CursedVampire_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="274">
+              <caret line="78" column="36" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
@@ -88,6 +93,10 @@
                 <element signature="e#1082#1083#0" expanded="true" />
                 <element signature="e#1163#1164#0" expanded="true" />
                 <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -592,8 +601,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Orc.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/DarkElf.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java" />
       </list>
     </option>
   </component>
@@ -729,14 +738,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CursedVampire_Test.playerHasHealthValue">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CursedVampire_Test.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Fantasy_Time_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CursedVampire_Test.canDamageStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -748,7 +774,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Enemy_Tests" />
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.CursedVampire_Test" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="METHOD_NAME" value="canDamageStats" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -772,29 +798,6 @@
       <option name="PACKAGE_NAME" value="Enemy_Tests" />
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.CursedVampire_Test" />
       <option name="METHOD_NAME" value="canSwapWeapon" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CursedVampire_Test.canTakeDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.CursedVampire_Test" />
-      <option name="METHOD_NAME" value="canTakeDamage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -903,19 +906,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CursedVampire_Test.canTakeDamage" />
-      <item itemvalue="JUnit.CursedVampire_Test.canAttack" />
       <item itemvalue="JUnit.CursedVampire_Test.canSwapWeapon" />
       <item itemvalue="JUnit.CursedVampire_Test.playerHasName" />
       <item itemvalue="JUnit.CursedVampire_Test.playerHasHealthValue" />
+      <item itemvalue="JUnit.CursedVampire_Test.canDamageStats" />
+      <item itemvalue="JUnit.All in Fantasy_Time_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.CursedVampire_Test.canDamageStats" />
         <item itemvalue="JUnit.CursedVampire_Test.playerHasHealthValue" />
         <item itemvalue="JUnit.CursedVampire_Test.playerHasName" />
         <item itemvalue="JUnit.CursedVampire_Test.canSwapWeapon" />
-        <item itemvalue="JUnit.CursedVampire_Test.canAttack" />
-        <item itemvalue="JUnit.CursedVampire_Test.canTakeDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -933,24 +936,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DarkElf_Test_canAttack - 2018.05.11 at 12h 49m 23s.xml">
-      <configuration name="DarkElf_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarkElf_Test_canAttack - 2018.05.11 at 12h 49m 33s.xml">
-      <configuration name="DarkElf_Test.canAttack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarkElf_Test_canSwapWeapon - 2018.05.11 at 12h 50m 38s.xml">
-      <configuration name="DarkElf_Test.canSwapWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarkElf_Test_canSwapWeapon - 2018.05.11 at 12h 50m 47s.xml">
-      <configuration name="DarkElf_Test.canSwapWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.11 at 12h 52m 03s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarkElf_Test_canDamageStats - 2018.05.11 at 12h 53m 12s.xml">
-      <configuration name="DarkElf_Test.canDamageStats" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CursedVampire_Test_hasName - 2018.05.12 at 13h 25m 58s.xml">
       <configuration name="CursedVampire_Test.hasName" configurationId="JUnit" />
     </history-entry>
@@ -962,6 +947,24 @@
     </history-entry>
     <history-entry file="CursedVampire_Test_canTakeDamage - 2018.05.12 at 13h 29m 35s.xml">
       <configuration name="CursedVampire_Test.canTakeDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_canAttack - 2018.05.12 at 13h 31m 18s.xml">
+      <configuration name="CursedVampire_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_canAttack - 2018.05.12 at 13h 31m 28s.xml">
+      <configuration name="CursedVampire_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_canSwapWeapon - 2018.05.12 at 13h 32m 38s.xml">
+      <configuration name="CursedVampire_Test.canSwapWeapon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_canSwapWeapon - 2018.05.12 at 13h 32m 47s.xml">
+      <configuration name="CursedVampire_Test.canSwapWeapon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_playerHasName - 2018.05.12 at 13h 32m 52s.xml">
+      <configuration name="CursedVampire_Test.playerHasName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CursedVampire_Test_playerHasHealthValue - 2018.05.12 at 13h 32m 56s.xml">
+      <configuration name="CursedVampire_Test.playerHasHealthValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1003,7 +1006,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1472,21 +1475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="337">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#825#826#0" expanded="true" />
@@ -1503,10 +1495,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="274">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
@@ -1515,6 +1520,10 @@
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1163#1164#0" expanded="true" />
             <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
           </folding>
         </state>
       </provider>

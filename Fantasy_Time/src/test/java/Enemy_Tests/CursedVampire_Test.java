@@ -74,4 +74,10 @@ public class CursedVampire_Test {
         assertEquals(600, player.getHealthValue());
     }
 
+    @Test
+    public void canDamageStats() {
+        cursedVampire.takeStatDamage(50);
+        assertEquals(50, cursedVampire.getThirstValue());
+    }
+
 }
