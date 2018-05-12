@@ -41,4 +41,7 @@ public abstract class Player {
         this.healthValue -= value;
     }
 
+    public int getStrength() {
+        return this.strength;
+    }
 }

@@ -22,7 +22,7 @@ public class Barbarian_Test {
 
     @Before
     public void before() {
-        barbarian = new Barbarian("Conan", 600, greatSword, 80);
+        barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         enemy = new Orc("Uzul", 1000, warhammer, 100);
         greatSword = new GreatSword();
         warAxe = new WarAxe();
@@ -39,8 +39,13 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void hasStrength() {
+        assertEquals(80, barbarian.getStrength());
+    }
+
+    @Test
     public void hasBerserkRage() {
-        assertEquals(80, barbarian.getBerserkRage());
+        assertEquals(100, barbarian.getBerserkRage());
     }
 
     @Test
@@ -74,8 +79,8 @@ public class Barbarian_Test {
 
     @Test
     public void canReduceBerserkRage() {
-        barbarian.reduceBerserkRage(20);
-        assertEquals(60, barbarian.getBerserkRage());
+        barbarian.reduceBerserkRage(50);
+        assertEquals(50, barbarian.getBerserkRage());
     }
 
 }
