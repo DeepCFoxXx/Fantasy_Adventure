@@ -48,28 +48,28 @@ public class ShadowRogue_Test {
 
     @Test
     public void hasDefence() {
-        assertEquals(50, paladin.getDefence());
+        assertEquals(40, shadowRogue.getDefence());
     }
 
     @Test
     public void hasVitality() {
-        assertEquals(60, paladin.getVitality());
+        assertEquals(60, shadowRogue.getVitality());
     }
 
     @Test
     public void hasLuck() {
-        assertEquals(40, paladin.getLuck());
+        assertEquals(70, shadowRogue.getLuck());
     }
 
     @Test
     public void poisonStatusStartsFalse() {
-        assertEquals(false, paladin.getPoisonStatus());
+        assertEquals(false, shadowRogue.getPoisonStatus());
     }
 
     @Test
     public void poisonStatusCanBeTrue() {
-        paladin.getsPoisoned();
-        assertEquals(true, paladin.getPoisonStatus());
+        shadowRogue.getsPoisoned();
+        assertEquals(true, shadowRogue.getPoisonStatus());
     }
 
     //ShadowRogue Tests
@@ -115,5 +115,14 @@ public class ShadowRogue_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
+    //    @Test
+//    public void enemyHasPhysicalResistance() {
+//        assertEquals(100, enemy.getPhysicalResistance());
+//    }
+//
+//    @Test
+//    public void enemyHasMagicalResistance() {
+//        assertEquals(100, enemy.getMagicalResistance());
+//    }
 
 }
