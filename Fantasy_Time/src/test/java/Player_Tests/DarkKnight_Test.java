@@ -20,7 +20,7 @@ public class DarkKnight_Test {
 
     @Before
     public void before() {
-        darkKnight = new DarkKnight("Bruce", 500, broadSword, 250);
+        darkKnight = new DarkKnight("Bruce", 500, 60, 30, 70, 40, 25, false, broadSword, 100);
         enemy = new Orc("Uzul", 1000, warhammer, 100);
         broadSword = new BroadSword();
         trident = new Trident();
@@ -38,7 +38,7 @@ public class DarkKnight_Test {
 
     @Test
     public void hasArmourValue() {
-        assertEquals(250, darkKnight.getArmourValue());
+        assertEquals(100, darkKnight.getArmourValue());
     }
 
     @Test
@@ -71,9 +71,9 @@ public class DarkKnight_Test {
     }
 
     @Test
-    public void catTakeStatDamage() {
-        darkKnight.takeStatDamage(50);
-        assertEquals(200, darkKnight.getArmourValue());
+    public void canTakeArmourDamage() {
+        darkKnight.takeArmourDamage(50);
+        assertEquals(50, darkKnight.getArmourValue());
     }
 
 }

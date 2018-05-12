@@ -6,8 +6,8 @@ public class DarkKnight extends Warrior {
 
     private int armourValue;
 
-    public DarkKnight(String name, int healthValue, IWeapon weapon, int armourValue){
-        super(name, healthValue, weapon);
+    public DarkKnight(String name, int healthValue, int strength, int magic, int defence, int vitality, int luck, boolean poisoned, IWeapon weapon, int armourValue) {
+        super(name, healthValue, weapon, strength,  magic, defence, vitality, luck, poisoned);
         this.armourValue = armourValue;
     }
 
@@ -15,7 +15,7 @@ public class DarkKnight extends Warrior {
         return this.armourValue;
     }
 
-    public void takeStatDamage(int value) {
+    public void takeArmourDamage(int value) {
         this.armourValue -= value;
     }
 }
