@@ -7,6 +7,12 @@ public abstract class Player {
 
     private String name;
     private int healthValue;
+    private int strength;
+    private int magic;
+    private int defence;
+    private int vitality;
+    private int luck;
+    private boolean poisoned;
 
     public Player(String name, int healthValue){
         this.name = name;

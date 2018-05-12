@@ -39,8 +39,8 @@ public class Barbarian_Test {
     }
 
     @Test
-    public void hasVitality() {
-        assertEquals(80, barbarian.getVitality());
+    public void hasBerserkRage() {
+        assertEquals(80, barbarian.getBerserkRage());
     }
 
     @Test
@@ -73,9 +73,9 @@ public class Barbarian_Test {
     }
 
     @Test
-    public void catTakeStatDamage() {
-        barbarian.takeStatDamage(20);
-        assertEquals(60, barbarian.getVitality());
+    public void canReduceBerserkRage() {
+        barbarian.reduceBerserkRage(20);
+        assertEquals(60, barbarian.getBerserkRage());
     }
 
 }

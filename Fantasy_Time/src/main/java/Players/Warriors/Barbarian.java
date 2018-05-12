@@ -5,18 +5,18 @@ import Players.Warriors.Weapons.IWeapon;
 
 public class Barbarian extends Warrior {
 
-    private int vitality;
+    private int berserkRage;
 
-    public Barbarian(String name, int healthValue, IWeapon weapon, int vitality){
+    public Barbarian(String name, int healthValue, IWeapon weapon, int berserkRage) {
         super(name, healthValue, weapon);
-        this.vitality = vitality;
+        this.berserkRage = berserkRage;
     }
 
-    public int getVitality() {
-        return this.vitality;
+    public int getBerserkRage() {
+        return this.berserkRage;
     }
 
-    public void takeStatDamage(int value) {
-        this.vitality -= value;
+    public void reduceBerserkRage(int value) {
+        this.berserkRage -= value;
     }
 }
