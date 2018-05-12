@@ -10,6 +10,7 @@ import Players.Warriors.Weapons.WarAxe;
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
 
 public class Barbarian_Test {
@@ -69,6 +70,12 @@ public class Barbarian_Test {
         assertEquals(false, barbarian.getPoisonStatus());
     }
 
+    @Test
+    public void poisonStatusCanBeTrue() {
+        barbarian.getsPoisoned();
+        assertEquals(true, barbarian.getPoisonStatus());
+    }
+
     //Barbarian Tests
     @Test
     public void hasBerserkRage() {
@@ -112,6 +119,14 @@ public class Barbarian_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
-
+//    @Test
+//    public void enemyHasPhysicalResistance() {
+//        assertEquals(100, enemy.getPhysicalResistance());
+//    }
+//
+//    @Test
+//    public void enemyHasMagicalResistance() {
+//        assertEquals(100, enemy.getMagicalResistance());
+//    }
 
 }

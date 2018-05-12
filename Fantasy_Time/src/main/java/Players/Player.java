@@ -64,4 +64,8 @@ public abstract class Player {
     public boolean getPoisonStatus() {
         return this.poisoned;
     }
+
+    public void getsPoisoned() {
+        this.poisoned = true;
+    }
 }
