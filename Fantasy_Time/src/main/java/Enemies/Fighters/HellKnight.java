@@ -11,4 +11,7 @@ public class HellKnight extends Fighter {
         this.rageValue = rageValue;
     }
 
+    public int getRageValue() {
+        return this.rageValue;
+    }
 }

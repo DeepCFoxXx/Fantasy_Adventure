@@ -727,7 +727,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HellKnight_Test.hasHealthValue">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -774,29 +774,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CursedVampire_Test.playerHasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.CursedVampire_Test" />
-      <option name="METHOD_NAME" value="playerHasHealthValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="HellKnight_Test.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -833,6 +810,29 @@
       <option name="PACKAGE_NAME" value="Enemy_Tests" />
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.HellKnight_Test" />
       <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HellKnight_Test.hasRageValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Enemy_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.HellKnight_Test" />
+      <option name="METHOD_NAME" value="hasRageValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -895,19 +895,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CursedVampire_Test.playerHasHealthValue" />
       <item itemvalue="JUnit.CursedVampire_Test.canDamageStats" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.HellKnight_Test.hasName" />
       <item itemvalue="JUnit.HellKnight_Test.hasHealthValue" />
+      <item itemvalue="JUnit.HellKnight_Test.hasRageValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.HellKnight_Test.hasRageValue" />
         <item itemvalue="JUnit.HellKnight_Test.hasHealthValue" />
         <item itemvalue="JUnit.HellKnight_Test.hasName" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.CursedVampire_Test.canDamageStats" />
-        <item itemvalue="JUnit.CursedVampire_Test.playerHasHealthValue" />
       </list>
     </recent_temporary>
   </component>

@@ -40,4 +40,9 @@ public class HellKnight_Test {
         assertEquals(1200, hellKnight.getHealthValue());
     }
 
+    @Test
+    public void hasRageValue() {
+        assertEquals(20, hellKnight.getRageValue());
+    }
+
 }
