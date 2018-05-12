@@ -49,4 +49,7 @@ public abstract class Player {
         return this.magic;
     }
 
+    public int getDefence() {
+        return this.defence;
+    }
 }
