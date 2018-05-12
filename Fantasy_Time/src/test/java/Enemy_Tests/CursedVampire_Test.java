@@ -51,4 +51,10 @@ public class CursedVampire_Test {
         assertEquals(300, cursedVampire.getHealthValue());
     }
 
+    @Test
+    public void canAttack() {
+        cursedVampire.attack(player, bloodDagger);
+        assertEquals(500, player.getHealthValue());
+    }
+
 }
