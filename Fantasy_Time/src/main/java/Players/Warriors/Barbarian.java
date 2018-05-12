@@ -7,8 +7,8 @@ public class Barbarian extends Warrior {
 
     private int berserkRage;
 
-    public Barbarian(String name, int healthValue, IWeapon weapon, int berserkRage) {
-        super(name, healthValue, weapon);
+    public Barbarian(String name, int healthValue, int strength, int magic, int defence, int vitality, int luck, boolean poisoned, IWeapon weapon, int berserkRage) {
+        super(name, healthValue, weapon, strength,  magic, defence, vitality, luck, poisoned);
         this.berserkRage = berserkRage;
     }
 
