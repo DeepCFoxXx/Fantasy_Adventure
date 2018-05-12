@@ -52,4 +52,8 @@ public abstract class Player {
     public int getDefence() {
         return this.defence;
     }
+
+    public int getVitality() {
+        return this.vitality;
+    }
 }
