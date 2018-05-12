@@ -22,7 +22,7 @@ public class Paladin_Test {
 
     @Before
     public void before() {
-        paladin = new Paladin("Duncan", 550, broadSword, 100);
+        paladin = new Paladin("Duncan", 550, 40, 40, 50, 60, 40,  false, broadSword, 100);
         enemy = new Orc("Uzul", 1000, warhammer, 100);
         broadSword = new BroadSword();
         warAxe = new WarAxe();
@@ -73,8 +73,8 @@ public class Paladin_Test {
     }
 
     @Test
-    public void catTakeStatDamage() {
-        paladin.takeStatDamage(25);
+    public void canTakeShieldDamage() {
+        paladin.takeShieldDamage(25);
         assertEquals(75, paladin.getShieldValue());
     }
 
