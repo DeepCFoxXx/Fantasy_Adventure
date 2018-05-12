@@ -57,4 +57,21 @@ public class CursedVampire_Test {
         assertEquals(500, player.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        cursedVampire.setWeapon(battleAxe);
+        cursedVampire.attack(player);
+        assertEquals(420, player.getHealthValue());
+    }
+
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
 }
