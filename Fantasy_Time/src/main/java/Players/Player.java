@@ -56,4 +56,8 @@ public abstract class Player {
     public int getVitality() {
         return this.vitality;
     }
+
+    public int getLuck() {
+        return this.luck;
+    }
 }

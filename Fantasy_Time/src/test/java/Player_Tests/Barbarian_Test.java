@@ -59,6 +59,11 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void hasLuck() {
+        assertEquals(20, barbarian.getLuck());
+    }
+
+    @Test
     public void hasBerserkRage() {
         assertEquals(100, barbarian.getBerserkRage());
     }
