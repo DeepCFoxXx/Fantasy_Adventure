@@ -72,7 +72,7 @@ public class DarkElf_Test {
     public void playerHasHealthValue() {
         assertEquals(600, player.getHealthValue());
     }
-    
+
     @Test
     public void canDamageStats() {
         darkElf.takeStatDamage(20);
