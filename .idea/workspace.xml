@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/ShadowRogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/ShadowRogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/HellKnight_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/HellKnight_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/WarMace_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/WarMace_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -37,53 +28,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WarMace_Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/WarMace_Test.java">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="365">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Warhammer_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java">
+      <file leaf-file-name="Barbarian_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="345">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1693#1694#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrcishSword_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BloodDagger_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BattleAxe_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -574,13 +564,10 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/HellKnight.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/DarkKnight.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Paladin.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/ShadowRogue.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/HellKnight_Test.java" />
@@ -591,6 +578,9 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/Warhammer_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
       </list>
     </option>
   </component>
@@ -662,7 +652,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Enemy_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -687,7 +677,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.hasMagic">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -757,19 +747,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HellKnight_Test.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Barbarian_Test.hasMagic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="PATTERN" value="Player_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.HellKnight_Test" />
-      <option name="METHOD_NAME" value="hasHealthValue" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="hasMagic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -856,18 +846,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.HellKnight_Test.hasHealthValue" />
       <item itemvalue="JUnit.HellKnight_Test.hasRageValue" />
       <item itemvalue="JUnit.Barbarian_Test.hasBerserkRage" />
       <item itemvalue="JUnit.Barbarian_Test.canReduceBerserkRage" />
+      <item itemvalue="JUnit.Barbarian_Test.hasMagic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Barbarian_Test.hasMagic" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Barbarian_Test.canReduceBerserkRage" />
         <item itemvalue="JUnit.Barbarian_Test.hasBerserkRage" />
         <item itemvalue="JUnit.HellKnight_Test.hasRageValue" />
-        <item itemvalue="JUnit.HellKnight_Test.hasHealthValue" />
       </list>
     </recent_temporary>
   </component>
@@ -885,12 +875,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CursedVampire_Test_playerHasHealthValue - 2018.05.12 at 13h 32m 56s.xml">
-      <configuration name="CursedVampire_Test.playerHasHealthValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursedVampire_Test_canDamageStats - 2018.05.12 at 13h 34m 50s.xml">
-      <configuration name="CursedVampire_Test.canDamageStats" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.12 at 13h 35m 03s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -915,6 +899,12 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.12 at 16h 37m 35s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.12 at 17h 36m 54s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.12 at 17h 37m 59s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -922,18 +912,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2657512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2657512" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1289,26 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1399,40 +1369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="24" column="8" selection-start-line="24" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1492,24 +1432,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/WarMace_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,12 +1452,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/WarMace_Test.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/OrcishSword_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BloodDagger_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
           </folding>
         </state>
       </provider>

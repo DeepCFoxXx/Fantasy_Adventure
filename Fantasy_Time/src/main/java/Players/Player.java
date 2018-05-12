@@ -44,4 +44,9 @@ public abstract class Player {
     public int getStrength() {
         return this.strength;
     }
+
+    public int getMagic() {
+        return this.magic;
+    }
+
 }
