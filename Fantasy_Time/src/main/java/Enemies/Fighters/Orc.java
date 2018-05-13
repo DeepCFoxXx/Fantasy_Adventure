@@ -4,18 +4,9 @@ import Enemies.Fighters.Weapons.IWeaponEnemy;
 
 public class Orc extends Fighter {
 
-    private int physicalResistance;
-
-    public Orc(String name, int healthValue, IWeaponEnemy weaponEnemy, int physicalResistance) {
-        super(name, healthValue, weaponEnemy);
-        this.physicalResistance = physicalResistance;
+    public Orc(String name, int healthValue, int physicalResistance, int magicalResistance, IWeaponEnemy weaponEnemy) {
+        super(name, healthValue, physicalResistance, magicalResistance, weaponEnemy);
     }
 
-    public int getPhysicalResistance() {
-        return this.physicalResistance;
-    }
 
-    public void takeStatDamage(int value) {
-        this.physicalResistance -= value;
-    }
 }

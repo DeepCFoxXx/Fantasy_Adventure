@@ -8,7 +8,7 @@ public abstract class Fighter extends Enemy {
 
     private IWeaponEnemy weaponEnemy;
 
-    public Fighter(String name, int healthValue,int physicalResistance, int magicalResistance, IWeaponEnemy weaponEnemy) {
+    public Fighter(String name, int healthValue, int physicalResistance, int magicalResistance, IWeaponEnemy weaponEnemy) {
         super(name, healthValue, physicalResistance, magicalResistance);
         this.weaponEnemy = weaponEnemy;
     }
