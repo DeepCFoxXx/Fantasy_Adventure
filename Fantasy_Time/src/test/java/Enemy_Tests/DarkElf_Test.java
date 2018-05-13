@@ -56,6 +56,12 @@ public class DarkElf_Test {
         assertEquals(75, darkElf.getPhysicalResistance());
     }
 
+    @Test
+    public void canReduceMagicalResistance() {
+        darkElf.takeMagicalStatDamage(25);
+        assertEquals(75, darkElf.getMagicalResistance());
+    }
+
     //Fighter Tests
     @Test
     public void canTakeDamage() {

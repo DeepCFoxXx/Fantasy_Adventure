@@ -4,18 +4,8 @@ import Enemies.Fighters.Weapons.IWeaponEnemy;
 
 public class CursedVampire extends Fighter {
 
-    private int thirstValue;
-
-    public CursedVampire(String name, int healthValue, IWeaponEnemy weaponEnemy, int thirstValue) {
-        super(name, healthValue, weaponEnemy);
-        this.thirstValue = thirstValue;
+    public CursedVampire(String name, int healthValue, int physicalResistance, int magicalResistance, IWeaponEnemy weaponEnemy) {
+        super(name, healthValue, physicalResistance, magicalResistance, weaponEnemy);
     }
 
-    public int getThirstValue() {
-        return this.thirstValue;
-    }
-
-    public void takeStatDamage(int value) {
-        this.thirstValue -= value;
-    }
 }

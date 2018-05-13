@@ -23,13 +23,14 @@ public class CursedVampire_Test {
 
     @Before
     public void before() {
-        cursedVampire = new CursedVampire("Bella", 500, bloodDagger, 100);
+        cursedVampire = new CursedVampire("Bella", 500, 100, 100, bloodDagger);
         battleAxe = new BattleAxe();
         bloodDagger = new BloodDagger();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         greatSword = new GreatSword();
     }
 
+    //Enemy Stat Tests
     @Test
     public void hasName() {
         assertEquals("Bella", cursedVampire.getName());
@@ -41,10 +42,28 @@ public class CursedVampire_Test {
     }
 
     @Test
-    public void hasThirstValue() {
-        assertEquals(100, cursedVampire.getThirstValue());
+    public void hasPhysicalResistance() {
+        assertEquals(100, cursedVampire.getPhysicalResistance());
     }
 
+    @Test
+    public void hasMagicalResistance() {
+        assertEquals(100, cursedVampire.getMagicalResistance());
+    }
+
+    @Test
+    public void canReducePhysicalResistance() {
+        cursedVampire.takePhysicalStatDamage(25);
+        assertEquals(75, cursedVampire.getPhysicalResistance());
+    }
+
+    @Test
+    public void canReduceMagicalResistance() {
+        cursedVampire.takeMagicalStatDamage(25);
+        assertEquals(75, cursedVampire.getMagicalResistance());
+    }
+
+    //Fighter Tests
     @Test
     public void canTakeDamage() {
         cursedVampire.takeDamage(200);
@@ -64,6 +83,7 @@ public class CursedVampire_Test {
         assertEquals(420, player.getHealthValue());
     }
 
+    //Player Tests
     @Test
     public void playerHasName() {
         assertEquals("Conan", player.getName());
@@ -72,12 +92,6 @@ public class CursedVampire_Test {
     @Test
     public void playerHasHealthValue() {
         assertEquals(600, player.getHealthValue());
-    }
-
-    @Test
-    public void canDamageStats() {
-        cursedVampire.takeStatDamage(50);
-        assertEquals(50, cursedVampire.getThirstValue());
     }
 
 }
