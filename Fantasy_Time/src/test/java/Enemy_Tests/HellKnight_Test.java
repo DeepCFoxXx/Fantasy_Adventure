@@ -70,4 +70,10 @@ public class HellKnight_Test {
         assertEquals(800, hellKnight.getHealthValue());
     }
 
+    @Test
+    public void canAttack() {
+        hellKnight.attack(player, battleAxe);
+        assertEquals(420, player.getHealthValue());
+    }
+
 }
