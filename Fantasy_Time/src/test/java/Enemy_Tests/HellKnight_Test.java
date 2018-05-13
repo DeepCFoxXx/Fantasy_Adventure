@@ -23,7 +23,7 @@ public class HellKnight_Test {
 
     @Before
     public void before() {
-        hellKnight = new HellKnight("Dante", 1200, battleAxe, 20);
+        hellKnight = new HellKnight("Dante", 1200, 100, 100, battleAxe);
         battleAxe = new BattleAxe();
         orcishSword = new OrcishSword();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
@@ -41,8 +41,8 @@ public class HellKnight_Test {
     }
 
     @Test
-    public void hasRageValue() {
-        assertEquals(20, hellKnight.getRageValue());
+    public void hasPhysicalResistance() {
+        assertEquals(100, hellKnight.getPhysicalResistance());
     }
 
 }
