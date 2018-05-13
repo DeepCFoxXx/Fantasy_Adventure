@@ -118,14 +118,14 @@ public class Barbarian_Test {
         assertEquals(1000, enemy.getHealthValue());
     }
 
-//    @Test
-//    public void enemyHasPhysicalResistance() {
-//        assertEquals(100, enemy.getPhysicalResistance());
-//    }
-//
-//    @Test
-//    public void enemyHasMagicalResistance() {
-//        assertEquals(100, enemy.getMagicalResistance());
-//    }
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void enemyHasMagicalResistance() {
+        assertEquals(100, enemy.getMagicalResistance());
+    }
 
 }
