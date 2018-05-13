@@ -30,6 +30,7 @@ public class HellKnight_Test {
         greatSword = new GreatSword();
     }
 
+    //Enemy Stat Tests
     @Test
     public void hasName() {
         assertEquals("Dante", hellKnight.getName());
@@ -43,6 +44,11 @@ public class HellKnight_Test {
     @Test
     public void hasPhysicalResistance() {
         assertEquals(100, hellKnight.getPhysicalResistance());
+    }
+
+    @Test
+    public void hasMagicalResistance() {
+        assertEquals(100, hellKnight.getMagicalResistance());
     }
 
 }
