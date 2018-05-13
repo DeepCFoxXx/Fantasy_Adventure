@@ -30,6 +30,7 @@ public class Orc_Test {
         warhammer = new WarHammer();
     }
 
+    //Enemy Stat Tests
     @Test
     public void hasName() {
         assertEquals("Uzul", orc.getName());
@@ -62,6 +63,7 @@ public class Orc_Test {
         assertEquals(75, orc.getMagicalResistance());
     }
 
+    //Fighter Tests
     @Test
     public void canTakeDamage() {
         orc.takeDamage(250);
@@ -81,13 +83,14 @@ public class Orc_Test {
         assertEquals(475, player.getHealthValue());
     }
 
+    //Player Tests
     @Test
-    public void EnemyHasName() {
+    public void playerHasName() {
         assertEquals("Conan", player.getName());
     }
 
     @Test
-    public void EnemyHasHealthValue() {
+    public void playerHasHealthValue() {
         assertEquals(600, player.getHealthValue());
     }
 
