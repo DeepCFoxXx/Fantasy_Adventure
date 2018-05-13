@@ -57,4 +57,10 @@ public class HellKnight_Test {
         assertEquals(75, hellKnight.getPhysicalResistance());
     }
 
+    @Test
+    public void canReduceMagicalResistance() {
+        hellKnight.takeMagicalStatDamage(25);
+        assertEquals(75, hellKnight.getMagicalResistance());
+    }
+
 }
