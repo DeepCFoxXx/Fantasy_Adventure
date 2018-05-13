@@ -80,10 +80,11 @@ public class DarkKnight_Test {
     }
 
     @Test
-    public void canAttack() {
-        darkKnight.attack(enemy, broadSword);
-        assertEquals(875, enemy.getHealthValue());
+    public void canTakeArmourDamage() {
+        darkKnight.takeArmourDamage(50);
+        assertEquals(50, darkKnight.getArmourValue());
     }
+
 
     //Warrior Tests
     @Test
@@ -100,10 +101,11 @@ public class DarkKnight_Test {
     }
 
     @Test
-    public void canTakeArmourDamage() {
-        darkKnight.takeArmourDamage(50);
-        assertEquals(50, darkKnight.getArmourValue());
+    public void canAttack() {
+        darkKnight.attack(enemy, broadSword);
+        assertEquals(875, enemy.getHealthValue());
     }
+
 
     //Enemy Tests
     @Test

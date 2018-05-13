@@ -79,7 +79,7 @@ public class ShadowRogue_Test {
     }
 
     @Test
-    public void catReduceStealthValue() {
+    public void canReduceStealthValue() {
         shadowRogue.reduceStealthValue(50);
         assertEquals(50, shadowRogue.getStealthValue());
     }

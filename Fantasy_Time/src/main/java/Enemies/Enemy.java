@@ -7,10 +7,14 @@ public abstract class Enemy {
 
     private String name;
     private int healthValue;
+    private int physicalResistance;
+    private int magicalResistance;
 
-    public Enemy(String name, int healthValue) {
+    public Enemy(String name, int healthValue, int physicalResistance, int magicalResistance) {
         this.name = name;
         this.healthValue = healthValue;
+        this.physicalResistance = physicalResistance;
+        this.magicalResistance = magicalResistance;
     }
 
     public String getName() {
