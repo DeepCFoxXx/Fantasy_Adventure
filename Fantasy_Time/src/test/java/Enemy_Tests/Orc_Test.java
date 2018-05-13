@@ -23,7 +23,7 @@ public class Orc_Test {
 
     @Before
     public void before() {
-        orc = new Orc("Uzul", 1000, warhammer, 100);
+        orc = new Orc("Uzul", 1000, 100, 100, warhammer);
         orcishSword = new OrcishSword();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         greatSword = new GreatSword();
@@ -43,6 +43,23 @@ public class Orc_Test {
     @Test
     public void hasPhysicalResistance() {
         assertEquals(100, orc.getPhysicalResistance());
+    }
+
+    @Test
+    public void hasMagicalResistance() {
+        assertEquals(100, orc.getMagicalResistance());
+    }
+
+    @Test
+    public void canReducePhysicalResistance() {
+        orc.takePhysicalStatDamage(25);
+        assertEquals(75, orc.getPhysicalResistance());
+    }
+
+    @Test
+    public void canReduceMagicalResistance() {
+        orc.takeMagicalStatDamage(25);
+        assertEquals(75, orc.getMagicalResistance());
     }
 
     @Test
@@ -74,10 +91,6 @@ public class Orc_Test {
         assertEquals(600, player.getHealthValue());
     }
 
-    @Test
-    public void canDamageStats() {
-        orc.takeStatDamage(25);
-        assertEquals(75, orc.getPhysicalResistance());
-    }
+
 
 }

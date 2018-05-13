@@ -32,4 +32,20 @@ public abstract class Enemy {
     public void attack(Player player, IWeaponEnemy weaponEnemy){
         weaponEnemy.attack(player);
     }
+
+    public int getPhysicalResistance() {
+        return this.physicalResistance;
+    }
+
+    public void takePhysicalStatDamage(int value) {
+        this.physicalResistance -= value;
+    }
+
+    public int getMagicalResistance() {
+        return this.magicalResistance;
+    }
+
+    public void takeMagicalStatDamage(int value) {
+        this.magicalResistance -= value;
+    }
 }
