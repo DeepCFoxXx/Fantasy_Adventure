@@ -22,13 +22,14 @@ public class DarkElf_Test {
 
     @Before
     public void before() {
-        darkElf = new DarkElf("Llarayna", 700, warMace, 60);
+        darkElf = new DarkElf("Llarayna", 700, 100, 100, warMace);
         warMace = new WarMace();
         bloodDagger = new BloodDagger();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         greatSword = new GreatSword();
     }
 
+    //Enemy Stat Tests
     @Test
     public void hasName() {
         assertEquals("Llarayna", darkElf.getName());
@@ -40,8 +41,13 @@ public class DarkElf_Test {
     }
 
     @Test
+    public void hasPhysicalResistance() {
+        assertEquals(100, darkElf.getPhysicalResistance());
+    }
+
+    @Test
     public void hasMagicalResistance() {
-        assertEquals(60, darkElf.getMagicalResistance());
+        assertEquals(100, darkElf.getMagicalResistance());
     }
 
     @Test

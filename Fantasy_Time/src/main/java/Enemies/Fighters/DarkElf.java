@@ -4,18 +4,8 @@ import Enemies.Fighters.Weapons.IWeaponEnemy;
 
 public class DarkElf extends Fighter {
 
-    private int magicalResistance;
-
-    public DarkElf(String name, int healthValue, IWeaponEnemy weaponEnemy, int magicalResistance) {
-        super(name, healthValue, weaponEnemy);
-        this.magicalResistance = magicalResistance;
+    public DarkElf(String name, int healthValue, int physicalResistance, int magicalResistance, IWeaponEnemy weaponEnemy) {
+        super(name, healthValue, physicalResistance, magicalResistance, weaponEnemy);
     }
 
-    public int getMagicalResistance() {
-        return this.magicalResistance;
-    }
-
-    public void takeStatDamage(int value) {
-        this.magicalResistance -= value;
-    }
 }
