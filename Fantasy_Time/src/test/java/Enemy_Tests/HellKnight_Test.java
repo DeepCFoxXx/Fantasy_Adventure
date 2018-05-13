@@ -63,4 +63,11 @@ public class HellKnight_Test {
         assertEquals(75, hellKnight.getMagicalResistance());
     }
 
+    //Fighter Tests
+    @Test
+    public void canTakeDamage() {
+        hellKnight.takeDamage(400);
+        assertEquals(800, hellKnight.getHealthValue());
+    }
+
 }
