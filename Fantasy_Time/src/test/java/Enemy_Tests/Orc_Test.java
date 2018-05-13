@@ -94,6 +94,4 @@ public class Orc_Test {
         assertEquals(600, player.getHealthValue());
     }
 
-
-
 }

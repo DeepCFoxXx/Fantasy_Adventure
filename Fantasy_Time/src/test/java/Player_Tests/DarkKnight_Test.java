@@ -21,7 +21,7 @@ public class DarkKnight_Test {
     @Before
     public void before() {
         darkKnight = new DarkKnight("Bruce", 500, 60, 30, 70, 40, 25, false, broadSword, 100);
-        enemy = new Orc("Uzul", 1000, warhammer, 100);
+        enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         broadSword = new BroadSword();
         trident = new Trident();
     }

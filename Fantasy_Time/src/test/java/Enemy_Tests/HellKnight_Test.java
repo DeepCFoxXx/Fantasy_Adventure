@@ -83,4 +83,16 @@ public class HellKnight_Test {
         assertEquals(475, player.getHealthValue());
     }
 
+    //Player Tests
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
+
 }

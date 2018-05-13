@@ -21,7 +21,7 @@ public class ShadowRogue_Test {
     @Before
     public void before() {
         shadowRogue = new ShadowRogue("Kara", 500, 30, 30, 40, 60, 70,  false, katana, 100);
-        enemy = new Orc("Uzul", 1000, warhammer, 100);
+        enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         katana = new Katana();
         trident = new Trident();
     }

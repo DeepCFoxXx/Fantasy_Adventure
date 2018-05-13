@@ -23,7 +23,7 @@ public class Paladin_Test {
     @Before
     public void before() {
         paladin = new Paladin("Duncan", 550, 40, 40, 50, 60, 40,  false, broadSword, 100);
-        enemy = new Orc("Uzul", 1000, warhammer, 100);
+        enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         broadSword = new BroadSword();
         warAxe = new WarAxe();
     }

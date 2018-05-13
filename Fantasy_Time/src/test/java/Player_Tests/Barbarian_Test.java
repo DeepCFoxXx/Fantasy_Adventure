@@ -10,7 +10,6 @@ import Players.Warriors.Weapons.WarAxe;
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
 
 public class Barbarian_Test {
@@ -24,7 +23,7 @@ public class Barbarian_Test {
     @Before
     public void before() {
         barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
-        enemy = new Orc("Uzul", 1000, warhammer, 100);
+        enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         greatSword = new GreatSword();
         warAxe = new WarAxe();
     }
