@@ -76,4 +76,11 @@ public class HellKnight_Test {
         assertEquals(420, player.getHealthValue());
     }
 
+    @Test
+    public void canSwapWeapon() {
+        hellKnight.setWeapon(orcishSword);
+        hellKnight.attack(player);
+        assertEquals(475, player.getHealthValue());
+    }
+
 }
