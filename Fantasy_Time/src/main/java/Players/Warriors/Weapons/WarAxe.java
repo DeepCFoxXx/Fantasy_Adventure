@@ -6,6 +6,7 @@ public class WarAxe implements IWeapon {
 
     public void attack(Enemy enemy) {
         enemy.takeDamage(200);
+        enemy.takePhysicalStatDamage(50);
     }
 
 }
