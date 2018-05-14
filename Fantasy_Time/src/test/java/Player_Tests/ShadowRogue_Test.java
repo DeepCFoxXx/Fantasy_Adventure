@@ -72,6 +72,19 @@ public class ShadowRogue_Test {
         assertEquals(true, shadowRogue.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        shadowRogue.takeDefenceDamage(10);
+        assertEquals(30, shadowRogue.getDefence());
+    }
+
+    @Test
+    public void canReduceVitality() {
+        shadowRogue.takeVitalityDamage(10);
+        assertEquals(50, shadowRogue.getVitality());
+    }
+
     //ShadowRogue Tests
     @Test
     public void hasStealthValue() {

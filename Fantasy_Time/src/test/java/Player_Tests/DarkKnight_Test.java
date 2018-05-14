@@ -73,6 +73,19 @@ public class DarkKnight_Test {
         assertEquals(true, darkKnight.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        darkKnight.takeDefenceDamage(10);
+        assertEquals(60, darkKnight.getDefence());
+    }
+
+    @Test
+    public void canReduceVitality() {
+        darkKnight.takeVitalityDamage(10);
+        assertEquals(30, darkKnight.getVitality());
+    }
+
     //DarkKnight Tests
     @Test
     public void hasArmourValue() {

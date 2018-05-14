@@ -75,6 +75,19 @@ public class Paladin_Test {
         assertEquals(true, paladin.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        paladin.takeDefenceDamage(10);
+        assertEquals(40, paladin.getDefence());
+    }
+
+    @Test
+    public void canReduceVitality() {
+        paladin.takeVitalityDamage(10);
+        assertEquals(50, paladin.getVitality());
+    }
+
     //Paladin Tests
     @Test
     public void hasShieldValue() {
