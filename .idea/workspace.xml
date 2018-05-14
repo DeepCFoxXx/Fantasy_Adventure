@@ -768,7 +768,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.canReduceDefence">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.canReduceVitality">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -815,7 +815,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DarkKnight_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Barbarian_Test.canReduceVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -826,9 +826,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canReduceVitality" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -937,18 +937,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.DarkKnight_Test" />
       <item itemvalue="JUnit.Paladin_Test" />
       <item itemvalue="JUnit.ShadowRogue_Test" />
       <item itemvalue="JUnit.Barbarian_Test.canReduceDefence" />
+      <item itemvalue="JUnit.Barbarian_Test.canReduceVitality" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Barbarian_Test.canReduceVitality" />
         <item itemvalue="JUnit.Barbarian_Test.canReduceDefence" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.ShadowRogue_Test" />
         <item itemvalue="JUnit.Paladin_Test" />
-        <item itemvalue="JUnit.DarkKnight_Test" />
       </list>
     </recent_temporary>
   </component>

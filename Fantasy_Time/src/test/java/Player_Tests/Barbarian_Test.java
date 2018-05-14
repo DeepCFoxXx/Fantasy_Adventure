@@ -82,6 +82,12 @@ public class Barbarian_Test {
         assertEquals(40, barbarian.getDefence());
     }
 
+    @Test
+    public void canReduceVitality() {
+        barbarian.takeVitalityDamage(10);
+        assertEquals(50, barbarian.getVitality());
+    }
+
     //Barbarian Tests
     @Test
     public void hasBerserkRage() {

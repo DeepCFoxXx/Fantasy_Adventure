@@ -72,4 +72,8 @@ public abstract class Player {
     public void takeDefenceDamage(int value) {
         this.defence -= value;
     }
+
+    public void takeVitalityDamage(int value) {
+        this.vitality -= value;
+    }
 }
