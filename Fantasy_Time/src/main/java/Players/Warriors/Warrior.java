@@ -20,8 +20,5 @@ public abstract class Warrior extends Player {
     public void setWeapon(IWeapon weapon) {
         this.weapon = weapon;
     }
-
-    public void strongAttack(int value) {
-
-    }
+    
 }

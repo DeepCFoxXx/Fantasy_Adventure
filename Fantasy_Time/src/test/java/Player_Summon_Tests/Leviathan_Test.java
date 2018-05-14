@@ -4,42 +4,41 @@ import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Enemies.Fighters.Weapons.WarHammer;
-import Players.MagicalUsers.Spells.Flame;
-import Players.MagicalUsers.Summons.Bahamut;
+import Players.MagicalUsers.Summons.Leviathan;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Bahamut_Test {
+public class Leviathan_Test {
 
-    Bahamut bahamut;
+    Leviathan leviathan;
     Enemy enemy;
     IWeaponEnemy warHammer;
 
     @Before
     public void before() {
-        bahamut = new Bahamut();
+        leviathan = new Leviathan();
         enemy = new Orc("Uzul", 1000, 100, 100, warHammer);
         warHammer = new WarHammer();
     }
 
     @Test
     public void canDamage() {
-        bahamut.summon(enemy);
-        assertEquals(500, enemy.getHealthValue());
+        leviathan.summon(enemy);
+        assertEquals(550, enemy.getHealthValue());
     }
 
     @Test
     public void canDamageMagical() {
-        bahamut.summon(enemy);
-        assertEquals(50, enemy.getMagicalResistance());
+        leviathan.summon(enemy);
+        assertEquals(60, enemy.getMagicalResistance());
     }
 
     @Test
     public void canDamagePhysical() {
-        bahamut.summon(enemy);
-        assertEquals(50, enemy.getPhysicalResistance());
+        leviathan.summon(enemy);
+        assertEquals(30, enemy.getPhysicalResistance());
     }
 
     @Test
