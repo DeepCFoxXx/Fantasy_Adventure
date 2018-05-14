@@ -11,4 +11,11 @@ public class Sorcerer extends MagicalUser {
         this.illusion = illusion;
     }
 
+    public int getIllusionValue() {
+        return this.illusion;
+    }
+
+    public void takeIllusionDamage(int value) {
+        this.illusion -= value;
+    }
 }

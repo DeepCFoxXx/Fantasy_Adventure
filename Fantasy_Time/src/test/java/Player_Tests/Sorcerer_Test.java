@@ -95,4 +95,16 @@ public class Sorcerer_Test {
         assertEquals(20, sorcerer.getVitality());
     }
 
+    //Sorcerer Tests
+    @Test
+    public void hasIllusionValue() {
+        assertEquals(100, sorcerer.getIllusionValue());
+    }
+
+    @Test
+    public void canTakeArmourDamage() {
+        sorcerer.takeIllusionDamage(50);
+        assertEquals(50, sorcerer.getIllusionValue());
+    }
+
 }
