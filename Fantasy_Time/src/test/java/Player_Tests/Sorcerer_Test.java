@@ -11,6 +11,9 @@ import Players.MagicalUsers.Summons.Bahamut;
 import Players.MagicalUsers.Summons.ISummon;
 import Players.MagicalUsers.Summons.Leviathan;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class Sorcerer_Test {
 
@@ -24,12 +27,60 @@ public class Sorcerer_Test {
 
     @Before
     public void before() {
-        sorcerer = new Sorcerer("Bruce", 500, 60, 30, 70, 40, 25, false, frost, 100);
+        sorcerer = new Sorcerer("Lyanna", 400, 10, 80, 30, 30, 45, false, frost, 100);
         enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         frost = new Frost();
         ultima = new Ultima();
         bahamut = new Bahamut();
         leviathan = new Leviathan();
     }
+
+    //Player Stat Tests
+    @Test
+    public void hasName() {
+        assertEquals("Lyanna", sorcerer.getName());
+    }
+
+    @Test
+    public void hasHealthValue() {
+        assertEquals(400, sorcerer.getHealthValue());
+    }
+
+    @Test
+    public void hasStrength() {
+        assertEquals(10, sorcerer.getStrength());
+    }
+
+    @Test
+    public void hasMagic() {
+        assertEquals(80, sorcerer.getMagic());
+    }
+
+    @Test
+    public void hasDefence() {
+        assertEquals(30, sorcerer.getDefence());
+    }
+
+    @Test
+    public void hasVitality() {
+        assertEquals(30, sorcerer.getVitality());
+    }
+
+    @Test
+    public void hasLuck() {
+        assertEquals(45, sorcerer.getLuck());
+    }
+
+    @Test
+    public void poisonStatusStartsFalse() {
+        assertEquals(false, sorcerer.getPoisonStatus());
+    }
+
+    @Test
+    public void poisonStatusCanBeTrue() {
+        sorcerer.getsPoisoned();
+        assertEquals(true, sorcerer.getPoisonStatus());
+    }
+
 
 }
