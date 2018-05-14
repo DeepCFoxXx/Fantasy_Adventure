@@ -102,9 +102,35 @@ public class Sorcerer_Test {
     }
 
     @Test
-    public void canTakeArmourDamage() {
+    public void canReduceIllusion() {
         sorcerer.takeIllusionDamage(50);
         assertEquals(50, sorcerer.getIllusionValue());
+    }
+
+    //Magical Users Tests
+    @Test
+    public void canTakeDamage() {
+        sorcerer.takeDamage(100);
+        assertEquals(300, sorcerer.getHealthValue());
+    }
+
+    @Test
+    public void canAttack() {
+        sorcerer.cast(enemy, frost);
+        assertEquals(870, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canDamageMagical() {
+        sorcerer.cast(enemy, frost);
+        assertEquals(80, enemy.getMagicalResistance());
+    }
+
+    @Test
+    public void canSwapWeapon() {
+        sorcerer.setSpell(ultima);
+        sorcerer.cast(enemy);
+        assertEquals(700, enemy.getHealthValue());
     }
 
 }

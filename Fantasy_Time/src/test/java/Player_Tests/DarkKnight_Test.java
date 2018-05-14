@@ -107,17 +107,18 @@ public class DarkKnight_Test {
     }
 
     @Test
+    public void canAttack() {
+        darkKnight.attack(enemy, broadSword);
+        assertEquals(875, enemy.getHealthValue());
+    }
+
+    @Test
     public void canSwapWeapon() {
         darkKnight.setWeapon(trident);
         darkKnight.attack(enemy);
         assertEquals(860, enemy.getHealthValue());
     }
 
-    @Test
-    public void canAttack() {
-        darkKnight.attack(enemy, broadSword);
-        assertEquals(875, enemy.getHealthValue());
-    }
 
 
     //Enemy Tests

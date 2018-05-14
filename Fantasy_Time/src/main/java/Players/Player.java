@@ -1,6 +1,7 @@
 package Players;
 
 import Enemies.Enemy;
+import Players.MagicalUsers.Spells.ISpell;
 import Players.Warriors.Weapons.IWeapon;
 
 public abstract class Player {
@@ -75,5 +76,9 @@ public abstract class Player {
 
     public void takeVitalityDamage(int value) {
         this.vitality -= value;
+    }
+
+    public void cast(Enemy enemy, ISpell spell){
+        spell.cast(enemy);
     }
 }
