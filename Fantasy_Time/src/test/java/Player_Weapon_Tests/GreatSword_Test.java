@@ -28,6 +28,12 @@ public class GreatSword_Test {
     }
 
     @Test
+    public void canReducePhysical() {
+        greatSword.attack(enemy);
+        assertEquals(60, enemy.getPhysicalResistance());
+    }
+
+    @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
     }
@@ -36,5 +42,11 @@ public class GreatSword_Test {
     public void EnemyHasHealthValue() {
         assertEquals(1000, enemy.getHealthValue());
     }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
 
 }

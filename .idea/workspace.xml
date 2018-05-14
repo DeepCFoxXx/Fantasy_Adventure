@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/BroadSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/BroadSword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Flame_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Flame_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Frost_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Frost_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Lightning_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Lightning_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Ultima_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Ultima_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,33 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Flame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Spells/Flame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flame_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Flame_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BroadSword.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/BroadSword.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,18 +34,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BroadSword_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BroadSword_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="-220">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#834#835#0" expanded="true" />
                 <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreatSword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/GreatSword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreatSword_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -704,15 +689,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Player_Spell_Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Player_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -740,7 +716,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BroadSword_Test">
+  <component name="RunManager" selected="JUnit.GreatSword_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -810,20 +786,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Lightning_Test.canDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreatSword_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Spell_Tests.*" />
+          <option name="PATTERN" value="Player_Weapon_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Spell_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Spell_Tests.Lightning_Test" />
-      <option name="METHOD_NAME" value="canDamage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Player_Weapon_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Weapon_Tests.GreatSword_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -909,18 +885,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Lightning_Test.canDamage" />
       <item itemvalue="JUnit.Lightning_Test.canDamagePhysical" />
       <item itemvalue="JUnit.BroadSword_Test.canReducePhysical" />
       <item itemvalue="JUnit.BroadSword_Test" />
+      <item itemvalue="JUnit.GreatSword_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreatSword_Test" />
         <item itemvalue="JUnit.BroadSword_Test" />
         <item itemvalue="JUnit.BroadSword_Test.canReducePhysical" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Lightning_Test.canDamagePhysical" />
-        <item itemvalue="JUnit.Lightning_Test.canDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -938,12 +914,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Frost_Test_canDamage - 2018.05.14 at 14h 08m 38s.xml">
-      <configuration name="Frost_Test.canDamage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Frost_Test_canDamage - 2018.05.14 at 14h 09m 10s.xml">
-      <configuration name="Frost_Test.canDamage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Frost_Test_canDamagePhysical - 2018.05.14 at 14h 10m 07s.xml">
       <configuration name="Frost_Test.canDamagePhysical" configurationId="JUnit" />
     </history-entry>
@@ -967,6 +937,12 @@
     </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.14 at 14h 19m 11s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BroadSword_Test_canReducePhysical - 2018.05.14 at 14h 25m 13s.xml">
+      <configuration name="BroadSword_Test.canReducePhysical" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BroadSword_Test - 2018.05.14 at 14h 26m 32s.xml">
+      <configuration name="BroadSword_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1024,13 +1000,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/GreatSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/Trident.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1175,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Orc_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1207,6 +1169,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2396#2397#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1557,15 +1534,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="-220">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#834#835#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/GreatSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
