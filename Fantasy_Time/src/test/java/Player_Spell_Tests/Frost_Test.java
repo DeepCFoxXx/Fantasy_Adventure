@@ -4,35 +4,35 @@ import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Enemies.Fighters.Weapons.WarHammer;
-import Players.MagicalUsers.Spells.Ultima;
+import Players.MagicalUsers.Spells.Frost;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Ultima_Test {
+public class Frost_Test {
 
-    Ultima ultima;
+    Frost frost;
     Enemy enemy;
     IWeaponEnemy warHammer;
 
     @Before
     public void before() {
-        ultima = new Ultima();
+        frost = new Frost();
         enemy = new Orc("Uzul", 1000, 100, 100, warHammer);
         warHammer = new WarHammer();
     }
 
     @Test
     public void canDamage() {
-        ultima.cast(enemy);
-        assertEquals(700, enemy.getHealthValue());
+        frost.cast(enemy);
+        assertEquals(870, enemy.getHealthValue());
     }
 
     @Test
     public void canDamagePhysical() {
-        ultima.cast(enemy);
-        assertEquals(50, enemy.getMagicalResistance());
+        frost.cast(enemy);
+        assertEquals(80, enemy.getMagicalResistance());
     }
 
     @Test
