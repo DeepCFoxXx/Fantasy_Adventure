@@ -82,5 +82,17 @@ public class Sorcerer_Test {
         assertEquals(true, sorcerer.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        sorcerer.takeDefenceDamage(10);
+        assertEquals(20, sorcerer.getDefence());
+    }
+
+    @Test
+    public void canReduceVitality() {
+        sorcerer.takeVitalityDamage(10);
+        assertEquals(20, sorcerer.getVitality());
+    }
 
 }

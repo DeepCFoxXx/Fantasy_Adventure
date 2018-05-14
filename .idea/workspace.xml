@@ -120,26 +120,26 @@
       <file leaf-file-name="Sorcerer_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1084#1085#0" expanded="true" />
                 <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1489#1490#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
                 <element signature="e#1686#1687#0" expanded="true" />
                 <element signature="e#1740#1741#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -754,15 +754,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Enemy_Weapon_Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -790,7 +781,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
+  <component name="RunManager" selected="JUnit.Sorcerer_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -966,8 +957,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Sorcerer_Test" />
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Leviathan_Test" />
         <item itemvalue="JUnit.Bahamut_Test" />
         <item itemvalue="JUnit.WarAxe_Test" />
@@ -988,12 +979,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BroadSword_Test - 2018.05.14 at 14h 26m 32s.xml">
-      <configuration name="BroadSword_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreatSword_Test - 2018.05.14 at 14h 35m 26s.xml">
-      <configuration name="GreatSword_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Katana_Test - 2018.05.14 at 14h 37m 41s.xml">
       <configuration name="Katana_Test" configurationId="JUnit" />
     </history-entry>
@@ -1016,6 +1001,12 @@
       <configuration name="Leviathan_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.14 at 15h 34m 04s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sorcerer_Test - 2018.05.14 at 16h 27m 17s.xml">
+      <configuration name="Sorcerer_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.14 at 16h 27m 23s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1707,26 +1698,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="351">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1084#1085#0" expanded="true" />
             <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
             <element signature="e#1686#1687#0" expanded="true" />
             <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
           </folding>
         </state>
       </provider>
