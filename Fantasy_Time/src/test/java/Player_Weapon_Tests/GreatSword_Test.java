@@ -48,5 +48,4 @@ public class GreatSword_Test {
         assertEquals(100, enemy.getPhysicalResistance());
     }
 
-
 }

@@ -6,6 +6,7 @@ public class Katana implements IWeapon {
 
     public void attack(Enemy enemy) {
         enemy.takeDamage(210);
+        enemy.takePhysicalStatDamage(70);
     }
 
 }

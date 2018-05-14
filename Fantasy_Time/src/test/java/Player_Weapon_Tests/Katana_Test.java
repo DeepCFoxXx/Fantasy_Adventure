@@ -28,6 +28,12 @@ public class Katana_Test {
     }
 
     @Test
+    public void canReducePhysical() {
+        katana.attack(enemy);
+        assertEquals(30, enemy.getPhysicalResistance());
+    }
+
+    @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
     }
@@ -35,6 +41,11 @@ public class Katana_Test {
     @Test
     public void EnemyHasHealthValue() {
         assertEquals(1000, enemy.getHealthValue());
+    }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
     }
 
 }
