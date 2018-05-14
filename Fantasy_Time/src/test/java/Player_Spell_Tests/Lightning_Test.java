@@ -30,7 +30,7 @@ public class Lightning_Test {
     }
 
     @Test
-    public void canDamagePhysical() {
+    public void canDamageMagical() {
         lightning.cast(enemy);
         assertEquals(60, enemy.getMagicalResistance());
     }

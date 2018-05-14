@@ -6,5 +6,6 @@ public class BroadSword implements IWeapon {
 
     public void attack(Enemy enemy) {
         enemy.takeDamage(125);
+        enemy.takePhysicalStatDamage(20);
     }
 }

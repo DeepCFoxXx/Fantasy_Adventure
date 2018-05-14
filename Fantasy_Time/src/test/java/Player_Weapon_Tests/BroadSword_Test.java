@@ -4,7 +4,6 @@ import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Players.Warriors.Weapons.BroadSword;
-import Players.Warriors.Weapons.Trident;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,13 +28,24 @@ public class BroadSword_Test {
     }
 
     @Test
-    public void EnemyHasName() {
+    public void canReducePhysical() {
+        broadSword.attack(enemy);
+        assertEquals(80, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void enemyHasName() {
         assertEquals("Uzul", enemy.getName());
     }
 
     @Test
-    public void EnemyHasHealthValue() {
+    public void enemyHasHealthValue() {
         assertEquals(1000, enemy.getHealthValue());
+    }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
     }
 
 }

@@ -30,7 +30,7 @@ public class Flame_Test {
     }
 
     @Test
-    public void canDamagePhysical() {
+    public void canDamageMagical() {
         flame.cast(enemy);
         assertEquals(70, enemy.getMagicalResistance());
     }

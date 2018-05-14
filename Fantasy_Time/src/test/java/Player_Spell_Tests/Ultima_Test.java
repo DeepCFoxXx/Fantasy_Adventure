@@ -30,7 +30,7 @@ public class Ultima_Test {
     }
 
     @Test
-    public void canDamagePhysical() {
+    public void canDamageMagical() {
         ultima.cast(enemy);
         assertEquals(50, enemy.getMagicalResistance());
     }

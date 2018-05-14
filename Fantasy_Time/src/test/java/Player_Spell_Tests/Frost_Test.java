@@ -30,7 +30,7 @@ public class Frost_Test {
     }
 
     @Test
-    public void canDamagePhysical() {
+    public void canDamageMagical() {
         frost.cast(enemy);
         assertEquals(80, enemy.getMagicalResistance());
     }
