@@ -68,4 +68,8 @@ public abstract class Player {
     public void getsPoisoned() {
         this.poisoned = true;
     }
+
+    public void takeDefenceDamage(int value) {
+        this.defence -= value;
+    }
 }

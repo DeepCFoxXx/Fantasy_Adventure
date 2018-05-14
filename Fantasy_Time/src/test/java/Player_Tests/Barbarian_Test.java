@@ -75,6 +75,13 @@ public class Barbarian_Test {
         assertEquals(true, barbarian.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        barbarian.takeDefenceDamage(10);
+        assertEquals(40, barbarian.getDefence());
+    }
+
     //Barbarian Tests
     @Test
     public void hasBerserkRage() {
@@ -106,6 +113,7 @@ public class Barbarian_Test {
         barbarian.attack(enemy);
         assertEquals(800, enemy.getHealthValue());
     }
+
 
     //Enemy Tests
     @Test
