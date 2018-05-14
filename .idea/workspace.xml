@@ -728,7 +728,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Katana_Test">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -904,11 +904,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Katana_Test" />
         <item itemvalue="JUnit.GreatSword_Test" />
         <item itemvalue="JUnit.BroadSword_Test" />
         <item itemvalue="JUnit.BroadSword_Test.canReducePhysical" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
       </list>
     </recent_temporary>
   </component>

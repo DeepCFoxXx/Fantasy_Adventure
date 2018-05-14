@@ -30,6 +30,12 @@ public class Trident_Test {
     }
 
     @Test
+    public void canReducePhysical() {
+        trident.attack(enemy);
+        assertEquals(70, enemy.getPhysicalResistance());
+    }
+
+    @Test
     public void EnemyHasName() {
         assertEquals("Uzul", enemy.getName());
     }
@@ -38,5 +44,11 @@ public class Trident_Test {
     public void EnemyHasHealthValue() {
         assertEquals(1000, enemy.getHealthValue());
     }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
 
 }
