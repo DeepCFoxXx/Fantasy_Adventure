@@ -1,10 +1,10 @@
-package Player_Summon_Tests;
+package Player_Defender_Tests;
 
 import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Enemies.Fighters.Weapons.WarHammer;
-import Players.MagicalUsers.Summons.Leviathan;
+import Players.MagicalUsers.Defenders.Leviathan;
 import org.junit.Before;
 import org.junit.Test;
 

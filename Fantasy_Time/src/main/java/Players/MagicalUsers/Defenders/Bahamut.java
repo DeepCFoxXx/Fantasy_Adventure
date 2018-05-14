@@ -1,8 +1,8 @@
-package Players.MagicalUsers.Summons;
+package Players.MagicalUsers.Defenders;
 
 import Enemies.Enemy;
 
-public class Bahamut implements ISummon {
+public class Bahamut implements IDefend {
 
     public void summon(Enemy enemy){
         enemy.takeDamage(500);

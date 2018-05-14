@@ -3,13 +3,13 @@ package Player_Tests;
 import Enemies.Enemy;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
+import Players.MagicalUsers.Defenders.IDefend;
 import Players.MagicalUsers.Sorcerer;
 import Players.MagicalUsers.Spells.Frost;
 import Players.MagicalUsers.Spells.ISpell;
 import Players.MagicalUsers.Spells.Ultima;
-import Players.MagicalUsers.Summons.Bahamut;
-import Players.MagicalUsers.Summons.ISummon;
-import Players.MagicalUsers.Summons.Leviathan;
+import Players.MagicalUsers.Defenders.Bahamut;
+import Players.MagicalUsers.Defenders.Leviathan;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,14 +20,14 @@ public class Sorcerer_Test {
     Sorcerer sorcerer;
     ISpell frost;
     ISpell ultima;
-    ISummon bahamut;
-    ISummon leviathan;
+    IDefend bahamut;
+    IDefend leviathan;
     Enemy enemy;
     IWeaponEnemy warhammer;
 
     @Before
     public void before() {
-        sorcerer = new Sorcerer("Lyanna", 400, 10, 80, 30, 30, 45, false, frost, 100);
+        sorcerer = new Sorcerer("Lyanna", 400, 10, 80, 30, 30, 45, false, frost, bahamut, 100 );
         enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         frost = new Frost();
         ultima = new Ultima();
@@ -115,7 +115,7 @@ public class Sorcerer_Test {
     }
 
     @Test
-    public void canAttack() {
+    public void canCast() {
         sorcerer.cast(enemy, frost);
         assertEquals(870, enemy.getHealthValue());
     }
@@ -127,10 +127,16 @@ public class Sorcerer_Test {
     }
 
     @Test
-    public void canSwapWeapon() {
+    public void canSwapSpell() {
         sorcerer.setSpell(ultima);
         sorcerer.cast(enemy);
         assertEquals(700, enemy.getHealthValue());
     }
+
+//    @Test
+//    public void canSummon() {
+//        sorcerer.summon(enemy, bahamut);
+//        assertEquals(500, enemy.getHealthValue());
+//    }
 
 }
