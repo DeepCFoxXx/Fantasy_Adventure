@@ -133,10 +133,10 @@ public class Sorcerer_Test {
         assertEquals(700, enemy.getHealthValue());
     }
 
-//    @Test
-//    public void canSummon() {
-//        sorcerer.summon(enemy, bahamut);
-//        assertEquals(500, enemy.getHealthValue());
-//    }
+    @Test
+    public void canSummon() {
+        sorcerer.summon(enemy, bahamut);
+        assertEquals(500, enemy.getHealthValue());
+    }
 
 }
