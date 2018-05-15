@@ -157,4 +157,26 @@ public class Sorcerer_Test {
         sorcerer.summon(enemy, bahamut);
         assertEquals(50, enemy.getMagicalResistance());
     }
+
+    //Enemy Tests
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void enemyHasMagicalResistance() {
+        assertEquals(100, enemy.getMagicalResistance());
+    }
+
 }

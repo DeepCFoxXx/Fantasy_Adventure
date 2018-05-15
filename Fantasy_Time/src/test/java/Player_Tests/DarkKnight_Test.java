@@ -119,8 +119,6 @@ public class DarkKnight_Test {
         assertEquals(860, enemy.getHealthValue());
     }
 
-
-
     //Enemy Tests
     @Test
     public void EnemyHasName() {
