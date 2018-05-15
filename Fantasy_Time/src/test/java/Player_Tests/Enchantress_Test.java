@@ -93,4 +93,16 @@ public class Enchantress_Test {
         assertEquals(10, enchantress.getVitality());
     }
 
+    //Enchantress Tests
+    @Test
+    public void hasMystificationValue() {
+        assertEquals(100, enchantress.getMystificationValue());
+    }
+
+    @Test
+    public void canReduceMystification() {
+        enchantress.takeMystificationDamage(50);
+        assertEquals(50, enchantress.getMystificationValue());
+    }
+
 }

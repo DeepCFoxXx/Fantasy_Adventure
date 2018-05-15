@@ -12,4 +12,11 @@ public class Enchantress extends MagicalUser {
         this.mystification = mystification;
     }
 
+    public int getMystificationValue() {
+        return this.mystification;
+    }
+
+    public void takeMystificationDamage(int value) {
+        this.mystification -= value;
+    }
 }
