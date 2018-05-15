@@ -151,4 +151,10 @@ public class Sorcerer_Test {
         sorcerer.summon(enemy, bahamut);
         assertEquals(50, enemy.getPhysicalResistance());
     }
+
+    @Test
+    public void canReduceMagicalWithSummon() {
+        sorcerer.summon(enemy, bahamut);
+        assertEquals(50, enemy.getMagicalResistance());
+    }
 }
