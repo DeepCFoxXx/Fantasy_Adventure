@@ -145,5 +145,10 @@ public class Sorcerer_Test {
         sorcerer.summon(enemy);
         assertEquals(550, enemy.getHealthValue());
     }
-    
+
+    @Test
+    public void canReducePhysicalWithSummon() {
+        sorcerer.summon(enemy, bahamut);
+        assertEquals(50, enemy.getPhysicalResistance());
+    }
 }
