@@ -105,4 +105,76 @@ public class Enchantress_Test {
         assertEquals(50, enchantress.getMystificationValue());
     }
 
+    //Magical Users Tests
+    @Test
+    public void canTakeDamage() {
+        enchantress.takeDamage(150);
+        assertEquals(400, enchantress.getHealthValue());
+    }
+
+    @Test
+    public void canCast() {
+        enchantress.cast(enemy, flame);
+        assertEquals(850, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canDamageMagical() {
+        enchantress.cast(enemy, flame);
+        assertEquals(70, enemy.getMagicalResistance());
+    }
+
+    @Test
+    public void canSwapSpell() {
+        enchantress.setSpell(lightning);
+        enchantress.cast(enemy);
+        assertEquals(820, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canSummon() {
+        enchantress.summon(enemy, leviathan);
+        assertEquals(550, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canSwapSummon() {
+        enchantress.setSummon(bahamut);
+        enchantress.summon(enemy);
+        assertEquals(500, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canReducePhysicalWithSummon() {
+        enchantress.summon(enemy, leviathan);
+        assertEquals(30, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void canReduceMagicalWithSummon() {
+        enchantress.summon(enemy, leviathan);
+        assertEquals(60, enemy.getMagicalResistance());
+    }
+
+    //Enemy Tests
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void enemyHasMagicalResistance() {
+        assertEquals(100, enemy.getMagicalResistance());
+    }
+
 }

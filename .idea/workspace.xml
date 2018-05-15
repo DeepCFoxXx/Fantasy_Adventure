@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,8 +66,8 @@
       <file leaf-file-name="Sorcerer_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="107" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="158" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1097#1098#0" expanded="true" />
@@ -105,8 +104,8 @@
       <file leaf-file-name="Enchantress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
@@ -121,8 +120,8 @@
       <file leaf-file-name="Enchantress_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="104" column="60" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
+            <state relative-caret-position="276">
+              <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1069#1070#0" expanded="true" />
@@ -794,7 +793,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Enchantress_Test">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -841,7 +840,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Enchantress_Test.canReduceDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Enchantress_Test.canReduceMagicalWithSummon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -853,7 +852,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
-      <option name="METHOD_NAME" value="canReduceDefence" />
+      <option name="METHOD_NAME" value="canReduceMagicalWithSummon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -864,7 +863,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Enchantress_Test.canReduceVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Enchantress_Test.canReducePhysicalWithSummon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -876,7 +875,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
-      <option name="METHOD_NAME" value="canReduceVitality" />
+      <option name="METHOD_NAME" value="canReducePhysicalWithSummon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -887,7 +886,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Sorcerer_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Enchantress_Test.canSwapSummon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -898,9 +897,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Sorcerer_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
+      <option name="METHOD_NAME" value="canSwapSummon" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -962,19 +961,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Sorcerer_Test" />
-      <item itemvalue="JUnit.All in Fantasy_Time_test" />
+      <item itemvalue="JUnit.Enchantress_Test.canSwapSummon" />
+      <item itemvalue="JUnit.Enchantress_Test.canReducePhysicalWithSummon" />
+      <item itemvalue="JUnit.Enchantress_Test.canReduceMagicalWithSummon" />
       <item itemvalue="JUnit.Enchantress_Test" />
-      <item itemvalue="JUnit.Enchantress_Test.canReduceDefence" />
-      <item itemvalue="JUnit.Enchantress_Test.canReduceVitality" />
+      <item itemvalue="JUnit.All in Fantasy_Time_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Enchantress_Test" />
-        <item itemvalue="JUnit.Enchantress_Test.canReduceVitality" />
-        <item itemvalue="JUnit.Enchantress_Test.canReduceDefence" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Sorcerer_Test" />
+        <item itemvalue="JUnit.Enchantress_Test" />
+        <item itemvalue="JUnit.Enchantress_Test.canReduceMagicalWithSummon" />
+        <item itemvalue="JUnit.Enchantress_Test.canReducePhysicalWithSummon" />
+        <item itemvalue="JUnit.Enchantress_Test.canSwapSummon" />
       </list>
     </recent_temporary>
   </component>
@@ -992,35 +991,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sorcerer_Test_canSwapSummon - 2018.05.15 at 15h 56m 47s.xml">
-      <configuration name="Sorcerer_Test.canSwapSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sorcerer_Test_canSummon - 2018.05.15 at 15h 58m 45s.xml">
-      <configuration name="Sorcerer_Test.canSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sorcerer_Test_canReducePhysicalWithSummon - 2018.05.15 at 15h 59m 03s.xml">
-      <configuration name="Sorcerer_Test.canReducePhysicalWithSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sorcerer_Test_canReducePhysicalWithSummon - 2018.05.15 at 15h 59m 13s.xml">
-      <configuration name="Sorcerer_Test.canReducePhysicalWithSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sorcerer_Test_canReduceMagicalWithSummon - 2018.05.15 at 16h 00m 42s.xml">
-      <configuration name="Sorcerer_Test.canReduceMagicalWithSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sorcerer_Test - 2018.05.15 at 16h 02m 03s.xml">
-      <configuration name="Sorcerer_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.15 at 16h 02m 09s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Enchantress_Test - 2018.05.15 at 16h 23m 21s.xml">
+    <history-entry file="Enchantress_Test - 2018.05.15 at 16h 35m 45s.xml">
       <configuration name="Enchantress_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Enchantress_Test_canReduceDefence - 2018.05.15 at 16h 25m 33s.xml">
-      <configuration name="Enchantress_Test.canReduceDefence" configurationId="JUnit" />
+    <history-entry file="Enchantress_Test_canTakeDamage - 2018.05.15 at 16h 39m 00s.xml">
+      <configuration name="Enchantress_Test.canTakeDamage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Enchantress_Test_canReduceVitality - 2018.05.15 at 16h 25m 36s.xml">
-      <configuration name="Enchantress_Test.canReduceVitality" configurationId="JUnit" />
+    <history-entry file="Enchantress_Test_canCast - 2018.05.15 at 16h 39m 03s.xml">
+      <configuration name="Enchantress_Test.canCast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canCast - 2018.05.15 at 16h 39m 11s.xml">
+      <configuration name="Enchantress_Test.canCast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canDamageMagical - 2018.05.15 at 16h 39m 14s.xml">
+      <configuration name="Enchantress_Test.canDamageMagical" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canDamageMagical - 2018.05.15 at 16h 39m 23s.xml">
+      <configuration name="Enchantress_Test.canDamageMagical" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canSwapSpell - 2018.05.15 at 16h 39m 30s.xml">
+      <configuration name="Enchantress_Test.canSwapSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canSummon - 2018.05.15 at 16h 39m 36s.xml">
+      <configuration name="Enchantress_Test.canSummon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canSwapSummon - 2018.05.15 at 16h 39m 39s.xml">
+      <configuration name="Enchantress_Test.canSwapSummon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_canReducePhysicalWithSummon - 2018.05.15 at 16h 39m 42s.xml">
+      <configuration name="Enchantress_Test.canReducePhysicalWithSummon" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1578,10 +1577,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="158" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1097#1098#0" expanded="true" />
@@ -1614,24 +1627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="104" column="60" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
+        <state relative-caret-position="276">
+          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
