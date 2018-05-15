@@ -139,4 +139,11 @@ public class Sorcerer_Test {
         assertEquals(500, enemy.getHealthValue());
     }
 
+    @Test
+    public void canSwapSummon() {
+        sorcerer.setSummon(leviathan);
+        sorcerer.summon(enemy);
+        assertEquals(550, enemy.getHealthValue());
+    }
+    
 }

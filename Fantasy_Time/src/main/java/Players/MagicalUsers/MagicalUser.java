@@ -27,4 +27,8 @@ public class MagicalUser extends Player {
     public void summon(Enemy enemy) {
         this.summon.summon(enemy);
     }
+
+    public void setSummon(IDefend summon) {
+        this.summon = summon;
+    }
 }
