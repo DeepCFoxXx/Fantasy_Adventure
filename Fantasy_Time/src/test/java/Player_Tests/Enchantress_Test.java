@@ -80,4 +80,17 @@ public class Enchantress_Test {
         assertEquals(true, enchantress.getPoisonStatus());
     }
 
+    //Reduce Stat Tests
+    @Test
+    public void canReduceDefence() {
+        enchantress.takeDefenceDamage(10);
+        assertEquals(30, enchantress.getDefence());
+    }
+
+    @Test
+    public void canReduceVitality() {
+        enchantress.takeVitalityDamage(10);
+        assertEquals(10, enchantress.getVitality());
+    }
+
 }
