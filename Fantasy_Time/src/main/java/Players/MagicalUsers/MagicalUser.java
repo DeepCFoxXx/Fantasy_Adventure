@@ -5,7 +5,7 @@ import Players.MagicalUsers.Defenders.IDefend;
 import Players.MagicalUsers.Spells.ISpell;
 import Players.Player;
 
-public class MagicalUser extends Player {
+public abstract class MagicalUser extends Player {
 
     private ISpell spell;
     private IDefend summon;
