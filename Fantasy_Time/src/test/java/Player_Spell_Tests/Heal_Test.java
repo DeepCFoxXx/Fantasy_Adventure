@@ -1,7 +1,7 @@
 package Player_Spell_Tests;
 
 import Players.MagicalUsers.Healing_Spells.Heal;
-import Players.MagicalUsers.Healing_Spells.IHeal;
+import Players.MagicalUsers.Healing_Spells.IAddHealth;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Heal_Test {
 
-    IHeal iHeal;
+    IAddHealth iHeal;
     Heal heal;
     Player barbarian;
     IWeapon greatSword;
@@ -28,6 +28,13 @@ public class Heal_Test {
     @Test
     public void hasHealValue() {
         assertEquals(100, heal.getHealValue());
+    }
+
+    @Test
+    public void canHealPlayer() {
+        barbarian.takeDamage(200);
+        barbarian.heal(100);
+        assertEquals(500, barbarian.getHealthValue());
     }
 
 }

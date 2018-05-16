@@ -1,4 +1,4 @@
 package Players.MagicalUsers.Healing_Spells;
 
-public interface IHeal {
+public interface IAddHealth {
 }

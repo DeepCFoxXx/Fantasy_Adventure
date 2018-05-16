@@ -1,6 +1,6 @@
 package Players.MagicalUsers.Healing_Spells;
 
-public class Heal implements IHeal {
+public class Heal implements IAddHealth {
 
     private int healValue;
 

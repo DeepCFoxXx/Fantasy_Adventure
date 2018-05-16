@@ -100,4 +100,8 @@ public abstract class Player {
 
     }
 
+    public void heal(int iAddHealth) {
+        this.healthValue += iAddHealth;
+    }
+
 }
