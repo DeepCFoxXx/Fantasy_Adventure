@@ -31,4 +31,11 @@ public class Cure_Test {
         assertEquals(250, cure.getHealValue());
     }
 
+    @Test
+    public void canHealPlayer() {
+        barbarian.takeDamage(550);
+        barbarian.cure(250);
+        assertEquals(300, barbarian.getHealthValue());
+    }
+
 }
