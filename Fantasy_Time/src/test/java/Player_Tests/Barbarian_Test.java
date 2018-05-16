@@ -78,8 +78,14 @@ public class Barbarian_Test {
 
     @Test
     public void healthCanBePoisoned() {
-        barbarian.poisonedHealth();
+        barbarian.poisonedEffects();
         assertEquals(580, barbarian.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        barbarian.poisonedEffects();
+        assertEquals(50, barbarian.getVitality());
     }
 
     //Reduce Stat Tests

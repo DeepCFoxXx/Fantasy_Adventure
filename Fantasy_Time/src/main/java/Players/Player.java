@@ -88,7 +88,7 @@ public abstract class Player {
     }
 
 
-    public void poisonedHealth() {
+    public void poisonedEffects() {
 
         boolean x = poisoned;
 
