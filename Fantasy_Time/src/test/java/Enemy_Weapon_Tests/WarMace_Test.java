@@ -28,6 +28,12 @@ public class WarMace_Test {
     }
 
     @Test
+    public void canReducePlayerDefence() {
+        warMace.attack(barbarian);
+        assertEquals(45, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
