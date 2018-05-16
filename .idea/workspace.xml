@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -69,31 +69,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DarkKnight_Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
+      <file leaf-file-name="Paladin_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="283">
+              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -562,7 +546,6 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/CursedVampire.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Spells/ISpell.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Spells/Ultima.java" />
@@ -599,11 +582,12 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchanter.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchanter_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" />
       </list>
     </option>
   </component>
@@ -725,52 +709,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Enchantress_Test.defenceCanBePoisoned">
+  <component name="RunManager" selected="JUnit.Paladin_Test.defenceCanBePoisoned">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="All in Fantasy_Time_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DarkKnight_Test.defenceCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" value="defenceCanBePoisoned" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Enchantress_Test.defenceCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
@@ -795,29 +739,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Enchantress_Test.healthCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
-      <option name="METHOD_NAME" value="healthCanBePoisoned" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Enchantress_Test.vitalityCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -830,6 +751,75 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
+      <option name="METHOD_NAME" value="vitalityCanBePoisoned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Paladin_Test.defenceCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
+      <option name="METHOD_NAME" value="defenceCanBePoisoned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Paladin_Test.healthCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
+      <option name="METHOD_NAME" value="healthCanBePoisoned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Paladin_Test.vitalityCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Paladin_Test" />
       <option name="METHOD_NAME" value="vitalityCanBePoisoned" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -893,19 +883,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.DarkKnight_Test.defenceCanBePoisoned" />
-      <item itemvalue="JUnit.Enchantress_Test.healthCanBePoisoned" />
       <item itemvalue="JUnit.Enchantress_Test.vitalityCanBePoisoned" />
       <item itemvalue="JUnit.Enchantress_Test.defenceCanBePoisoned" />
+      <item itemvalue="JUnit.Paladin_Test.healthCanBePoisoned" />
+      <item itemvalue="JUnit.Paladin_Test.vitalityCanBePoisoned" />
+      <item itemvalue="JUnit.Paladin_Test.defenceCanBePoisoned" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Paladin_Test.defenceCanBePoisoned" />
+        <item itemvalue="JUnit.Paladin_Test.vitalityCanBePoisoned" />
+        <item itemvalue="JUnit.Paladin_Test.healthCanBePoisoned" />
         <item itemvalue="JUnit.Enchantress_Test.defenceCanBePoisoned" />
         <item itemvalue="JUnit.Enchantress_Test.vitalityCanBePoisoned" />
-        <item itemvalue="JUnit.Enchantress_Test.healthCanBePoisoned" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.DarkKnight_Test.defenceCanBePoisoned" />
       </list>
     </recent_temporary>
   </component>
@@ -923,21 +913,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.16 at 09h 41m 57s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_helathCanBePoisoned - 2018.05.16 at 15h 00m 36s.xml">
-      <configuration name="Barbarian_Test.helathCanBePoisoned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_healthCanBePoisoned - 2018.05.16 at 15h 05m 02s.xml">
-      <configuration name="Barbarian_Test.healthCanBePoisoned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_vitalityCanBePoisoned - 2018.05.16 at 15h 05m 31s.xml">
-      <configuration name="Barbarian_Test.vitalityCanBePoisoned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_defenceCanBePoisoned - 2018.05.16 at 15h 07m 02s.xml">
-      <configuration name="Barbarian_Test.defenceCanBePoisoned" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.16 at 15h 07m 08s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -953,6 +928,21 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.16 at 15h 11m 52s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Enchantress_Test_healthCanBePoisoned - 2018.05.16 at 15h 18m 31s.xml">
+      <configuration name="Enchantress_Test.healthCanBePoisoned" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_healthCanBePoisoned - 2018.05.16 at 15h 18m 43s.xml">
+      <configuration name="Enchantress_Test.healthCanBePoisoned" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_vitalityCanBePoisoned - 2018.05.16 at 15h 18m 46s.xml">
+      <configuration name="Enchantress_Test.vitalityCanBePoisoned" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_vitalityCanBePoisoned - 2018.05.16 at 15h 18m 54s.xml">
+      <configuration name="Enchantress_Test.vitalityCanBePoisoned" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Enchantress_Test_defenceCanBePoisoned - 2018.05.16 at 15h 18m 57s.xml">
+      <configuration name="Enchantress_Test.defenceCanBePoisoned" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -966,12 +956,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2819063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2819063" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1094,24 +1084,6 @@
             <element signature="e#1119#1120#0" expanded="true" />
             <element signature="e#1171#1172#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2592#2593#0" expanded="true" />
-            <element signature="e#2643#2644#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2759#2760#0" expanded="true" />
-            <element signature="e#2823#2824#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
-            <element signature="e#2943#2944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1408,26 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="175" column="43" lean-forward="true" selection-start-line="175" selection-start-column="43" selection-end-line="175" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2449#2450#0" expanded="true" />
-            <element signature="e#3970#3971#0" expanded="true" />
-            <element signature="e#4023#4024#0" expanded="true" />
-            <element signature="e#4074#4075#0" expanded="true" />
-            <element signature="e#4132#4133#0" expanded="true" />
-            <element signature="e#4190#4191#0" expanded="true" />
-            <element signature="e#4254#4255#0" expanded="true" />
-            <element signature="e#4311#4312#0" expanded="true" />
-            <element signature="e#4374#4375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1532,8 +1484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#769#770#0" expanded="true" />
@@ -1554,6 +1506,40 @@
             <element signature="e#1545#1546#0" expanded="true" />
             <element signature="e#2087#2088#0" expanded="true" />
             <element signature="e#2149#2150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2449#2450#0" expanded="true" />
+            <element signature="e#3970#3971#0" expanded="true" />
+            <element signature="e#4023#4024#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+            <element signature="e#4132#4133#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4311#4312#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
           </folding>
         </state>
       </provider>

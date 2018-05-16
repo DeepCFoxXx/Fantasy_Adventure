@@ -64,6 +64,7 @@ public class Paladin_Test {
         assertEquals(40, paladin.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, paladin.getPoisonStatus());
@@ -73,6 +74,24 @@ public class Paladin_Test {
     public void poisonStatusCanBeTrue() {
         paladin.getsPoisoned();
         assertEquals(true, paladin.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        paladin.poisonedEffects();
+        assertEquals(530, paladin.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        paladin.poisonedEffects();
+        assertEquals(50, paladin.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        paladin.poisonedEffects();
+        assertEquals(45, paladin.getDefence());
     }
 
     //Reduce Stat Tests
