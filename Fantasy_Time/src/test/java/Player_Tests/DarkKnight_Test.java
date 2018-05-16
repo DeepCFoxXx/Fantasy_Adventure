@@ -62,6 +62,7 @@ public class DarkKnight_Test {
         assertEquals(25, darkKnight.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, darkKnight.getPoisonStatus());
@@ -71,6 +72,24 @@ public class DarkKnight_Test {
     public void poisonStatusCanBeTrue() {
         darkKnight.getsPoisoned();
         assertEquals(true, darkKnight.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        darkKnight.poisonedEffects();
+        assertEquals(480, darkKnight.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        darkKnight.poisonedEffects();
+        assertEquals(30, darkKnight.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        darkKnight.poisonedEffects();
+        assertEquals(65, darkKnight.getDefence());
     }
 
     //Reduce Stat Tests
