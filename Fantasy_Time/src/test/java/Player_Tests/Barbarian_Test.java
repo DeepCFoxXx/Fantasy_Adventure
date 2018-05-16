@@ -88,6 +88,12 @@ public class Barbarian_Test {
         assertEquals(50, barbarian.getVitality());
     }
 
+    @Test
+    public void defenceCanBePoisoned() {
+        barbarian.poisonedEffects();
+        assertEquals(45, barbarian.getDefence());
+    }
+
     //Reduce Stat Tests
     @Test
     public void canReduceDefence() {
