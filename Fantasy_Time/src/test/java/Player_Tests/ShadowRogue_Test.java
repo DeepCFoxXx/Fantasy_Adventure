@@ -61,6 +61,7 @@ public class ShadowRogue_Test {
         assertEquals(70, shadowRogue.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, shadowRogue.getPoisonStatus());
@@ -70,6 +71,24 @@ public class ShadowRogue_Test {
     public void poisonStatusCanBeTrue() {
         shadowRogue.getsPoisoned();
         assertEquals(true, shadowRogue.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        shadowRogue.poisonedEffects();
+        assertEquals(480, shadowRogue.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        shadowRogue.poisonedEffects();
+        assertEquals(50, shadowRogue.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        shadowRogue.poisonedEffects();
+        assertEquals(35, shadowRogue.getDefence());
     }
 
     //Reduce Stat Tests
