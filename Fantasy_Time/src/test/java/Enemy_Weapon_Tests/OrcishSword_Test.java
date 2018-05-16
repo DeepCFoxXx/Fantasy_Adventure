@@ -28,6 +28,12 @@ public class OrcishSword_Test {
     }
 
     @Test
+    public void canReducePlayerDefence() {
+        orcishSword.attack(barbarian);
+        assertEquals(45, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
