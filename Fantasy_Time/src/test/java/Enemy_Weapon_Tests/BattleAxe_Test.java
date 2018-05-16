@@ -28,6 +28,12 @@ public class BattleAxe_Test {
     }
 
     @Test
+    public void canReducePlayerDefence() {
+        battleAxe.attack(barbarian);
+        assertEquals(45, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
