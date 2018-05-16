@@ -71,6 +71,7 @@ public class Sorcerer_Test {
         assertEquals(45, sorcerer.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, sorcerer.getPoisonStatus());
@@ -80,6 +81,24 @@ public class Sorcerer_Test {
     public void poisonStatusCanBeTrue() {
         sorcerer.getsPoisoned();
         assertEquals(true, sorcerer.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        sorcerer.poisonedEffects();
+        assertEquals(380, sorcerer.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        sorcerer.poisonedEffects();
+        assertEquals(20, sorcerer.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        sorcerer.poisonedEffects();
+        assertEquals(25, sorcerer.getDefence());
     }
 
     //Reduce Stat Tests
