@@ -28,6 +28,12 @@ public class BloodDagger_Test {
     }
 
     @Test
+    public void canReducePlayerDefence() {
+        bloodDagger.attack(barbarian);
+        assertEquals(45, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }

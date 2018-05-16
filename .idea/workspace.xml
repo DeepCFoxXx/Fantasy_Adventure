@@ -689,7 +689,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BattleAxe_Test.canReducePlayerDefence">
+  <component name="RunManager" selected="JUnit.BloodDagger_Test.canReducePlayerDefence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -719,19 +719,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ShadowRogue_Test.defenceCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BloodDagger_Test.canReducePlayerDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="PATTERN" value="Enemy_Weapon_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.ShadowRogue_Test" />
-      <option name="METHOD_NAME" value="defenceCanBePoisoned" />
+      <option name="PACKAGE_NAME" value="Enemy_Weapon_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Weapon_Tests.BloodDagger_Test" />
+      <option name="METHOD_NAME" value="canReducePlayerDefence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -863,19 +863,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ShadowRogue_Test.defenceCanBePoisoned" />
       <item itemvalue="JUnit.Sorcerer_Test.healthCanBePoisoned" />
       <item itemvalue="JUnit.Sorcerer_Test.vitalityCanBePoisoned" />
       <item itemvalue="JUnit.Sorcerer_Test.defenceCanBePoisoned" />
       <item itemvalue="JUnit.BattleAxe_Test.canReducePlayerDefence" />
+      <item itemvalue="JUnit.BloodDagger_Test.canReducePlayerDefence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BloodDagger_Test.canReducePlayerDefence" />
         <item itemvalue="JUnit.BattleAxe_Test.canReducePlayerDefence" />
         <item itemvalue="JUnit.Sorcerer_Test.defenceCanBePoisoned" />
         <item itemvalue="JUnit.Sorcerer_Test.vitalityCanBePoisoned" />
         <item itemvalue="JUnit.Sorcerer_Test.healthCanBePoisoned" />
-        <item itemvalue="JUnit.ShadowRogue_Test.defenceCanBePoisoned" />
       </list>
     </recent_temporary>
   </component>
