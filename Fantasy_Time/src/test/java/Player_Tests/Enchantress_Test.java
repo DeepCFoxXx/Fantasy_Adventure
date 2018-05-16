@@ -69,6 +69,7 @@ public class Enchantress_Test {
         assertEquals(25, enchantress.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, enchantress.getPoisonStatus());
@@ -78,6 +79,24 @@ public class Enchantress_Test {
     public void poisonStatusCanBeTrue() {
         enchantress.getsPoisoned();
         assertEquals(true, enchantress.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        enchantress.poisonedEffects();
+        assertEquals(530, enchantress.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        enchantress.poisonedEffects();
+        assertEquals(10, enchantress.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        enchantress.poisonedEffects();
+        assertEquals(35, enchantress.getDefence());
     }
 
     //Reduce Stat Tests
