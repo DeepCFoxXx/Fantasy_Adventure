@@ -28,6 +28,12 @@ public class Warhammer_Test {
     }
 
     @Test
+    public void canReducePlayerDefence() {
+        warHammer.attack(barbarian);
+        assertEquals(45, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }

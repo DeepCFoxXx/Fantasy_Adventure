@@ -6,6 +6,7 @@ public class WarHammer implements IWeaponEnemy{
 
     public void attack(Player player) {
         player.takeDamage(200);
+        player.takeDefenceDamage(5);
     }
 
 }
