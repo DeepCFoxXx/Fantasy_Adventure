@@ -86,4 +86,18 @@ public abstract class Player {
     public void summon(Enemy enemy, IDefend summon) {
         summon.summon(enemy);
     }
+
+
+    public void poisonedHealth() {
+
+        boolean x = poisoned;
+
+        if (!x) {
+            takeDamage(20);
+            takeVitalityDamage(10);
+            takeDefenceDamage(5);
+        }
+
+    }
+
 }

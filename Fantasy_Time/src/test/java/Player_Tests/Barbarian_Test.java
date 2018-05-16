@@ -64,6 +64,7 @@ public class Barbarian_Test {
         assertEquals(20, barbarian.getLuck());
     }
 
+    //Poison Tests
     @Test
     public void poisonStatusStartsFalse() {
         assertEquals(false, barbarian.getPoisonStatus());
@@ -73,6 +74,12 @@ public class Barbarian_Test {
     public void poisonStatusCanBeTrue() {
         barbarian.getsPoisoned();
         assertEquals(true, barbarian.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        barbarian.poisonedHealth();
+        assertEquals(580, barbarian.getHealthValue());
     }
 
     //Reduce Stat Tests

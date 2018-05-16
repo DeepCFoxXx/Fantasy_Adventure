@@ -19,4 +19,5 @@ public class Barbarian extends Warrior {
     public void reduceBerserkRage(int value) {
         this.berserkRage -= value;
     }
+
 }
