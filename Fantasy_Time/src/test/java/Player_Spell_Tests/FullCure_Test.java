@@ -1,6 +1,5 @@
 package Player_Spell_Tests;
 
-import Players.MagicalUsers.Healing_Spells.Cure;
 import Players.MagicalUsers.Healing_Spells.FullCure;
 import Players.Player;
 import Players.Warriors.Barbarian;
