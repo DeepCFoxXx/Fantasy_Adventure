@@ -109,6 +109,6 @@ public abstract class Player {
     }
 
     public void increaseVitality(int value) {
-        this.defence += value;
+        this.vitality += value;
     }
 }

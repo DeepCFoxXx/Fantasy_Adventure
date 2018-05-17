@@ -30,4 +30,11 @@ public class Cure_Test {
         assertEquals(300, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canIncreaseDefence() {
+        barbarian.takeDefenceDamage(40);
+        cure.heal(barbarian);
+        assertEquals(20, barbarian.getDefence());
+    }
+
 }
