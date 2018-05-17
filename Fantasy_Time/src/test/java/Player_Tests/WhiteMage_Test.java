@@ -193,8 +193,16 @@ public class WhiteMage_Test {
     @Test
     public void canAddToPlayersDefence() {
         barbarian.takeDefenceDamage(59);
-        cure.heal(barbarian);
+        whiteMage.heal(barbarian, cure);
         assertEquals(1, barbarian.getDefence());
+    }
+
+
+    @Test
+    public void canIncreaseVitality() {
+        barbarian.takeVitalityDamage(50);
+        whiteMage.heal(barbarian, cure);
+        assertEquals(20, barbarian.getVitality());
     }
 
     //Enemy Tests
