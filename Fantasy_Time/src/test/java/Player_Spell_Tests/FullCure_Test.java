@@ -45,4 +45,11 @@ public class FullCure_Test {
         assertEquals(51, barbarian.getVitality());
     }
 
+    @Test
+    public void canCurePoisonStatus() {
+        barbarian.getsPoisoned();
+        fullCure.heal(barbarian);
+        assertEquals(false, barbarian.getPoisonStatus());
+    }
+
 }
