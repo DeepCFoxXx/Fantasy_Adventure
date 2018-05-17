@@ -83,5 +83,34 @@ public class WhiteMage_Test {
         assertEquals(80, whiteMage.getLuck());
     }
 
+    //Poison Tests
+    @Test
+    public void poisonStatusStartsFalse() {
+        assertEquals(false, whiteMage.getPoisonStatus());
+    }
+
+    @Test
+    public void poisonStatusCanBeTrue() {
+        whiteMage.getsPoisoned();
+        assertEquals(true, whiteMage.getPoisonStatus());
+    }
+
+    @Test
+    public void healthCanBePoisoned() {
+        whiteMage.poisonedEffects();
+        assertEquals(330, whiteMage.getHealthValue());
+    }
+
+    @Test
+    public void vitalityCanBePoisoned() {
+        whiteMage.poisonedEffects();
+        assertEquals(10, whiteMage.getVitality());
+    }
+
+    @Test
+    public void defenceCanBePoisoned() {
+        whiteMage.poisonedEffects();
+        assertEquals(15, whiteMage.getDefence());
+    }
 
 }
