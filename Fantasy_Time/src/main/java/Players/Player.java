@@ -103,4 +103,12 @@ public abstract class Player {
     public void increaseHealth(int value) {
         this.healthValue += value;
     }
+
+    public void increaseDefence(int value) {
+        this.defence += value;
+    }
+
+    public void increaseVitality(int value) {
+        this.defence += value;
+    }
 }
