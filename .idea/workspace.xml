@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Spell_Tests/Cure_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Spell_Tests/Cure_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java" afterDir="false" />
     </list>
@@ -31,8 +36,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+            <state relative-caret-position="343">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#826#827#0" expanded="true" />
@@ -71,6 +76,8 @@
                 <element signature="e#2292#2293#0" expanded="true" />
                 <element signature="e#2340#2341#0" expanded="true" />
                 <element signature="e#2376#2377#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2449#2450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +101,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cure_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cure_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullCure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullCure_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -560,7 +588,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/GreatSword.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/Katana.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/GreatSword_Test.java" />
@@ -605,12 +632,13 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/IAddHealth.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/IHealPlayer.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Heal_Test.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/IHeal.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/Heal.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/Cure.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java" />
       </list>
     </option>
   </component>
@@ -710,17 +738,6 @@
               <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="Warriors" type="462c0819:PsiDirectoryNode" />
-              <item name="Weapons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -774,7 +791,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Cure_Test.canVitalityDefence">
+  <component name="RunManager" selected="JUnit.FullCure_Test.canIncreaseHealth">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -789,29 +806,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Cure_Test.canHealPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Spell_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Spell_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Spell_Tests.Cure_Test" />
-      <option name="METHOD_NAME" value="canHealPlayer" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -890,6 +884,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="FullCure_Test.canIncreaseHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Spell_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Spell_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Spell_Tests.FullCure_Test" />
+      <option name="METHOD_NAME" value="canIncreaseHealth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -943,18 +960,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Cure_Test.canHealPlayer" />
       <item itemvalue="JUnit.Cure_Test.canIncreaseHealth" />
       <item itemvalue="JUnit.Cure_Test.canIncreaseDefence" />
       <item itemvalue="JUnit.Cure_Test.canVitalityDefence" />
+      <item itemvalue="JUnit.FullCure_Test.canIncreaseHealth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FullCure_Test.canIncreaseHealth" />
         <item itemvalue="JUnit.Cure_Test.canVitalityDefence" />
         <item itemvalue="JUnit.Cure_Test.canIncreaseDefence" />
         <item itemvalue="JUnit.Cure_Test.canIncreaseHealth" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Cure_Test.canHealPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -972,18 +989,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Heal_Test_canHealPlayer - 2018.05.16 at 17h 03m 02s.xml">
-      <configuration name="Heal_Test.canHealPlayer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cure_Test_hasHealValue - 2018.05.16 at 17h 14m 46s.xml">
-      <configuration name="Cure_Test.hasHealValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cure_Test_canHealPlayer - 2018.05.16 at 17h 15m 55s.xml">
-      <configuration name="Cure_Test.canHealPlayer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cure_Test_canHealPlayer - 2018.05.16 at 17h 21m 25s.xml">
-      <configuration name="Cure_Test.canHealPlayer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.16 at 17h 21m 56s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -1001,6 +1006,18 @@
     </history-entry>
     <history-entry file="Cure_Test_canIncreaseDefence - 2018.05.17 at 12h 34m 25s.xml">
       <configuration name="Cure_Test.canIncreaseDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cure_Test_canIncreaseDefence - 2018.05.17 at 12h 34m 53s.xml">
+      <configuration name="Cure_Test.canIncreaseDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cure_Test_canVitalityDefence - 2018.05.17 at 12h 36m 19s.xml">
+      <configuration name="Cure_Test.canVitalityDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cure_Test_canVitalityDefence - 2018.05.17 at 12h 36m 50s.xml">
+      <configuration name="Cure_Test.canVitalityDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullCure_Test_canIncreaseHealth - 2018.05.17 at 12h 45m 57s.xml">
+      <configuration name="FullCure_Test.canIncreaseHealth" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1050,20 +1067,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/Trident.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Weapons/WarAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/Trident_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1370,6 +1373,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,13 +1478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/IHeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Weapon_Tests/BattleAxe_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1498,17 +1500,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/Cure.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/IHeal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+        <state relative-caret-position="343">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#826#827#0" expanded="true" />
@@ -1547,14 +1549,40 @@
             <element signature="e#2292#2293#0" expanded="true" />
             <element signature="e#2340#2341#0" expanded="true" />
             <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2449#2450#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/Cure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 package Player_Spell_Tests;
 
 import Players.MagicalUsers.Healing_Spells.Cure;
+import Players.MagicalUsers.Healing_Spells.FullCure;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
@@ -10,38 +11,24 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Cure_Test {
+public class FullCure_Test {
 
-    Cure cure;
+    FullCure fullCure;
     Player barbarian;
     IWeapon greatSword;
 
     @Before
     public void before() {
-        cure = new Cure();
+        fullCure = new FullCure();
         barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         greatSword = new GreatSword();
     }
 
     @Test
     public void canIncreaseHealth() {
-        barbarian.takeDamage(500);
-        cure.heal(barbarian);
-        assertEquals(300, barbarian.getHealthValue());
-    }
-
-    @Test
-    public void canIncreaseDefence() {
-        barbarian.takeDefenceDamage(40);
-        cure.heal(barbarian);
-        assertEquals(20, barbarian.getDefence());
-    }
-
-    @Test
-    public void canIncreaseVitality() {
-        barbarian.takeVitalityDamage(50);
-        cure.heal(barbarian);
-        assertEquals(20, barbarian.getVitality());
+        barbarian.takeDamage(599);
+        fullCure.heal(barbarian);
+        assertEquals(501, barbarian.getHealthValue());
     }
 
 }

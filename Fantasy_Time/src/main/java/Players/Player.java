@@ -111,4 +111,9 @@ public abstract class Player {
     public void increaseVitality(int value) {
         this.vitality += value;
     }
+
+    public void curePoison() {
+        this.poisoned = false;
+    }
+
 }
