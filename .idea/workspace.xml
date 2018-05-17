@@ -774,7 +774,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Cure_Test.canIncreaseDefence">
+  <component name="RunManager" selected="JUnit.Cure_Test.canVitalityDefence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -867,7 +867,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Cure_Test.hasHealValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Cure_Test.canVitalityDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -879,7 +879,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Spell_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Spell_Tests.Cure_Test" />
-      <option name="METHOD_NAME" value="hasHealValue" />
+      <option name="METHOD_NAME" value="canVitalityDefence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -943,18 +943,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Cure_Test.hasHealValue" />
       <item itemvalue="JUnit.Cure_Test.canHealPlayer" />
       <item itemvalue="JUnit.Cure_Test.canIncreaseHealth" />
       <item itemvalue="JUnit.Cure_Test.canIncreaseDefence" />
+      <item itemvalue="JUnit.Cure_Test.canVitalityDefence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Cure_Test.canVitalityDefence" />
         <item itemvalue="JUnit.Cure_Test.canIncreaseDefence" />
         <item itemvalue="JUnit.Cure_Test.canIncreaseHealth" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Cure_Test.canHealPlayer" />
-        <item itemvalue="JUnit.Cure_Test.hasHealValue" />
       </list>
     </recent_temporary>
   </component>
