@@ -2,6 +2,7 @@ package Players;
 
 import Enemies.Enemy;
 import Players.MagicalUsers.Defenders.IDefend;
+import Players.MagicalUsers.Healing_Spells.IHeal;
 import Players.MagicalUsers.Spells.ISpell;
 import Players.Warriors.Weapons.IWeapon;
 

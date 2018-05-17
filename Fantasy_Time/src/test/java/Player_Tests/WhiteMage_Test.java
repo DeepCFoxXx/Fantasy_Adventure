@@ -36,7 +36,7 @@ public class WhiteMage_Test {
 
     @Before
     public void before() {
-        whiteMage = new WhiteMage("Goro", 350, 15, 100, 20, 20, 80, false, lightning, leviathan, 100 );
+        whiteMage = new WhiteMage("Goro", 350, 15, 100, 20, 20, 80, false, lightning, leviathan, 100, cure);
         enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         lightning= new Lightning();
         ultima = new Ultima();
@@ -180,6 +180,35 @@ public class WhiteMage_Test {
     public void canReduceMagicalWithSummon() {
         whiteMage.summon(enemy, leviathan);
         assertEquals(60, enemy.getMagicalResistance());
+    }
+
+    //White Mage Healing Spell Tests
+    @Test
+    public void canHealPlayer() {
+        barbarian.takeDamage(599);
+        whiteMage.heal(barbarian, cure);
+        assertEquals(201, barbarian.getHealthValue());
+    }
+
+    //Enemy Tests
+    @Test
+    public void EnemyHasName() {
+        assertEquals("Uzul", enemy.getName());
+    }
+
+    @Test
+    public void EnemyHasHealthValue() {
+        assertEquals(1000, enemy.getHealthValue());
+    }
+
+    @Test
+    public void enemyHasPhysicalResistance() {
+        assertEquals(100, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void enemyHasMagicalResistance() {
+        assertEquals(100, enemy.getMagicalResistance());
     }
 
 }
