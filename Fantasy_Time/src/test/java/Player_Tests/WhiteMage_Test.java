@@ -138,4 +138,48 @@ public class WhiteMage_Test {
         assertEquals(50, whiteMage.getFortificationValue());
     }
 
+    //Magical Users Tests
+    @Test
+    public void canTakeDamage() {
+        whiteMage.takeDamage(200);
+        assertEquals(150, whiteMage.getHealthValue());
+    }
+
+    @Test
+    public void canCast() {
+        whiteMage.cast(enemy, lightning);
+        assertEquals(820, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canDamageMagical() {
+        whiteMage.cast(enemy, lightning);
+        assertEquals(60, enemy.getMagicalResistance());
+    }
+
+    @Test
+    public void canSwapSpell() {
+        whiteMage.setSpell(ultima);
+        whiteMage.cast(enemy);
+        assertEquals(700, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canSummon() {
+        whiteMage.summon(enemy, leviathan);
+        assertEquals(550, enemy.getHealthValue());
+    }
+
+    @Test
+    public void canReducePhysicalWithSummon() {
+        whiteMage.summon(enemy, leviathan);
+        assertEquals(30, enemy.getPhysicalResistance());
+    }
+
+    @Test
+    public void canReduceMagicalWithSummon() {
+        whiteMage.summon(enemy, leviathan);
+        assertEquals(60, enemy.getMagicalResistance());
+    }
+
 }
