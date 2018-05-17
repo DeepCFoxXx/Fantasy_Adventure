@@ -190,6 +190,13 @@ public class WhiteMage_Test {
         assertEquals(201, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canAddToPlayersDefence() {
+        barbarian.takeDefenceDamage(59);
+        cure.heal(barbarian);
+        assertEquals(1, barbarian.getDefence());
+    }
+
     //Enemy Tests
     @Test
     public void EnemyHasName() {
