@@ -17,6 +17,9 @@ import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
 import Players.Warriors.Weapons.IWeapon;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class WhiteMage_Test {
 
@@ -33,7 +36,7 @@ public class WhiteMage_Test {
 
     @Before
     public void before() {
-        whiteMage = new WhiteMage("Lyanna", 350, 15, 100, 20, 20, 80, false, lightning, leviathan, 100 );
+        whiteMage = new WhiteMage("Goro", 350, 15, 100, 20, 20, 80, false, lightning, leviathan, 100 );
         enemy = new Orc("Uzul", 1000, 100, 100, warhammer);
         lightning= new Lightning();
         ultima = new Ultima();
@@ -43,5 +46,42 @@ public class WhiteMage_Test {
         barbarian = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
         greatSword = new GreatSword();
     }
+
+    //Player Stat Tests
+    @Test
+    public void hasName() {
+        assertEquals("Goro", whiteMage.getName());
+    }
+
+    @Test
+    public void hasHealthValue() {
+        assertEquals(350, whiteMage.getHealthValue());
+    }
+
+    @Test
+    public void hasStrength() {
+        assertEquals(15, whiteMage.getStrength());
+    }
+
+    @Test
+    public void hasMagic() {
+        assertEquals(100, whiteMage.getMagic());
+    }
+
+    @Test
+    public void hasDefence() {
+        assertEquals(20, whiteMage.getDefence());
+    }
+
+    @Test
+    public void hasVitality() {
+        assertEquals(20, whiteMage.getVitality());
+    }
+
+    @Test
+    public void hasLuck() {
+        assertEquals(80, whiteMage.getLuck());
+    }
+
 
 }
