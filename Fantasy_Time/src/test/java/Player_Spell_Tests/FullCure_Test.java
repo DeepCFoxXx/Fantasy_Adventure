@@ -31,4 +31,18 @@ public class FullCure_Test {
         assertEquals(501, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canIncreaseDefence() {
+        barbarian.takeDefenceDamage(30);
+        fullCure.heal(barbarian);
+        assertEquals(70, barbarian.getDefence());
+    }
+
+    @Test
+    public void canIncreaseVitality() {
+        barbarian.takeVitalityDamage(59);
+        fullCure.heal(barbarian);
+        assertEquals(51, barbarian.getVitality());
+    }
+
 }
