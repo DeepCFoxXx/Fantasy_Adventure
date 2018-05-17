@@ -12,4 +12,12 @@ public class WhiteMage extends MagicalUser {
         this.fortification = fortification;
     }
 
+    public int getFortificationValue() {
+        return this.fortification;
+    }
+
+    public void takeFortificationDamage(int value) {
+        this.fortification -= value;
+    }
+
 }

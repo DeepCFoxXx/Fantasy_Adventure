@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,8 +47,8 @@
       <file leaf-file-name="Sorcerer_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="103" column="2" lean-forward="true" selection-start-line="103" selection-start-column="2" selection-end-line="114" selection-end-column="5" />
+            <state relative-caret-position="260">
+              <caret line="126" column="5" lean-forward="true" selection-start-line="116" selection-start-column="4" selection-end-line="126" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1097#1098#0" expanded="true" />
@@ -74,10 +75,14 @@
       <file leaf-file-name="WhiteMage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,8 +91,8 @@
       <file leaf-file-name="WhiteMage_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="119" column="22" lean-forward="true" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+            <state relative-caret-position="185">
+              <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1599#1600#0" expanded="true" />
@@ -106,6 +111,8 @@
                 <element signature="e#2242#2243#0" expanded="true" />
                 <element signature="e#2317#2318#0" expanded="true" />
                 <element signature="e#2380#2381#0" expanded="true" />
+                <element signature="e#3361#3362#0" expanded="true" />
+                <element signature="e#3423#3424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -768,7 +775,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiteMage_Test.canReduceVitality">
+  <component name="RunManager" selected="JUnit.WhiteMage_Test.canReduceIllusion">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -821,6 +828,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WhiteMage_Test.canReduceIllusion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
+      <option name="METHOD_NAME" value="canReduceIllusion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="WhiteMage_Test.canReduceVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -844,7 +874,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WhiteMage_Test.healthCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhiteMage_Test.hasIllusionValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -856,30 +886,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="healthCanBePoisoned" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WhiteMage_Test.vitalityCanBePoisoned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="vitalityCanBePoisoned" />
+      <option name="METHOD_NAME" value="hasIllusionValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -943,18 +950,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.WhiteMage_Test" />
-      <item itemvalue="JUnit.WhiteMage_Test.healthCanBePoisoned" />
-      <item itemvalue="JUnit.WhiteMage_Test.vitalityCanBePoisoned" />
       <item itemvalue="JUnit.WhiteMage_Test.canReduceDefence" />
       <item itemvalue="JUnit.WhiteMage_Test.canReduceVitality" />
+      <item itemvalue="JUnit.WhiteMage_Test.hasIllusionValue" />
+      <item itemvalue="JUnit.WhiteMage_Test.canReduceIllusion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WhiteMage_Test.canReduceIllusion" />
+        <item itemvalue="JUnit.WhiteMage_Test.hasIllusionValue" />
         <item itemvalue="JUnit.WhiteMage_Test.canReduceVitality" />
         <item itemvalue="JUnit.WhiteMage_Test.canReduceDefence" />
         <item itemvalue="JUnit.WhiteMage_Test" />
-        <item itemvalue="JUnit.WhiteMage_Test.healthCanBePoisoned" />
-        <item itemvalue="JUnit.WhiteMage_Test.vitalityCanBePoisoned" />
       </list>
     </recent_temporary>
   </component>
@@ -972,18 +979,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullCure_Test_canCurePoisonStatus - 2018.05.17 at 13h 02m 57s.xml">
-      <configuration name="FullCure_Test.canCurePoisonStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test - 2018.05.17 at 14h 14m 09s.xml">
-      <configuration name="WhiteMage_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.17 at 14h 14m 17s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_healthCanBePoisoned - 2018.05.17 at 14h 18m 11s.xml">
-      <configuration name="WhiteMage_Test.healthCanBePoisoned" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WhiteMage_Test_vitalityCanBePoisoned - 2018.05.17 at 14h 18m 19s.xml">
       <configuration name="WhiteMage_Test.vitalityCanBePoisoned" configurationId="JUnit" />
     </history-entry>
@@ -1001,6 +996,18 @@
     </history-entry>
     <history-entry file="WhiteMage_Test - 2018.05.17 at 14h 18m 50s.xml">
       <configuration name="WhiteMage_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canReduceDefence - 2018.05.17 at 14h 21m 18s.xml">
+      <configuration name="WhiteMage_Test.canReduceDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canReduceVitality - 2018.05.17 at 14h 21m 21s.xml">
+      <configuration name="WhiteMage_Test.canReduceVitality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_hasIllusionValue - 2018.05.17 at 14h 23m 55s.xml">
+      <configuration name="WhiteMage_Test.hasIllusionValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canReduceIllusion - 2018.05.17 at 14h 23m 58s.xml">
+      <configuration name="WhiteMage_Test.canReduceIllusion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1042,7 +1049,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1539,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="103" column="2" lean-forward="true" selection-start-line="103" selection-start-column="2" selection-end-line="114" selection-end-column="5" />
+        <state relative-caret-position="260">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="116" selection-start-column="4" selection-end-line="126" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1097#1098#0" expanded="true" />
@@ -1565,18 +1572,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="119" column="22" lean-forward="true" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        <state relative-caret-position="185">
+          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1599#1600#0" expanded="true" />
@@ -1595,6 +1606,8 @@
             <element signature="e#2242#2243#0" expanded="true" />
             <element signature="e#2317#2318#0" expanded="true" />
             <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#3361#3362#0" expanded="true" />
+            <element signature="e#3423#3424#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -126,4 +126,16 @@ public class WhiteMage_Test {
         assertEquals(10, whiteMage.getVitality());
     }
 
+    //White Mage Tests
+    @Test
+    public void hasIllusionValue() {
+        assertEquals(100, whiteMage.getFortificationValue());
+    }
+
+    @Test
+    public void canReduceIllusion() {
+        whiteMage.takeFortificationDamage(50);
+        assertEquals(50, whiteMage.getFortificationValue());
+    }
+
 }
