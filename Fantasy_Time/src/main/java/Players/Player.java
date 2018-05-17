@@ -2,7 +2,6 @@ package Players;
 
 import Enemies.Enemy;
 import Players.MagicalUsers.Defenders.IDefend;
-import Players.MagicalUsers.Healing_Spells.Heal;
 import Players.MagicalUsers.Spells.ISpell;
 import Players.Warriors.Weapons.IWeapon;
 
@@ -101,11 +100,7 @@ public abstract class Player {
 
     }
 
-    public void heal(int iAddHealth) {
-        this.healthValue += iAddHealth;
-    }
-
-    public void cure(int iAddHealth) {
-        this.healthValue += iAddHealth;
+    public void increaseHealth(int value) {
+        this.healthValue += value;
     }
 }

@@ -1,15 +1,11 @@
 package Players.MagicalUsers.Healing_Spells;
 
-public class Cure implements IAddHealth {
+import Players.Player;
 
-    private int healValue;
+public class Cure implements IHeal {
 
-    public Cure() {
-        this.healValue = 250;
-    }
-
-    public int getHealValue() {
-        return this.healValue;
+    public void heal(Player player) {
+        player.increaseHealth(200);
     }
 
 }
