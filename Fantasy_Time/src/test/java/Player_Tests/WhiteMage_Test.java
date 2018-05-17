@@ -199,10 +199,18 @@ public class WhiteMage_Test {
 
 
     @Test
-    public void canIncreaseVitality() {
+    public void canAddToPlayersVitality() {
         barbarian.takeVitalityDamage(50);
         whiteMage.heal(barbarian, cure);
         assertEquals(20, barbarian.getVitality());
+    }
+
+    @Test
+    public void canSwapHealingSpells() {
+        whiteMage.setHelaingSpell(fullCure);
+        barbarian.takeDamage(599);
+        whiteMage.heal(barbarian, fullCure);
+        assertEquals(501, barbarian.getHealthValue());
     }
 
     //Enemy Tests

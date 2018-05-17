@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,11 +28,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Warrior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullCure_Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WhiteMage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="324">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#574#575#0" expanded="true" />
@@ -40,18 +68,8 @@
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#938#939#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cure_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +78,8 @@
       <file leaf-file-name="WhiteMage_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="196" column="23" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
+            <state relative-caret-position="319">
+              <caret line="209" column="33" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1599#1600#0" expanded="true" />
@@ -598,8 +616,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" />
       </list>
     </option>
   </component>
@@ -752,12 +770,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiteMage_Test.canIncreaseVitality">
+  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in Fantasy_Time_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="WhiteMage_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
@@ -805,52 +840,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WhiteMage_Test.canHealPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="canHealPlayer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WhiteMage_Test.canIncreaseDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="canIncreaseDefence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="WhiteMage_Test.canIncreaseVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -864,6 +853,29 @@
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
       <option name="METHOD_NAME" value="canIncreaseVitality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WhiteMage_Test.canSwapHealingSpells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
+      <option name="METHOD_NAME" value="canSwapHealingSpells" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -926,19 +938,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhiteMage_Test" />
-      <item itemvalue="JUnit.WhiteMage_Test.canHealPlayer" />
-      <item itemvalue="JUnit.WhiteMage_Test.canIncreaseDefence" />
       <item itemvalue="JUnit.WhiteMage_Test.canAddToPlayersDefence" />
       <item itemvalue="JUnit.WhiteMage_Test.canIncreaseVitality" />
+      <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
+      <item itemvalue="JUnit.WhiteMage_Test" />
+      <item itemvalue="JUnit.All in Fantasy_Time_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.WhiteMage_Test" />
+        <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
         <item itemvalue="JUnit.WhiteMage_Test.canIncreaseVitality" />
         <item itemvalue="JUnit.WhiteMage_Test.canAddToPlayersDefence" />
-        <item itemvalue="JUnit.WhiteMage_Test.canIncreaseDefence" />
-        <item itemvalue="JUnit.WhiteMage_Test.canHealPlayer" />
-        <item itemvalue="JUnit.WhiteMage_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -956,21 +968,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhiteMage_Test_canDamageMagical - 2018.05.17 at 14h 30m 27s.xml">
-      <configuration name="WhiteMage_Test.canDamageMagical" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canSwapSpell - 2018.05.17 at 14h 30m 32s.xml">
-      <configuration name="WhiteMage_Test.canSwapSpell" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canSummon - 2018.05.17 at 14h 30m 37s.xml">
-      <configuration name="WhiteMage_Test.canSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canReducePhysicalWithSummon - 2018.05.17 at 14h 30m 42s.xml">
-      <configuration name="WhiteMage_Test.canReducePhysicalWithSummon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canReducePhysicalWithSummon - 2018.05.17 at 14h 30m 48s.xml">
-      <configuration name="WhiteMage_Test.canReducePhysicalWithSummon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WhiteMage_Test_canReduceMagicalWithSummon - 2018.05.17 at 14h 30m 54s.xml">
       <configuration name="WhiteMage_Test.canReduceMagicalWithSummon" configurationId="JUnit" />
     </history-entry>
@@ -986,6 +983,21 @@
     <history-entry file="WhiteMage_Test_canHealPlayer - 2018.05.17 at 14h 40m 27s.xml">
       <configuration name="WhiteMage_Test.canHealPlayer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WhiteMage_Test_canIncreaseDefence - 2018.05.17 at 14h 44m 48s.xml">
+      <configuration name="WhiteMage_Test.canIncreaseDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canIncreaseDefence - 2018.05.17 at 14h 44m 57s.xml">
+      <configuration name="WhiteMage_Test.canIncreaseDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canAddToPlayersDefence - 2018.05.17 at 14h 45m 34s.xml">
+      <configuration name="WhiteMage_Test.canAddToPlayersDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canAddToPlayersDefence - 2018.05.17 at 14h 47m 03s.xml">
+      <configuration name="WhiteMage_Test.canAddToPlayersDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhiteMage_Test_canIncreaseVitality - 2018.05.17 at 14h 47m 08s.xml">
+      <configuration name="WhiteMage_Test.canIncreaseVitality" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -999,12 +1011,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.28594506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.28594506" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1066,6 +1078,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,19 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Enchantress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1404,16 +1409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Sorcerer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1504,58 +1499,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="417">
           <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1885#1886#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#2169#2170#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2378#2379#0" expanded="true" />
-            <element signature="e#2410#2411#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="324">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#574#575#0" expanded="true" />
@@ -1564,24 +1554,16 @@
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="196" column="23" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
+        <state relative-caret-position="319">
+          <caret line="209" column="33" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1599#1600#0" expanded="true" />

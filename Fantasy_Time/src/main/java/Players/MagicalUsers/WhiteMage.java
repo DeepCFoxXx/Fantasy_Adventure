@@ -28,4 +28,7 @@ public class WhiteMage extends MagicalUser {
         healingSpell.heal(player);
     }
 
+    public void setHelaingSpell(IHeal healingSpell) {
+        this.healingSpell = healingSpell;
+    }
 }
