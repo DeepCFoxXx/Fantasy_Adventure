@@ -3,7 +3,7 @@ package Enemies.Enemy_Magic_Users;
 import Enemies.Enemy;
 import Enemies.Enemy_Magic_Users.Spells.ISpellEnemy;
 
-public class EnemyMagicUser extends Enemy {
+public abstract class EnemyMagicUser extends Enemy {
 
     ISpellEnemy spellEnemy;
 
