@@ -24,7 +24,7 @@ public class BloodCultist_Test {
 
     @Before
     public void before() {
-        bloodCultist = new BloodCultist("Serana", 450, 100, 100, drain);
+        bloodCultist = new BloodCultist("Serana", 450, 100, 100, poison);
         drain = new Drain();
         poison = new Poison();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
@@ -70,5 +70,41 @@ public class BloodCultist_Test {
         assertEquals(250, bloodCultist.getHealthValue());
     }
 
+    //Magical User Tests
+    @Test
+    public void canCast() {
+        bloodCultist.cast(player, poison);
+        assertEquals(450, player.getHealthValue());
+    }
+
+    @Test
+    public void canCastDamageDefence() {
+        bloodCultist.cast(player, poison);
+        assertEquals(20, player.getDefence());
+    }
+
+    @Test
+    public void canCastDamageVitality() {
+        bloodCultist.cast(player, poison);
+        assertEquals(30, player.getVitality());
+    }
+
+    @Test
+    public void canSwapSpell() {
+        bloodCultist.setSpell(drain);
+        bloodCultist.cast(player, drain);
+        assertEquals(500, player.getHealthValue());
+    }
+
+    //Player Tests
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
 
 }
