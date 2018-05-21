@@ -134,6 +134,13 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void canLimitBreakDefence() {
+        barbarian.reduceBerserkRage(99);
+        barbarian.addToLimitBreak();
+        assertEquals(150, barbarian.getDefence());
+    }
+
+    @Test
     public void canGetLastChanceHealth() {
         barbarian.takeDamage(599);
         barbarian.lastChance();
