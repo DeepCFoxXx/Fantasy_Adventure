@@ -161,6 +161,13 @@ public class Barbarian_Test {
         assertEquals(301, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canGetLastChanceDefence() {
+        barbarian.takeDamage(599);
+        barbarian.lastChance();
+        assertEquals(100, barbarian.getDefence());
+    }
+
     //Warrior Tests
     @Test
     public void canAttack() {
