@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" afterDir="false" />
     </list>
@@ -59,8 +58,8 @@
       <file leaf-file-name="Barbarian.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="350">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
@@ -76,8 +75,8 @@
       <file leaf-file-name="Barbarian_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+            <state relative-caret-position="308">
+              <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -604,8 +603,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" />
       </list>
     </option>
   </component>
@@ -757,7 +756,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.canAddToLimitBreak">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.canGetLastChance">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -804,6 +803,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Barbarian_Test.canGetLastChance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canGetLastChance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="WhiteMage_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -818,29 +840,6 @@
       <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WhiteMage_Test.canIncreaseVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="canIncreaseVitality" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -925,19 +924,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhiteMage_Test.canIncreaseVitality" />
       <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
       <item itemvalue="JUnit.WhiteMage_Test" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.Barbarian_Test.canAddToLimitBreak" />
+      <item itemvalue="JUnit.Barbarian_Test.canGetLastChance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Barbarian_Test.canGetLastChance" />
         <item itemvalue="JUnit.Barbarian_Test.canAddToLimitBreak" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.WhiteMage_Test" />
         <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
-        <item itemvalue="JUnit.WhiteMage_Test.canIncreaseVitality" />
       </list>
     </recent_temporary>
   </component>
@@ -955,15 +954,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.17 at 14h 52m 30s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.18 at 11h 24m 11s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.19 at 11h 10m 41s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.19 at 12h 38m 56s.xml">
       <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
     </history-entry>
@@ -983,6 +973,15 @@
       <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 37m 46s.xml">
+      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 39m 20s.xml">
+      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 40m 03s.xml">
+      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 40m 20s.xml">
       <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1470,8 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="350">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -1485,8 +1484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />

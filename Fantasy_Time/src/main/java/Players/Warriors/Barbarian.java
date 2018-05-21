@@ -36,4 +36,17 @@ public class Barbarian extends Warrior {
         }
     }
 
+    public void lastChance() {
+
+        int barbarianHealth = getHealthValue();
+
+        if (barbarianHealth < 50) {
+            addToBeserkRage(50);
+            increaseHealth(300);
+            increaseDefence(50);
+            increaseVitality(50);
+        }
+    }
+
+
 }

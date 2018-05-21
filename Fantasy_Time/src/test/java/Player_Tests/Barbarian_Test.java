@@ -126,12 +126,12 @@ public class Barbarian_Test {
         assertEquals(1600, barbarian.getHealthValue());
     }
 
-//    @Test
-//    public void canAddToLimitBreak() {
-//        barbarian.takeDamage(551);
-//        barbarian.addToLimitBreak();
-//        assertEquals(1049, barbarian.getHealthValue());
-//    }
+    @Test
+    public void canGetLastChance() {
+        barbarian.takeDamage(599);
+        barbarian.lastChance();
+        assertEquals(301, barbarian.getHealthValue());
+    }
 
     //Warrior Tests
     @Test
