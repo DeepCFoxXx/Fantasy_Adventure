@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/BloodCultist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/BloodCultist_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,53 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MagicalUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/MagicalUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-              <folding>
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnemyMagicUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Lich.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Lich.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lich_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lich_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="215">
+              <caret line="70" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#936#937#0" expanded="true" />
@@ -95,57 +62,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java">
+      <file leaf-file-name="BloodCultist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/BloodCultist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-              <folding>
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Player.java">
+      <file leaf-file-name="BloodCultist_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/BloodCultist_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="82" column="47" lean-forward="true" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+            <state relative-caret-position="320">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2306#2307#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
-                <element signature="e#2428#2429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CursedVampire_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/CursedVampire_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="83" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
-              <folding>
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
-                <element signature="e#2396#2397#0" expanded="true" />
-                <element signature="e#2448#2449#0" expanded="true" />
-                <element signature="e#2506#2507#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -605,8 +545,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Summon_Tests/Bahamut_Test.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Summon_Tests/Leviathan_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Warrior.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Frost_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Defender_Tests/Bahamut_Test.java" />
@@ -654,8 +592,10 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Spell_Tests/Poison_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Lich.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/EnemyMagicUser.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/BloodCultist.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/BloodCultist_Test.java" />
       </list>
     </option>
   </component>
@@ -772,6 +712,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Enemy_Spell_Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Enemy_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -797,7 +746,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lich_Test">
+  <component name="RunManager" selected="JUnit.BloodCultist_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -812,6 +761,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BloodCultist_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Enemy_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.BloodCultist_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -890,29 +862,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Poison_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Spell_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Spell_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Spell_Tests.Poison_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -966,18 +915,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Poison_Test" />
       <item itemvalue="JUnit.Lich_Test" />
       <item itemvalue="JUnit.Lich_Test.canTakeDamage" />
       <item itemvalue="JUnit.Lich_Test.canSwapSpell" />
+      <item itemvalue="JUnit.BloodCultist_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BloodCultist_Test" />
         <item itemvalue="JUnit.Lich_Test" />
         <item itemvalue="JUnit.Lich_Test.canSwapSpell" />
         <item itemvalue="JUnit.Lich_Test.canTakeDamage" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Poison_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -995,21 +944,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.21 at 12h 00m 53s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Drain_Test - 2018.05.21 at 12h 14m 56s.xml">
-      <configuration name="Drain_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.21 at 12h 15m 04s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Drain_Test_canDamageDefence - 2018.05.21 at 12h 29m 56s.xml">
-      <configuration name="Drain_Test.canDamageDefence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Drain_Test_canDamageVitality - 2018.05.21 at 12h 31m 21s.xml">
-      <configuration name="Drain_Test.canDamageVitality" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Drain_Test_canDamageVitality - 2018.05.21 at 12h 31m 27s.xml">
       <configuration name="Drain_Test.canDamageVitality" configurationId="JUnit" />
     </history-entry>
@@ -1025,6 +959,21 @@
     <history-entry file="Lich_Test - 2018.05.21 at 14h 07m 04s.xml">
       <configuration name="Lich_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Lich_Test - 2018.05.21 at 14h 18m 38s.xml">
+      <configuration name="Lich_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lich_Test_canTakeDamage - 2018.05.21 at 14h 19m 00s.xml">
+      <configuration name="Lich_Test.canTakeDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lich_Test_canSwapSpell - 2018.05.21 at 14h 19m 26s.xml">
+      <configuration name="Lich_Test.canSwapSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lich_Test - 2018.05.21 at 14h 21m 00s.xml">
+      <configuration name="Lich_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lich_Test - 2018.05.21 at 14h 21m 58s.xml">
+      <configuration name="Lich_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1038,12 +987,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.29644588" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.29644588" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1073,20 +1022,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Weapon_Tests/BroadSword_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/BattleAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Weapons/BloodDagger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1432,20 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Spell_Tests/Drain_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Spell_Tests/Poison_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1488,13 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Lich.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1560,10 +1474,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Spell_Tests/Drain_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Lich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/BloodCultist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Lich_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="215">
+          <caret line="70" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#936#937#0" expanded="true" />
@@ -1578,6 +1516,24 @@
             <element signature="e#1762#1763#0" expanded="true" />
             <element signature="e#1814#1815#0" expanded="true" />
             <element signature="e#1872#1873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/BloodCultist_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
           </folding>
         </state>
       </provider>
