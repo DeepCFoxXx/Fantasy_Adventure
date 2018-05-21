@@ -148,6 +148,13 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void canGetLastChanceRage() {
+        barbarian.takeDamage(599);
+        barbarian.lastChance();
+        assertEquals(150, barbarian.getBerserkRage());
+    }
+
+    @Test
     public void canGetLastChanceHealth() {
         barbarian.takeDamage(599);
         barbarian.lastChance();
