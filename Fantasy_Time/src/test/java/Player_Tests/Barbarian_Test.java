@@ -120,14 +120,21 @@ public class Barbarian_Test {
     }
 
     @Test
-    public void canAddToLimitBreak() {
+    public void canLimitBreakRage() {
+        barbarian.reduceBerserkRage(99);
+        barbarian.addToLimitBreak();
+        assertEquals(101, barbarian.getBerserkRage());
+    }
+
+    @Test
+    public void canLimitBreakHealth() {
         barbarian.reduceBerserkRage(99);
         barbarian.addToLimitBreak();
         assertEquals(1600, barbarian.getHealthValue());
     }
 
     @Test
-    public void canGetLastChance() {
+    public void canGetLastChanceHealth() {
         barbarian.takeDamage(599);
         barbarian.lastChance();
         assertEquals(301, barbarian.getHealthValue());

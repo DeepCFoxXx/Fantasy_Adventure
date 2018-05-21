@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -75,8 +74,8 @@
       <file leaf-file-name="Barbarian_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+            <state relative-caret-position="278">
+              <caret line="129" column="38" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -756,7 +755,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.canGetLastChance">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.canLimitBreakRage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -771,29 +770,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Barbarian_Test.canAddToLimitBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
-      <option name="METHOD_NAME" value="canAddToLimitBreak" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -826,7 +802,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WhiteMage_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Barbarian_Test.canGetLastChanceHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -837,9 +813,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canGetLastChanceHealth" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -849,7 +825,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WhiteMage_Test.canSwapHealingSpells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Barbarian_Test.canLimitBreakHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -860,8 +836,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
-      <option name="METHOD_NAME" value="canSwapHealingSpells" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canLimitBreakHealth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Barbarian_Test.canLimitBreakRage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canLimitBreakRage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -924,19 +923,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
-      <item itemvalue="JUnit.WhiteMage_Test" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Barbarian_Test.canAddToLimitBreak" />
       <item itemvalue="JUnit.Barbarian_Test.canGetLastChance" />
+      <item itemvalue="JUnit.Barbarian_Test.canLimitBreakHealth" />
+      <item itemvalue="JUnit.Barbarian_Test.canGetLastChanceHealth" />
+      <item itemvalue="JUnit.Barbarian_Test.canLimitBreakRage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Barbarian_Test.canGetLastChance" />
-        <item itemvalue="JUnit.Barbarian_Test.canAddToLimitBreak" />
+        <item itemvalue="JUnit.Barbarian_Test.canLimitBreakRage" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.WhiteMage_Test" />
-        <item itemvalue="JUnit.WhiteMage_Test.canSwapHealingSpells" />
+        <item itemvalue="JUnit.Barbarian_Test.canLimitBreakHealth" />
+        <item itemvalue="JUnit.Barbarian_Test.canGetLastChanceHealth" />
+        <item itemvalue="JUnit.Barbarian_Test.canGetLastChance" />
       </list>
     </recent_temporary>
   </component>
@@ -954,27 +953,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.19 at 12h 38m 56s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.19 at 12h 40m 07s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.19 at 12h 42m 49s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.19 at 12h 43m 31s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.19 at 12h 50m 39s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 37m 24s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 37m 46s.xml">
-      <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 39m 20s.xml">
       <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
     </history-entry>
@@ -983,6 +961,27 @@
     </history-entry>
     <history-entry file="Barbarian_Test_canAddToLimitBreak - 2018.05.21 at 11h 40m 20s.xml">
       <configuration name="Barbarian_Test.canAddToLimitBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canGetLastChance - 2018.05.21 at 11h 44m 27s.xml">
+      <configuration name="Barbarian_Test.canGetLastChance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canGetLastChance - 2018.05.21 at 11h 44m 38s.xml">
+      <configuration name="Barbarian_Test.canGetLastChance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canLimitBreakHealth - 2018.05.21 at 11h 47m 17s.xml">
+      <configuration name="Barbarian_Test.canLimitBreakHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canGetLastChanceHealth - 2018.05.21 at 11h 47m 20s.xml">
+      <configuration name="Barbarian_Test.canGetLastChanceHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.21 at 11h 47m 24s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canGetLastChanceHealth - 2018.05.21 at 11h 48m 19s.xml">
+      <configuration name="Barbarian_Test.canGetLastChanceHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Barbarian_Test_canLimitBreakHealth - 2018.05.21 at 11h 48m 22s.xml">
+      <configuration name="Barbarian_Test.canLimitBreakHealth" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1024,7 +1023,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1484,8 +1483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+        <state relative-caret-position="278">
+          <caret line="129" column="38" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
