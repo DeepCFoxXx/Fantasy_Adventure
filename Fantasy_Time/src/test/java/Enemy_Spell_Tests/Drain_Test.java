@@ -34,6 +34,12 @@ public class Drain_Test {
     }
 
     @Test
+    public void canDamageVitality() {
+        drain.cast(barbarian);
+        assertEquals(35, barbarian.getVitality());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
