@@ -28,6 +28,12 @@ public class Drain_Test {
     }
 
     @Test
+    public void canDamageDefence() {
+        drain.cast(barbarian);
+        assertEquals(25, barbarian.getDefence());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
