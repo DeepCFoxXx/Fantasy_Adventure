@@ -1,5 +1,6 @@
 package Enemies;
 
+import Enemies.Enemy_Magic_Users.Spells.ISpellEnemy;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
 import Players.Player;
 
@@ -47,5 +48,9 @@ public abstract class Enemy {
 
     public void takeMagicalStatDamage(int value) {
         this.magicalResistance -= value;
+    }
+
+    public void cast(Player player, ISpellEnemy spell) {
+        spell.cast(player);
     }
 }

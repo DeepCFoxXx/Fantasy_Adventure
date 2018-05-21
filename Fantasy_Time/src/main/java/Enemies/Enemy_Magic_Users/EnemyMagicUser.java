@@ -12,4 +12,7 @@ public abstract class EnemyMagicUser extends Enemy {
         this.spellEnemy = spellEnemy;
     }
 
+    public void setSpell(ISpellEnemy spell) {
+        this.spellEnemy = spell;
+    }
 }

@@ -63,5 +63,48 @@ public class Lich_Test {
         assertEquals(75, lich.getMagicalResistance());
     }
 
+    @Test
+    public void canTakeDamage() {
+        lich.takeDamage(200);
+        assertEquals(450, lich.getHealthValue());
+    }
+
+    //Magical User Tests
+    @Test
+    public void canCast() {
+        lich.cast(player, drain);
+        assertEquals(500, player.getHealthValue());
+    }
+
+    @Test
+    public void canCastDamageDefence() {
+        lich.cast(player, drain);
+        assertEquals(25, player.getDefence());
+    }
+
+    @Test
+    public void canCastDamageVitality() {
+        lich.cast(player, drain);
+        assertEquals(35, player.getVitality());
+    }
+
+    @Test
+    public void canSwapSpell() {
+        lich.setSpell(poison);
+        lich.cast(player, poison);
+        assertEquals(450, player.getHealthValue());
+    }
+
+    //Player Tests
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
 
 }
