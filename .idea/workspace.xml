@@ -755,7 +755,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.canLimitBreakDefence">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.canLimitBreakVitality">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -770,29 +770,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Barbarian_Test.canGetLastChanceHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
-      <option name="METHOD_NAME" value="canGetLastChanceHealth" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -871,6 +848,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Barbarian_Test.canLimitBreakVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canLimitBreakVitality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -925,17 +925,17 @@
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.Barbarian_Test.canLimitBreakHealth" />
-      <item itemvalue="JUnit.Barbarian_Test.canGetLastChanceHealth" />
       <item itemvalue="JUnit.Barbarian_Test.canLimitBreakRage" />
       <item itemvalue="JUnit.Barbarian_Test.canLimitBreakDefence" />
+      <item itemvalue="JUnit.Barbarian_Test.canLimitBreakVitality" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Barbarian_Test.canLimitBreakVitality" />
         <item itemvalue="JUnit.Barbarian_Test.canLimitBreakDefence" />
         <item itemvalue="JUnit.Barbarian_Test.canLimitBreakRage" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Barbarian_Test.canLimitBreakHealth" />
-        <item itemvalue="JUnit.Barbarian_Test.canGetLastChanceHealth" />
       </list>
     </recent_temporary>
   </component>
