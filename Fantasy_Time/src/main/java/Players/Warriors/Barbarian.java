@@ -24,19 +24,16 @@ public class Barbarian extends Warrior {
         this.berserkRage += value;
     }
 
-//    public void addToLimitBreak() {
-//
-//        int barbarianHealth = getHealthValue();
-//        int berserkRage = getBerserkRage();
-//
-//        if (barbarianHealth < 50) {
-//            addToBeserkRage(101);
-//        }
-//        else if (berserkRage > 100) {
-//            increaseHealth(1000);
-//            increaseDefence(100);
-//            increaseVitality(100);
-//        }
-//    }
+    public void addToLimitBreak() {
+
+        int barbarianBeserkRage = getBerserkRage();
+
+        if (barbarianBeserkRage < 10) {
+            addToBeserkRage(100);
+            increaseHealth(1000);
+            increaseDefence(100);
+            increaseVitality(100);
+        }
+    }
 
 }

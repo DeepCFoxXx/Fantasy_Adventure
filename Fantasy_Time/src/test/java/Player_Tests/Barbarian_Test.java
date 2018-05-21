@@ -119,11 +119,18 @@ public class Barbarian_Test {
         assertEquals(50, barbarian.getBerserkRage());
     }
 
+    @Test
+    public void canAddToLimitBreak() {
+        barbarian.reduceBerserkRage(99);
+        barbarian.addToLimitBreak();
+        assertEquals(1600, barbarian.getHealthValue());
+    }
+
 //    @Test
 //    public void canAddToLimitBreak() {
 //        barbarian.takeDamage(551);
 //        barbarian.addToLimitBreak();
-//        assertEquals(1001, barbarian.getHealthValue());
+//        assertEquals(1049, barbarian.getHealthValue());
 //    }
 
     //Warrior Tests
