@@ -117,4 +117,16 @@ public abstract class Player {
         this.poisoned = false;
     }
 
+    public void takeStrengthDamage(int value) {
+        this.strength -= value;
+    }
+
+    public void takeMagicDamage(int value) {
+        this.magic -= value;
+    }
+
+    public void takeLuckDamage(int value) {
+        this.luck -= value;
+    }
+
 }

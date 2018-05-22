@@ -1,7 +1,6 @@
 package Enemy_Tests;
 
 import Enemies.Enemy_Magic_Users.BloodCultist;
-import Enemies.Enemy_Magic_Users.Lich;
 import Enemies.Enemy_Magic_Users.Spells.Drain;
 import Enemies.Enemy_Magic_Users.Spells.ISpellEnemy;
 import Enemies.Enemy_Magic_Users.Spells.Poison;
