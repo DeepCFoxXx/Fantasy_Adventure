@@ -73,4 +73,31 @@ public class EbonyWarrior_Test {
         assertEquals(1000, ebonyWarrior.getHealthValue());
     }
 
+    //Boss Tests
+    @Test
+    public void canAttack() {
+        ebonyWarrior.setWeapon(deathScythe);
+        ebonyWarrior.attack(player);
+        assertEquals(200, player.getHealthValue());
+    }
+
+    @Test
+    public void canSwapWeapons() {
+        ebonyWarrior.setWeapon(abyssalSpear);
+        ebonyWarrior.attack(player);
+        assertEquals(300, player.getHealthValue());
+    }
+
+    //Player Tests
+    @Test
+    public void playerHasName() {
+        assertEquals("Conan", player.getName());
+    }
+
+    @Test
+    public void playerHasHealthValue() {
+        assertEquals(600, player.getHealthValue());
+    }
+
+
 }

@@ -20,4 +20,5 @@ public abstract class Fighter extends Enemy {
     public void setWeapon(IWeaponEnemy weaponEnemy) {
         this.weaponEnemy = weaponEnemy;
     }
+
 }

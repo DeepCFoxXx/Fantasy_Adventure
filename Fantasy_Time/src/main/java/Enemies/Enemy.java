@@ -53,4 +53,5 @@ public abstract class Enemy {
     public void cast(Player player, ISpellEnemy spell) {
         spell.cast(player);
     }
+
 }

@@ -62,13 +62,13 @@ public class DarkElf_Test {
         assertEquals(75, darkElf.getMagicalResistance());
     }
 
-    //Fighter Tests
     @Test
     public void canTakeDamage() {
         darkElf.takeDamage(150);
         assertEquals(550, darkElf.getHealthValue());
     }
 
+    //Fighter Tests
     @Test
     public void canAttack() {
         darkElf.attack(player, warMace);
