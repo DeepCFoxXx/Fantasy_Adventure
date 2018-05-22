@@ -27,4 +27,20 @@ public class DeathScythe_Test {
         assertEquals(200, barbarian.getHealthValue());
     }
 
+    @Test
+    public void canReducePlayerStrength() {
+        deathScythe.attack(barbarian);
+        assertEquals(50, barbarian.getStrength());
+    }
+
+    @Test
+    public void PlayerHasName() {
+        assertEquals("Conan", barbarian.getName());
+    }
+
+    @Test
+    public void PlayerHasHealthValue() {
+        assertEquals(600, barbarian.getHealthValue());
+    }
+
 }

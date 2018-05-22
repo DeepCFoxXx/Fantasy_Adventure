@@ -719,7 +719,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeathScythe_Test.canDamage">
+  <component name="RunManager" selected="JUnit.DeathScythe_Test.canReducePlayerStrength">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -740,52 +740,6 @@
       <option name="MAIN_CLASS_NAME" value="Enemy_Tests.BloodCultist_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BloodCultist_Test.canCastDamageDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.BloodCultist_Test" />
-      <option name="METHOD_NAME" value="canCastDamageDefence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BloodCultist_Test.canCastDamageVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.BloodCultist_Test" />
-      <option name="METHOD_NAME" value="canCastDamageVitality" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -818,6 +772,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DeathScythe_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="DeathScythe_Test.canDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -831,6 +808,29 @@
       <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
       <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
       <option name="METHOD_NAME" value="canDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DeathScythe_Test.canReducePlayerStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
+      <option name="METHOD_NAME" value="canReducePlayerStrength" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -894,18 +894,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BloodCultist_Test" />
-      <item itemvalue="JUnit.BloodCultist_Test.canCastDamageDefence" />
-      <item itemvalue="JUnit.BloodCultist_Test.canCastDamageVitality" />
       <item itemvalue="JUnit.BloodCultist_Test.canSwapSpell" />
       <item itemvalue="JUnit.DeathScythe_Test.canDamage" />
+      <item itemvalue="JUnit.DeathScythe_Test" />
+      <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
+        <item itemvalue="JUnit.DeathScythe_Test" />
         <item itemvalue="JUnit.DeathScythe_Test.canDamage" />
         <item itemvalue="JUnit.BloodCultist_Test" />
         <item itemvalue="JUnit.BloodCultist_Test.canSwapSpell" />
-        <item itemvalue="JUnit.BloodCultist_Test.canCastDamageVitality" />
-        <item itemvalue="JUnit.BloodCultist_Test.canCastDamageDefence" />
       </list>
     </recent_temporary>
   </component>
