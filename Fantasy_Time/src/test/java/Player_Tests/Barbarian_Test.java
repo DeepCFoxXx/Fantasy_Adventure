@@ -96,6 +96,12 @@ public class Barbarian_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        barbarian.takeStrengthDamage(20);
+        assertEquals(60, barbarian.getStrength());
+    }
+
+    @Test
     public void canReduceDefence() {
         barbarian.takeDefenceDamage(10);
         assertEquals(40, barbarian.getDefence());
@@ -175,17 +181,17 @@ public class Barbarian_Test {
         assertEquals(110, barbarian.getVitality());
     }
 
+    @Test
+    public void canTakeDamage() {
+        barbarian.takeDamage(150);
+        assertEquals(450, barbarian.getHealthValue());
+    }
+
     //Warrior Tests
     @Test
     public void canAttack() {
         barbarian.attack(enemy, greatSword);
         assertEquals(820, enemy.getHealthValue());
-    }
-
-    @Test
-    public void canTakeDamage() {
-        barbarian.takeDamage(150);
-        assertEquals(450, barbarian.getHealthValue());
     }
 
     @Test
