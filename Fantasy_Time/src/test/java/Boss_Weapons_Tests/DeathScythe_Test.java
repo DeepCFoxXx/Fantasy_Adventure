@@ -58,6 +58,12 @@ public class DeathScythe_Test {
     }
 
     @Test
+    public void canPoisonPlayer() {
+        deathScythe.attack(barbarian);
+        assertEquals(true, barbarian.getPoisonStatus());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
