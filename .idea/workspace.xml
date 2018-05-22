@@ -672,7 +672,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Barbarian_Test.canReduceStrength">
+  <component name="RunManager" selected="JUnit.Barbarian_Test.canReduceMagic">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -696,6 +696,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Barbarian_Test.canReduceMagic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
+      <option name="METHOD_NAME" value="canReduceMagic" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Barbarian_Test.canReduceStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -710,29 +733,6 @@
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Barbarian_Test" />
       <option name="METHOD_NAME" value="canReduceStrength" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EbonyWarrior_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Boss_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Boss_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Boss_Tests.EbonyWarrior_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -841,18 +841,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.EbonyWarrior_Test" />
       <item itemvalue="JUnit.MasterVampire_Test" />
       <item itemvalue="JUnit.MasterVampire_Test.canReducePlayerMagic" />
       <item itemvalue="JUnit.Barbarian_Test.canReduceStrength" />
+      <item itemvalue="JUnit.Barbarian_Test.canReduceMagic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Barbarian_Test.canReduceMagic" />
         <item itemvalue="JUnit.Barbarian_Test.canReduceStrength" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.MasterVampire_Test.canReducePlayerMagic" />
         <item itemvalue="JUnit.MasterVampire_Test" />
-        <item itemvalue="JUnit.EbonyWarrior_Test" />
       </list>
     </recent_temporary>
   </component>

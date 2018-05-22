@@ -102,6 +102,12 @@ public class Barbarian_Test {
     }
 
     @Test
+    public void canReduceMagic() {
+        barbarian.takeMagicDamage(10);
+        assertEquals(0, barbarian.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         barbarian.takeDefenceDamage(10);
         assertEquals(40, barbarian.getDefence());
