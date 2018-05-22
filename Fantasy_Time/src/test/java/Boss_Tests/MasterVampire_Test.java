@@ -4,6 +4,7 @@ import Enemies.Boss_Enemies.Boss_Weapons.AbyssalSpear;
 import Enemies.Boss_Enemies.Boss_Weapons.DeathScythe;
 import Enemies.Boss_Enemies.Boss_Weapons.IBossWeapon;
 import Enemies.Boss_Enemies.EbonyWarrior;
+import Enemies.Boss_Enemies.MasterVampire;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
@@ -13,9 +14,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class EbonyWarrior_Test {
+public class MasterVampire_Test {
 
-    EbonyWarrior ebonyWarrior;
+    MasterVampire masterVampire;
     IBossWeapon deathScythe;
     IBossWeapon abyssalSpear;
     Player player;
@@ -23,7 +24,7 @@ public class EbonyWarrior_Test {
 
     @Before
     public void before() {
-        ebonyWarrior = new EbonyWarrior("Reymon", 2000, 200, 200, deathScythe);
+        masterVampire = new MasterVampire("Constantia", 1200, 200, 500, abyssalSpear);
         deathScythe = new DeathScythe();
         abyssalSpear = new AbyssalSpear();
         player = new Barbarian("Conan", 600, 80, 10, 50, 60, 20, false, greatSword, 100);
@@ -33,97 +34,97 @@ public class EbonyWarrior_Test {
     //Enemy Stat Tests
     @Test
     public void hasName() {
-        assertEquals("Reymon", ebonyWarrior.getName());
+        assertEquals("Constantia", masterVampire.getName());
     }
 
     @Test
     public void hasHealthValue() {
-        assertEquals(2000, ebonyWarrior.getHealthValue());
+        assertEquals(1200, masterVampire.getHealthValue());
     }
 
     @Test
     public void hasPhysicalResistance() {
-        assertEquals(200, ebonyWarrior.getPhysicalResistance());
+        assertEquals(200, masterVampire.getPhysicalResistance());
     }
 
     @Test
     public void hasMagicalResistance() {
-        assertEquals(200, ebonyWarrior.getMagicalResistance());
+        assertEquals(500, masterVampire.getMagicalResistance());
     }
 
     @Test
     public void canReducePhysicalResistance() {
-        ebonyWarrior.takePhysicalStatDamage(50);
-        assertEquals(150, ebonyWarrior.getPhysicalResistance());
+        masterVampire.takePhysicalStatDamage(50);
+        assertEquals(150, masterVampire.getPhysicalResistance());
     }
 
     @Test
     public void canReduceMagicalResistance() {
-        ebonyWarrior.takeMagicalStatDamage(50);
-        assertEquals(150, ebonyWarrior.getMagicalResistance());
+        masterVampire.takeMagicalStatDamage(250);
+        assertEquals(250, masterVampire.getMagicalResistance());
     }
 
     @Test
     public void canTakeDamage() {
-        ebonyWarrior.takeDamage(1000);
-        assertEquals(1000, ebonyWarrior.getHealthValue());
+        masterVampire.takeDamage(1000);
+        assertEquals(200, masterVampire.getHealthValue());
     }
 
     //Boss Tests
     @Test
     public void canAttack() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(200, player.getHealthValue());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(300, player.getHealthValue());
     }
 
     @Test
     public void canReducePlayerStrength() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(50, player.getStrength());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(60, player.getStrength());
     }
 
     @Test
     public void canReducePlayerMagic() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(-20, player.getMagic());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(-10, player.getMagic());
     }
 
     @Test
     public void canReducePlayerDefence() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(20, player.getDefence());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(10, player.getDefence());
     }
 
     @Test
     public void canReducePlayerVitality() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(30, player.getVitality());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(-40, player.getVitality());
     }
 
     @Test
     public void canReducePlayerLuck() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
-        assertEquals(0, player.getLuck());
+        masterVampire.setWeapon(abyssalSpear);
+        masterVampire.attack(player);
+        assertEquals(10, player.getLuck());
     }
 
     @Test
     public void canPoisonPlayer() {
-        ebonyWarrior.setWeapon(deathScythe);
-        ebonyWarrior.attack(player);
+        masterVampire.setWeapon(abyssalSpear);
+        deathScythe.attack(player);
         assertEquals(true, player.getPoisonStatus());
     }
 
     @Test
     public void canSwapWeapons() {
-        ebonyWarrior.setWeapon(abyssalSpear);
-        ebonyWarrior.attack(player);
-        assertEquals(300, player.getHealthValue());
+        masterVampire.setWeapon(deathScythe);
+        masterVampire.attack(player);
+        assertEquals(200, player.getHealthValue());
     }
 
     //Player Tests
@@ -136,6 +137,7 @@ public class EbonyWarrior_Test {
     public void playerHasHealthValue() {
         assertEquals(600, player.getHealthValue());
     }
+
 
 
 }
