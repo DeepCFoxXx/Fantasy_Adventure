@@ -48,8 +48,8 @@
       <file leaf-file-name="DeathScythe_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/DeathScythe_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="379">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
@@ -699,7 +699,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeathScythe_Test.canReducePlayerDefence">
+  <component name="RunManager" selected="JUnit.DeathScythe_Test.canReducePlayerVitality">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -720,29 +720,6 @@
       <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeathScythe_Test.canDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
-      <option name="METHOD_NAME" value="canDamage" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -821,6 +798,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DeathScythe_Test.canReducePlayerVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
+      <option name="METHOD_NAME" value="canReducePlayerVitality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -873,19 +873,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeathScythe_Test.canDamage" />
       <item itemvalue="JUnit.DeathScythe_Test" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerMagic" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerDefence" />
+      <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerVitality" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerVitality" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerDefence" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerMagic" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
         <item itemvalue="JUnit.DeathScythe_Test" />
-        <item itemvalue="JUnit.DeathScythe_Test.canDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -1404,8 +1404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/DeathScythe_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="379">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
