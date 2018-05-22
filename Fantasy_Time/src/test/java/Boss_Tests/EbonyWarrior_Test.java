@@ -4,10 +4,6 @@ import Enemies.Boss_Enemies.Boss_Weapons.AbyssalSpear;
 import Enemies.Boss_Enemies.Boss_Weapons.DeathScythe;
 import Enemies.Boss_Enemies.Boss_Weapons.IBossWeapon;
 import Enemies.Boss_Enemies.EbonyWarrior;
-import Enemies.Enemy_Magic_Users.BloodCultist;
-import Enemies.Enemy_Magic_Users.Spells.Drain;
-import Enemies.Enemy_Magic_Users.Spells.ISpellEnemy;
-import Enemies.Enemy_Magic_Users.Spells.Poison;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.GreatSword;
@@ -79,6 +75,42 @@ public class EbonyWarrior_Test {
         ebonyWarrior.setWeapon(deathScythe);
         ebonyWarrior.attack(player);
         assertEquals(200, player.getHealthValue());
+    }
+
+    @Test
+    public void canReducePlayerStrength() {
+        deathScythe.attack(player);
+        assertEquals(50, player.getStrength());
+    }
+
+    @Test
+    public void canReducePlayerMagic() {
+        deathScythe.attack(player);
+        assertEquals(-20, player.getMagic());
+    }
+
+    @Test
+    public void canReducePlayerDefence() {
+        deathScythe.attack(player);
+        assertEquals(20, player.getDefence());
+    }
+
+    @Test
+    public void canReducePlayerVitality() {
+        deathScythe.attack(player);
+        assertEquals(30, player.getVitality());
+    }
+
+    @Test
+    public void canReducePlayerLuck() {
+        deathScythe.attack(player);
+        assertEquals(0, player.getLuck());
+    }
+
+    @Test
+    public void canPoisonPlayer() {
+        deathScythe.attack(player);
+        assertEquals(true, player.getPoisonStatus());
     }
 
     @Test

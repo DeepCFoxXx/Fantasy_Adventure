@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Enemies/Boss_Enemies/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Enemies/Boss_Enemies/Boss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Enemies/Boss_Enemies/EbonyWarrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Enemies/Boss_Enemies/EbonyWarrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Boss_Tests/EbonyWarrior_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Boss_Tests/EbonyWarrior_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Enemy_Tests/DarkElf_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Enemy_Tests/DarkElf_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/EbonyWarrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/EbonyWarrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -75,13 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EbonyWarrior_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EbonyWarrior_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state relative-caret-position="-1615">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1162#1163#0" expanded="true" />
                 <element signature="e#1224#1225#0" expanded="true" />
                 <element signature="e#1333#1334#0" expanded="true" />
@@ -95,6 +85,15 @@
                 <element signature="e#2324#2325#0" expanded="true" />
                 <element signature="e#2382#2383#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbyssalSpear_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -597,13 +596,13 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss_Weapons/DeathScythe.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/DeathScythe_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss_Weapons/AbyssalSpear.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/DarkElf_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Fighters/Fighter.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/EbonyWarrior.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java" />
       </list>
     </option>
   </component>
@@ -765,7 +764,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EbonyWarrior_Test.canAttack">
+  <component name="RunManager" selected="JUnit.EbonyWarrior_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -941,10 +940,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EbonyWarrior_Test" />
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.EbonyWarrior_Test.canAttack" />
         <item itemvalue="JUnit.EbonyWarrior_Test.canSwapWeapons" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.EbonyWarrior_Test" />
         <item itemvalue="JUnit.AbyssalSpear_Test" />
       </list>
     </recent_temporary>
@@ -963,21 +962,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeathScythe_Test_canReducePlayerLuck - 2018.05.22 at 12h 08m 56s.xml">
-      <configuration name="DeathScythe_Test.canReducePlayerLuck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeathScythe_Test_canPoisonPlayer - 2018.05.22 at 12h 10m 22s.xml">
-      <configuration name="DeathScythe_Test.canPoisonPlayer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbyssalSpear_Test - 2018.05.22 at 12h 21m 53s.xml">
-      <configuration name="AbyssalSpear_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.22 at 12h 22m 04s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbonyWarrior_Test - 2018.05.22 at 12h 42m 47s.xml">
-      <configuration name="EbonyWarrior_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EbonyWarrior_Test_canAttack - 2018.05.22 at 12h 52m 36s.xml">
       <configuration name="EbonyWarrior_Test.canAttack" configurationId="JUnit" />
     </history-entry>
@@ -993,6 +977,21 @@
     <history-entry file="EbonyWarrior_Test_canAttack - 2018.05.22 at 13h 00m 26s.xml">
       <configuration name="EbonyWarrior_Test.canAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EbonyWarrior_Test_canAttack - 2018.05.22 at 13h 01m 28s.xml">
+      <configuration name="EbonyWarrior_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbonyWarrior_Test_canAttack - 2018.05.22 at 13h 01m 51s.xml">
+      <configuration name="EbonyWarrior_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbonyWarrior_Test_canAttack - 2018.05.22 at 13h 02m 00s.xml">
+      <configuration name="EbonyWarrior_Test.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.22 at 13h 03m 50s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbonyWarrior_Test - 2018.05.22 at 13h 05m 37s.xml">
+      <configuration name="EbonyWarrior_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1006,12 +1005,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30129242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30129242" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1381,38 +1380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/DeathScythe_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="74" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Boss_Enemies/Boss_Weapons/AbyssalSpear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,12 +1460,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/DeathScythe_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/EbonyWarrior_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
             <element signature="e#1162#1163#0" expanded="true" />
             <element signature="e#1224#1225#0" expanded="true" />
             <element signature="e#1333#1334#0" expanded="true" />
@@ -1508,6 +1488,13 @@
             <element signature="e#2324#2325#0" expanded="true" />
             <element signature="e#2382#2383#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Weapons_Tests/AbyssalSpear_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>

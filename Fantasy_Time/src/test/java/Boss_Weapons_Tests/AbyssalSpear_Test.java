@@ -1,7 +1,6 @@
 package Boss_Weapons_Tests;
 
 import Enemies.Boss_Enemies.Boss_Weapons.AbyssalSpear;
-import Enemies.Boss_Enemies.Boss_Weapons.DeathScythe;
 import Players.Player;
 import Players.Warriors.Barbarian;
 import Players.Warriors.Weapons.IWeapon;
