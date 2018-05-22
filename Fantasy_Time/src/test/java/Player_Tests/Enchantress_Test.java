@@ -101,6 +101,18 @@ public class Enchantress_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        enchantress.takeStrengthDamage(20);
+        assertEquals(5, enchantress.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        enchantress.takeMagicDamage(30);
+        assertEquals(40, enchantress.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         enchantress.takeDefenceDamage(10);
         assertEquals(30, enchantress.getDefence());
@@ -110,6 +122,12 @@ public class Enchantress_Test {
     public void canReduceVitality() {
         enchantress.takeVitalityDamage(10);
         assertEquals(10, enchantress.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        enchantress.takeLuckDamage(5);
+        assertEquals(20, enchantress.getLuck());
     }
 
     //Enchantress Tests
