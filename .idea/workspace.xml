@@ -699,35 +699,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeathScythe_Test.canReducePlayerVitality">
+  <component name="RunManager" selected="JUnit.DeathScythe_Test.canReducePlayerLuck">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DeathScythe_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DeathScythe_Test.canReducePlayerDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
@@ -742,6 +719,29 @@
       <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
       <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
       <option name="METHOD_NAME" value="canReducePlayerDefence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DeathScythe_Test.canReducePlayerLuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boss_Weapons_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Boss_Weapons_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Boss_Weapons_Tests.DeathScythe_Test" />
+      <option name="METHOD_NAME" value="canReducePlayerLuck" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -873,19 +873,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeathScythe_Test" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerMagic" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerDefence" />
       <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerVitality" />
+      <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerLuck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerLuck" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerVitality" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerDefence" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerMagic" />
         <item itemvalue="JUnit.DeathScythe_Test.canReducePlayerStrength" />
-        <item itemvalue="JUnit.DeathScythe_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -903,12 +903,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BloodCultist_Test_canCastDamageDefence - 2018.05.21 at 14h 52m 23s.xml">
-      <configuration name="BloodCultist_Test.canCastDamageDefence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BloodCultist_Test_canCastDamageDefence - 2018.05.21 at 14h 52m 33s.xml">
-      <configuration name="BloodCultist_Test.canCastDamageDefence" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BloodCultist_Test_canCastDamageVitality - 2018.05.21 at 14h 52m 38s.xml">
       <configuration name="BloodCultist_Test.canCastDamageVitality" configurationId="JUnit" />
     </history-entry>
@@ -932,6 +926,12 @@
     </history-entry>
     <history-entry file="DeathScythe_Test_canReducePlayerMagic - 2018.05.22 at 12h 02m 36s.xml">
       <configuration name="DeathScythe_Test.canReducePlayerMagic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeathScythe_Test_canReducePlayerDefence - 2018.05.22 at 12h 03m 41s.xml">
+      <configuration name="DeathScythe_Test.canReducePlayerDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeathScythe_Test_canReducePlayerVitality - 2018.05.22 at 12h 07m 14s.xml">
+      <configuration name="DeathScythe_Test.canReducePlayerVitality" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">

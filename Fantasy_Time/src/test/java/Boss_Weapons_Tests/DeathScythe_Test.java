@@ -52,6 +52,12 @@ public class DeathScythe_Test {
     }
 
     @Test
+    public void canReducePlayerLuck() {
+        deathScythe.attack(barbarian);
+        assertEquals(0, barbarian.getLuck());
+    }
+
+    @Test
     public void PlayerHasName() {
         assertEquals("Conan", barbarian.getName());
     }
