@@ -119,6 +119,12 @@ public class Barbarian_Test {
         assertEquals(50, barbarian.getVitality());
     }
 
+    @Test
+    public void canReduceLuck() {
+        barbarian.takeLuckDamage(5);
+        assertEquals(15, barbarian.getLuck());
+    }
+
     //Barbarian Tests
     @Test
     public void hasBerserkRage() {
