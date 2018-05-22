@@ -94,6 +94,18 @@ public class DarkKnight_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        darkKnight.takeStrengthDamage(20);
+        assertEquals(40, darkKnight.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        darkKnight.takeMagicDamage(10);
+        assertEquals(20, darkKnight.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         darkKnight.takeDefenceDamage(10);
         assertEquals(60, darkKnight.getDefence());
@@ -103,6 +115,12 @@ public class DarkKnight_Test {
     public void canReduceVitality() {
         darkKnight.takeVitalityDamage(10);
         assertEquals(30, darkKnight.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        darkKnight.takeLuckDamage(5);
+        assertEquals(20, darkKnight.getLuck());
     }
 
     //DarkKnight Tests
