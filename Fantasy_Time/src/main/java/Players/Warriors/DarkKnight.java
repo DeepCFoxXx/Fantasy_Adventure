@@ -18,4 +18,27 @@ public class DarkKnight extends Warrior {
     public void takeArmourDamage(int value) {
         this.armourValue -= value;
     }
+
+    public void zeroDamage() {
+        takeDamage(0);
+    }
+
+    public void armourLimit() {
+
+        int healthValue = getHealthValue();
+
+        if (healthValue < 100) {
+            increaseHealth(500);
+            increaseDefence(100);
+            increaseVitality(100);
+            increaseArmourValue(100);
+            zeroDamage();
+        }
+    }
+
+
+    public void increaseArmourValue(int value) {
+        this.armourValue =+ value;
+    }
+
 }
