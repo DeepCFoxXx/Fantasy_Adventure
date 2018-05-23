@@ -704,7 +704,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarkKnight_Test.canGetArmourLimitHealth">
+  <component name="RunManager" selected="JUnit.DarkKnight_Test.canGetArmourLimitDefence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -734,6 +734,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DarkKnight_Test.canGetArmourLimitDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
+      <option name="METHOD_NAME" value="canGetArmourLimitDefence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="DarkKnight_Test.canGetArmourLimitHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -748,29 +771,6 @@
       <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
       <option name="METHOD_NAME" value="canGetArmourLimitHealth" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Sorcerer_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Sorcerer_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -878,19 +878,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Sorcerer_Test" />
       <item itemvalue="JUnit.WhiteMage_Test.canReduceLuck" />
       <item itemvalue="JUnit.WhiteMage_Test" />
       <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimit" />
       <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitHealth" />
+      <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitDefence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitDefence" />
         <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitHealth" />
         <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimit" />
         <item itemvalue="JUnit.WhiteMage_Test" />
         <item itemvalue="JUnit.WhiteMage_Test.canReduceLuck" />
-        <item itemvalue="JUnit.Sorcerer_Test" />
       </list>
     </recent_temporary>
   </component>
