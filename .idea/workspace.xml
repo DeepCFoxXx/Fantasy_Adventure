@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,11 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShadowRogue_Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
+      <file leaf-file-name="WhiteMage_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
+            <state relative-caret-position="161">
+              <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1902#1903#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+                <element signature="e#5598#5599#0" expanded="true" />
+                <element signature="e#5651#5652#0" expanded="true" />
+                <element signature="e#5702#5703#0" expanded="true" />
+                <element signature="e#5760#5761#0" expanded="true" />
+                <element signature="e#5818#5819#0" expanded="true" />
+                <element signature="e#5882#5883#0" expanded="true" />
+                <element signature="e#5939#5940#0" expanded="true" />
+                <element signature="e#6002#6003#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -508,9 +523,7 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/Cure_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/Healing_Spells/FullCure.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Spell_Tests/FullCure_Test.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/MagicalUsers/WhiteMage.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/Barbarian.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Spells/ISpellEnemy.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Magic_Users/Spells/Drain.java" />
@@ -541,6 +554,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java" />
       </list>
     </option>
   </component>
@@ -644,58 +659,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Sorcerer_Test">
+  <component name="RunManager" selected="JUnit.WhiteMage_Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DarkKnight_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Enchantress_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Enchantress_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Paladin_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
@@ -766,6 +735,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WhiteMage_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WhiteMage_Test.canReduceLuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.WhiteMage_Test" />
+      <option name="METHOD_NAME" value="canReduceLuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -818,19 +833,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DarkKnight_Test" />
-      <item itemvalue="JUnit.Enchantress_Test" />
       <item itemvalue="JUnit.Paladin_Test" />
       <item itemvalue="JUnit.ShadowRogue_Test" />
       <item itemvalue="JUnit.Sorcerer_Test" />
+      <item itemvalue="JUnit.WhiteMage_Test.canReduceLuck" />
+      <item itemvalue="JUnit.WhiteMage_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WhiteMage_Test" />
+        <item itemvalue="JUnit.WhiteMage_Test.canReduceLuck" />
         <item itemvalue="JUnit.Sorcerer_Test" />
         <item itemvalue="JUnit.ShadowRogue_Test" />
         <item itemvalue="JUnit.Paladin_Test" />
-        <item itemvalue="JUnit.Enchantress_Test" />
-        <item itemvalue="JUnit.DarkKnight_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -848,12 +863,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.22 at 13h 36m 12s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.22 at 13h 36m 26s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Barbarian_Test_canReduceStrength - 2018.05.22 at 13h 40m 22s.xml">
       <configuration name="Barbarian_Test.canReduceStrength" configurationId="JUnit" />
     </history-entry>
@@ -877,6 +886,12 @@
     </history-entry>
     <history-entry file="Paladin_Test - 2018.05.23 at 12h 58m 28s.xml">
       <configuration name="Paladin_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowRogue_Test - 2018.05.23 at 13h 01m 27s.xml">
+      <configuration name="ShadowRogue_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sorcerer_Test - 2018.05.23 at 13h 04m 28s.xml">
+      <configuration name="Sorcerer_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1369,62 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1814#1815#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#4364#4365#0" expanded="true" />
-            <element signature="e#4417#4418#0" expanded="true" />
-            <element signature="e#4468#4469#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
-            <element signature="e#4584#4585#0" expanded="true" />
-            <element signature="e#4648#4649#0" expanded="true" />
-            <element signature="e#4705#4706#0" expanded="true" />
-            <element signature="e#4768#4769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="232" column="43" selection-start-line="232" selection-start-column="43" selection-end-line="232" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#5598#5599#0" expanded="true" />
-            <element signature="e#5651#5652#0" expanded="true" />
-            <element signature="e#5702#5703#0" expanded="true" />
-            <element signature="e#5760#5761#0" expanded="true" />
-            <element signature="e#5818#5819#0" expanded="true" />
-            <element signature="e#5882#5883#0" expanded="true" />
-            <element signature="e#5939#5940#0" expanded="true" />
-            <element signature="e#6002#6003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1484,8 +1443,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
+        <state relative-caret-position="44">
+          <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="104" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="114" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#4364#4365#0" expanded="true" />
+            <element signature="e#4417#4418#0" expanded="true" />
+            <element signature="e#4468#4469#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4584#4585#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
+            <element signature="e#4705#4706#0" expanded="true" />
+            <element signature="e#4768#4769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#5598#5599#0" expanded="true" />
+            <element signature="e#5651#5652#0" expanded="true" />
+            <element signature="e#5702#5703#0" expanded="true" />
+            <element signature="e#5760#5761#0" expanded="true" />
+            <element signature="e#5818#5819#0" expanded="true" />
+            <element signature="e#5882#5883#0" expanded="true" />
+            <element signature="e#5939#5940#0" expanded="true" />
+            <element signature="e#6002#6003#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

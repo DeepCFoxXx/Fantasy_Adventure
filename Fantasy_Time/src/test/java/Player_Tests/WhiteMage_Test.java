@@ -115,6 +115,18 @@ public class WhiteMage_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        whiteMage.takeStrengthDamage(10);
+        assertEquals(5, whiteMage.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        whiteMage.takeMagicDamage(50);
+        assertEquals(50, whiteMage.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         whiteMage.takeDefenceDamage(10);
         assertEquals(10, whiteMage.getDefence());
@@ -124,6 +136,12 @@ public class WhiteMage_Test {
     public void canReduceVitality() {
         whiteMage.takeVitalityDamage(10);
         assertEquals(10, whiteMage.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        whiteMage.takeLuckDamage(10);
+        assertEquals(70, whiteMage.getLuck());
     }
 
     //White Mage Tests
