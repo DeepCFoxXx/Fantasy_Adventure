@@ -170,6 +170,13 @@ public class DarkKnight_Test {
         assertEquals(1500, darkKnight.getHealthValue());
     }
 
+    @Test
+    public void canArmourLimitCuresPoison() {
+        darkKnight.getsPoisoned();
+        darkKnight.armourLimit();
+        assertEquals(false, darkKnight.getPoisonStatus());
+    }
+
     //Warrior Tests
     @Test
     public void canTakeDamage() {
