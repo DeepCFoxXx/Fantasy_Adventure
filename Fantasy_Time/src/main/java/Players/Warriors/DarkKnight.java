@@ -37,7 +37,6 @@ public class DarkKnight extends Warrior {
 
         if (armourValue < 10) {
             increaseHealth(1000);
-            curePoison();
         }
 
     }
