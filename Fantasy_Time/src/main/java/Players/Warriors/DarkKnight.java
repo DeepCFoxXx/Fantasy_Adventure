@@ -23,12 +23,12 @@ public class DarkKnight extends Warrior {
         takeDamage(0);
     }
 
-    public void armourLimit() {
+    public void healthLimit() {
 
         int healthValue = getHealthValue();
 
         if (healthValue < 100) {
-            increaseArmourValue(50);
+            increaseArmourValue(200);
             increaseHealth(500);
             increaseDefence(100);
             increaseVitality(100);

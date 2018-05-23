@@ -136,16 +136,23 @@ public class DarkKnight_Test {
     }
 
     @Test
-    public void canGetArmourLimitHealth() {
+    public void canHealthLimitArmourIncrease() {
         darkKnight.takeDamage(499);
-        darkKnight.armourLimit();
+        darkKnight.healthLimit();
+        assertEquals(200, darkKnight.getArmourValue());
+    }
+
+    @Test
+    public void canHealthLimitHealthIncrease() {
+        darkKnight.takeDamage(499);
+        darkKnight.healthLimit();
         assertEquals(501, darkKnight.getHealthValue());
     }
 
     @Test
-    public void canGetArmourLimitDefence() {
+    public void canHealthLimitDefenceIncrease() {
         darkKnight.takeDamage(499);
-        darkKnight.armourLimit();
+        darkKnight.healthLimit();
         assertEquals(170, darkKnight.getDefence());
     }
 
