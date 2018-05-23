@@ -96,6 +96,18 @@ public class Paladin_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        paladin.takeStrengthDamage(20);
+        assertEquals(20, paladin.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        paladin.takeMagicDamage(30);
+        assertEquals(10, paladin.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         paladin.takeDefenceDamage(10);
         assertEquals(40, paladin.getDefence());
@@ -105,6 +117,12 @@ public class Paladin_Test {
     public void canReduceVitality() {
         paladin.takeVitalityDamage(10);
         assertEquals(50, paladin.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        paladin.takeLuckDamage(10);
+        assertEquals(30, paladin.getLuck());
     }
 
     //Paladin Tests
