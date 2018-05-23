@@ -103,6 +103,18 @@ public class Sorcerer_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        sorcerer.takeStrengthDamage(10);
+        assertEquals(0, sorcerer.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        sorcerer.takeMagicDamage(40);
+        assertEquals(40, sorcerer.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         sorcerer.takeDefenceDamage(10);
         assertEquals(20, sorcerer.getDefence());
@@ -112,6 +124,12 @@ public class Sorcerer_Test {
     public void canReduceVitality() {
         sorcerer.takeVitalityDamage(10);
         assertEquals(20, sorcerer.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        sorcerer.takeLuckDamage(20);
+        assertEquals(25, sorcerer.getLuck());
     }
 
     //Sorcerer Tests
