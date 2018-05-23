@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Players/Warriors/DarkKnight.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Players/Warriors/DarkKnight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/DarkKnight_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Player_Tests/DarkKnight_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/DarkKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/DarkKnight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java" afterDir="false" />
     </list>
@@ -48,8 +51,8 @@
       <file leaf-file-name="DarkKnight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/DarkKnight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="215">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#522#523#0" expanded="true" />
@@ -67,8 +70,8 @@
       <file leaf-file-name="DarkKnight_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="141" column="53" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
+            <state relative-caret-position="49">
+              <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
               <folding>
                 <element signature="e#2981#2982#0" expanded="true" />
                 <element signature="e#3043#3044#0" expanded="true" />
@@ -704,7 +707,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DarkKnight_Test">
+  <component name="RunManager" selected="JUnit.DarkKnight_Test.canHealthLimitDefenceVitality">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -725,29 +728,6 @@
       <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DarkKnight_Test.canGetArmourLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
-      <option name="METHOD_NAME" value="canGetArmourLimit" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -826,6 +806,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DarkKnight_Test.canHealthLimitDefenceVitality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.DarkKnight_Test" />
+      <option name="METHOD_NAME" value="canHealthLimitDefenceVitality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -878,19 +881,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimit" />
       <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitHealth" />
       <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitDefence" />
       <item itemvalue="JUnit.DarkKnight_Test.canHealthLimitArmourIncrease" />
       <item itemvalue="JUnit.DarkKnight_Test" />
+      <item itemvalue="JUnit.DarkKnight_Test.canHealthLimitDefenceVitality" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DarkKnight_Test.canHealthLimitDefenceVitality" />
         <item itemvalue="JUnit.DarkKnight_Test" />
         <item itemvalue="JUnit.DarkKnight_Test.canHealthLimitArmourIncrease" />
         <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitDefence" />
         <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimitHealth" />
-        <item itemvalue="JUnit.DarkKnight_Test.canGetArmourLimit" />
       </list>
     </recent_temporary>
   </component>
@@ -908,21 +911,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sorcerer_Test - 2018.05.23 at 13h 04m 28s.xml">
-      <configuration name="Sorcerer_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canReduceLuck - 2018.05.23 at 13h 06m 49s.xml">
-      <configuration name="WhiteMage_Test.canReduceLuck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test_canReduceLuck - 2018.05.23 at 13h 07m 00s.xml">
-      <configuration name="WhiteMage_Test.canReduceLuck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhiteMage_Test - 2018.05.23 at 13h 07m 05s.xml">
-      <configuration name="WhiteMage_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DarkKnight_Test_canGetArmourLimit - 2018.05.23 at 13h 16m 28s.xml">
-      <configuration name="DarkKnight_Test.canGetArmourLimit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DarkKnight_Test_canGetArmourLimit - 2018.05.23 at 13h 17m 01s.xml">
       <configuration name="DarkKnight_Test.canGetArmourLimit" configurationId="JUnit" />
     </history-entry>
@@ -937,6 +925,21 @@
     </history-entry>
     <history-entry file="DarkKnight_Test_canGetArmourLimitDefence - 2018.05.23 at 13h 24m 53s.xml">
       <configuration name="DarkKnight_Test.canGetArmourLimitDefence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canHealthLimitArmourIncrease - 2018.05.23 at 13h 27m 39s.xml">
+      <configuration name="DarkKnight_Test.canHealthLimitArmourIncrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canHealthLimitArmourIncrease - 2018.05.23 at 13h 30m 19s.xml">
+      <configuration name="DarkKnight_Test.canHealthLimitArmourIncrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canHealthLimitArmourIncrease - 2018.05.23 at 13h 30m 40s.xml">
+      <configuration name="DarkKnight_Test.canHealthLimitArmourIncrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test_canHealthLimitArmourIncrease - 2018.05.23 at 13h 31m 04s.xml">
+      <configuration name="DarkKnight_Test.canHealthLimitArmourIncrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DarkKnight_Test - 2018.05.23 at 13h 31m 12s.xml">
+      <configuration name="DarkKnight_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1545,8 +1548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Warriors/DarkKnight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="215">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
@@ -1562,8 +1565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="141" column="53" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
+        <state relative-caret-position="49">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
           <folding>
             <element signature="e#2981#2982#0" expanded="true" />
             <element signature="e#3043#3044#0" expanded="true" />
