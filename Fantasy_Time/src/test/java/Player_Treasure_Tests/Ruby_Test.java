@@ -1,23 +1,22 @@
 package Player_Treasure_Tests;
 
-import Player_Treasure.Diamond;
+import Player_Treasure.Ruby;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Diamond_Test {
+public class Ruby_Test {
 
-    Diamond diamond;
+    Ruby ruby;
 
     @Before
     public void before() {
-        diamond = new Diamond();
+        ruby = new Ruby();
     }
 
     @Test
     public void canGetValue() {
-        assertEquals(100000, diamond.getValue());
+        assertEquals(10000, ruby.getValue());
     }
-
 }
