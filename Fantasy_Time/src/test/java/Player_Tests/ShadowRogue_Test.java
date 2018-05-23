@@ -93,6 +93,18 @@ public class ShadowRogue_Test {
 
     //Reduce Stat Tests
     @Test
+    public void canReduceStrength() {
+        shadowRogue.takeStrengthDamage(20);
+        assertEquals(10, shadowRogue.getStrength());
+    }
+
+    @Test
+    public void canReduceMagic() {
+        shadowRogue.takeMagicDamage(30);
+        assertEquals(0, shadowRogue.getMagic());
+    }
+
+    @Test
     public void canReduceDefence() {
         shadowRogue.takeDefenceDamage(10);
         assertEquals(30, shadowRogue.getDefence());
@@ -102,6 +114,12 @@ public class ShadowRogue_Test {
     public void canReduceVitality() {
         shadowRogue.takeVitalityDamage(10);
         assertEquals(50, shadowRogue.getVitality());
+    }
+
+    @Test
+    public void canReduceLuck() {
+        shadowRogue.takeLuckDamage(20);
+        assertEquals(50, shadowRogue.getLuck());
     }
 
     //ShadowRogue Tests
