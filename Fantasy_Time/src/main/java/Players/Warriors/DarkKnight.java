@@ -19,10 +19,6 @@ public class DarkKnight extends Warrior {
         this.armourValue -= value;
     }
 
-    public void zeroDamage() {
-        takeDamage(0);
-    }
-
     public void healthLimit() {
 
         int healthValue = getHealthValue();
@@ -33,6 +29,17 @@ public class DarkKnight extends Warrior {
             increaseDefence(100);
             increaseVitality(100);
         }
+    }
+
+    public void armourLimit() {
+
+        int armourValue = getArmourValue();
+
+        if (armourValue < 10) {
+            increaseHealth(1000);
+            curePoison();
+        }
+
     }
 
 
