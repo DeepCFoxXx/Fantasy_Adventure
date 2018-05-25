@@ -92,4 +92,16 @@ public class Party_Test {
         assertEquals(0, party.getMembersCount());
     }
 
+    @Test
+    public void canGetTotalHealth() {
+        party.addMember(barbarian);
+        party.addMember(darkKnight);
+        party.addMember(enchantress);
+        party.addMember(paladin);
+        party.addMember(shadowRogue);
+        party.addMember(sorcerer);
+        party.addMember(whiteMage);
+        assertEquals(3450, party.totalHealthValue());
+    }
+
 }
