@@ -55,4 +55,10 @@ public class Party_Test {
         assertEquals(0, party.getMembersCount());
     }
 
+    @Test
+    public void canAddToParty() {
+        party.addMember(barbarian);
+        assertEquals(1, party.getMembersCount());
+    }
+
 }
