@@ -55,4 +55,49 @@ public class Party_Test {
         assertEquals(0, party.getMembersCount());
     }
 
+<<<<<<< HEAD
+=======
+    @Test
+    public void canAddToParty() {
+        party.addMember(barbarian);
+        assertEquals(1, party.getMembersCount());
+    }
+
+<<<<<<< HEAD
+    @Test
+    public void canRemovePlayer() {
+        party.addMember(barbarian);
+        party.removePlayer(barbarian);
+        assertEquals(0, party.getMembersCount());
+    }
+
+    @Test
+    public void canAddAllMembers() {
+        party.addMember(barbarian);
+        party.addMember(darkKnight);
+        party.addMember(enchantress);
+        party.addMember(paladin);
+        party.addMember(shadowRogue);
+        party.addMember(sorcerer);
+        party.addMember(whiteMage);
+        assertEquals(7, party.getMembersCount());
+    }
+
+
+    @Test
+    public void canClearParty() {
+        party.addMember(barbarian);
+        party.addMember(darkKnight);
+        party.addMember(enchantress);
+        party.addMember(paladin);
+        party.addMember(shadowRogue);
+        party.addMember(sorcerer);
+        party.addMember(whiteMage);
+        party.clearParty();
+        assertEquals(0, party.getMembersCount());
+    }
+
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
 }

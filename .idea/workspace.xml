@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" afterDir="false" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,9 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoldCoins.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/GoldCoins.java">
+      <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="120">
               <caret line="12" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
               <folding>
@@ -60,17 +70,48 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="424">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+=======
+            <state relative-caret-position="165">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+              </folding>
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SilverCoins_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/SilverCoins_Test.java">
+=======
+      <file leaf-file-name="Party_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+<<<<<<< HEAD
+            <state relative-caret-position="258">
+              <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+=======
+            <state relative-caret-position="649">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
               <folding>
                 <element signature="imports" expanded="true" />
+<<<<<<< HEAD
               </folding>
             </state>
           </provider>
@@ -98,6 +139,10 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1750#1751#0" expanded="true" />
                 <element signature="e#1780#1781#0" expanded="true" />
+=======
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
               </folding>
             </state>
           </provider>
@@ -618,7 +663,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="46" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="698" />
   </component>
@@ -628,7 +673,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -667,6 +715,7 @@
               <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Players" type="462c0819:PsiDirectoryNode" />
@@ -676,6 +725,18 @@
               <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< HEAD
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -685,20 +746,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -720,7 +780,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.Party_Test.partyStartsEmpty">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.Party_Test.canClearParty">
+=======
+  <component name="RunManager" selected="JUnit.Party_Test.canAddToParty">
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -744,19 +812,29 @@
       </option>
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="GoldCoins_Test.canGetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Party_Test.canAddAllMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Treasure_Tests.*" />
+          <option name="PATTERN" value="Player_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="Player_Treasure_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Treasure_Tests.GoldCoins_Test" />
       <option name="METHOD_NAME" value="canGetValue" />
+=======
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+      <option name="METHOD_NAME" value="canAddAllMembers" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -767,7 +845,11 @@
       </option>
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Party_Test.partyStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Party_Test.canAddToParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -779,7 +861,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="partyStartsEmpty" />
+=======
+      <option name="METHOD_NAME" value="canAddToParty" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -790,20 +876,28 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Ruby_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
+    <configuration name="Party_Test.canClearParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Party_Test.partyStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Treasure_Tests.*" />
+          <option name="PATTERN" value="Player_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Treasure_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Treasure_Tests.Ruby_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="canClearParty" />
+=======
+      <option name="METHOD_NAME" value="partyStartsEmpty" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -813,20 +907,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SilverCoins_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Party_Test.canRemovePlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Player_Treasure_Tests.*" />
+          <option name="PATTERN" value="Player_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Treasure_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Treasure_Tests.SilverCoins_Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+      <option name="METHOD_NAME" value="canRemovePlayer" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -889,6 +983,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
+<<<<<<< HEAD
       <item itemvalue="JUnit.Ruby_Test" />
       <item itemvalue="JUnit.GoldCoins_Test.canGetValue" />
       <item itemvalue="JUnit.SilverCoins_Test" />
@@ -897,10 +992,39 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
+=======
+<<<<<<< HEAD
+      <item itemvalue="JUnit.Party_Test.canAddToParty" />
+      <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
+      <item itemvalue="JUnit.Party_Test.canAddAllMembers" />
+      <item itemvalue="JUnit.Party_Test.canClearParty" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Party_Test.canClearParty" />
+        <item itemvalue="JUnit.Party_Test.canAddAllMembers" />
+        <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
+        <item itemvalue="JUnit.Party_Test.canAddToParty" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
+=======
+      <item itemvalue="JUnit.GoldCoins_Test.canGetValue" />
+      <item itemvalue="JUnit.SilverCoins_Test" />
+      <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
+      <item itemvalue="JUnit.Party_Test.canAddToParty" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Party_Test.canAddToParty" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
         <item itemvalue="JUnit.SilverCoins_Test" />
         <item itemvalue="JUnit.GoldCoins_Test.canGetValue" />
+<<<<<<< HEAD
         <item itemvalue="JUnit.Ruby_Test" />
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       </list>
     </recent_temporary>
   </component>
@@ -918,6 +1042,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="DarkKnight_Test_canArmourLimitHealthIncrease - 2018.05.23 at 13h 46m 07s.xml">
       <configuration name="DarkKnight_Test.canArmourLimitHealthIncrease" configurationId="JUnit" />
     </history-entry>
@@ -927,12 +1052,17 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 14h 07m 08s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
     <history-entry file="Diamond_Test_canGetValue - 2018.05.23 at 14h 27m 59s.xml">
       <configuration name="Diamond_Test.canGetValue" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Diamond_Test_canGetValue - 2018.05.23 at 14h 31m 19s.xml">
       <configuration name="Diamond_Test.canGetValue" configurationId="JUnit" />
     </history-entry>
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 14h 31m 24s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -945,9 +1075,33 @@
     <history-entry file="GoldCoins_Test_canGetValue - 2018.05.23 at 14h 36m 42s.xml">
       <configuration name="GoldCoins_Test.canGetValue" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.25 at 12h 32m 25s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+=======
+    <history-entry file="SilverCoins_Test - 2018.05.23 at 14h 42m 34s.xml">
+      <configuration name="SilverCoins_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 14h 42m 43s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Party_Test_partyStartsEmpty - 2018.05.23 at 16h 05m 35s.xml">
+      <configuration name="Party_Test.partyStartsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 16h 25m 18s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+<<<<<<< HEAD
+    <history-entry file="Party_Test_canAddToParty - 2018.05.25 at 12h 11m 22s.xml">
+      <configuration name="Party_Test.canAddToParty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Party_Test_canRemovePlayer - 2018.05.25 at 12h 17m 18s.xml">
+      <configuration name="Party_Test.canRemovePlayer" configurationId="JUnit" />
+    </history-entry>
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -955,13 +1109,16 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28275862" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
@@ -981,6 +1138,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.27310345" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1014,13 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,6 +1221,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="107" selection-start-line="71" selection-start-column="4" selection-end-line="107" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1032#1033#0" expanded="true" />
@@ -1077,6 +1229,8 @@
             <element signature="e#1256#1257#0" expanded="true" />
             <element signature="e#1318#1319#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
         </state>
       </provider>
     </entry>
@@ -1132,12 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,6 +1388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1364,6 +1513,8 @@
             <element signature="e#2981#2982#0" expanded="true" />
             <element signature="e#3043#3044#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
         </state>
       </provider>
     </entry>
@@ -1436,6 +1587,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/GoldCoins_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/SilverCoins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1443,22 +1601,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/GoldCoins_Test.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/SilverCoins_Test.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="180">
           <caret line="20" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Barbarian_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="25" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/SilverCoins_Test.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/DarkKnight_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="225">
+          <caret line="23" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="e#2981#2982#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Enchantress_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="7" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Paladin_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/ShadowRogue_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Sorcerer_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" selection-start-line="29" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="39" selection-start-line="38" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="258">
+          <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+=======
+        <state relative-caret-position="649">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+          <folding>
+            <element signature="imports" expanded="true" />
+<<<<<<< HEAD
           </folding>
         </state>
       </provider>
@@ -1482,6 +1774,10 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1750#1751#0" expanded="true" />
             <element signature="e#1780#1781#0" expanded="true" />
+=======
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
           </folding>
         </state>
       </provider>
