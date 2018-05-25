@@ -17,6 +17,7 @@ public class Party {
     public void addMember(Player player) {
         this.members.add(player);
     }
+<<<<<<< HEAD
 
     public void removePlayer(Player player) {
         this.members.remove(player);
@@ -35,4 +36,6 @@ public class Party {
     public void clearParty() {
         this.members.clear();
     }
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
 }

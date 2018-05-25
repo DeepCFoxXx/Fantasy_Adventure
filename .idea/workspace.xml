@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,6 +35,7 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="424">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
@@ -40,6 +45,13 @@
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
+=======
+            <state relative-caret-position="165">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
               </folding>
             </state>
           </provider>
@@ -48,8 +60,13 @@
       <file leaf-file-name="Party_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="258">
               <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+=======
+            <state relative-caret-position="649">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1794#1795#0" expanded="true" />
@@ -622,6 +639,16 @@
               <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -631,15 +658,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fantasy_Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fantasy_Adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Fantasy_Time" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Player_Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -667,7 +685,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.Party_Test.canClearParty">
+=======
+  <component name="RunManager" selected="JUnit.Party_Test.canAddToParty">
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -737,7 +759,11 @@
       </option>
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Party_Test.canClearParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Party_Test.partyStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -749,7 +775,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="canClearParty" />
+=======
+      <option name="METHOD_NAME" value="partyStartsEmpty" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -836,6 +866,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
+<<<<<<< HEAD
       <item itemvalue="JUnit.Party_Test.canAddToParty" />
       <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
       <item itemvalue="JUnit.Party_Test.canAddAllMembers" />
@@ -848,6 +879,20 @@
         <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
         <item itemvalue="JUnit.Party_Test.canAddToParty" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
+=======
+      <item itemvalue="JUnit.GoldCoins_Test.canGetValue" />
+      <item itemvalue="JUnit.SilverCoins_Test" />
+      <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
+      <item itemvalue="JUnit.Party_Test.canAddToParty" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Party_Test.canAddToParty" />
+        <item itemvalue="JUnit.All in Fantasy_Time_test" />
+        <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
+        <item itemvalue="JUnit.SilverCoins_Test" />
+        <item itemvalue="JUnit.GoldCoins_Test.canGetValue" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
       </list>
     </recent_temporary>
   </component>
@@ -865,6 +910,15 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+=======
+    <history-entry file="Diamond_Test_canGetValue - 2018.05.23 at 14h 27m 59s.xml">
+      <configuration name="Diamond_Test.canGetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Diamond_Test_canGetValue - 2018.05.23 at 14h 31m 19s.xml">
+      <configuration name="Diamond_Test.canGetValue" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 14h 31m 24s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
@@ -889,12 +943,15 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.23 at 16h 25m 18s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="Party_Test_canAddToParty - 2018.05.25 at 12h 11m 22s.xml">
       <configuration name="Party_Test.canAddToParty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Party_Test_canRemovePlayer - 2018.05.25 at 12h 17m 18s.xml">
       <configuration name="Party_Test.canRemovePlayer" configurationId="JUnit" />
     </history-entry>
+=======
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -902,13 +959,12 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
@@ -928,6 +984,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.27310345" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1356,6 +1413,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/WhiteMage_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1387,8 +1455,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="258">
           <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+=======
+        <state relative-caret-position="649">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+>>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1794#1795#0" expanded="true" />
