@@ -15,9 +15,12 @@ public class Party {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 =======
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
     public void addMember(Player player) {
         this.members.add(player);
     }
@@ -43,4 +46,7 @@ public class Party {
 =======
 >>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
 }
+<<<<<<< HEAD
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
+=======
 >>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a

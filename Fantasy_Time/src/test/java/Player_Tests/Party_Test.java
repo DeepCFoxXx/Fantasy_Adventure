@@ -56,7 +56,10 @@ public class Party_Test {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
     @Test
     public void canAddToParty() {
         party.addMember(barbarian);
@@ -99,5 +102,8 @@ public class Party_Test {
 
 =======
 >>>>>>> fe2a019df1cefd1e8995accb2df5be138fb27c10
+<<<<<<< HEAD
+>>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
+=======
 >>>>>>> 41353468ce27c529c4071a91a6f34a6aeaaad54a
 }
