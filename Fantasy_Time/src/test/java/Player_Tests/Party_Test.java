@@ -68,4 +68,30 @@ public class Party_Test {
         assertEquals(0, party.getMembersCount());
     }
 
+    @Test
+    public void canAddAllMembers() {
+        party.addMember(barbarian);
+        party.addMember(darkKnight);
+        party.addMember(enchantress);
+        party.addMember(paladin);
+        party.addMember(shadowRogue);
+        party.addMember(sorcerer);
+        party.addMember(whiteMage);
+        assertEquals(7, party.getMembersCount());
+    }
+
+
+//    @Test 
+//    public void canClearParty() {
+//        party.addMember(barbarian);
+//        party.addMember(darkKnight);
+//        party.addMember(enchantress);
+//        party.addMember(paladin);
+//        party.addMember(shadowRogue);
+//        party.addMember(sorcerer);
+//        party.addMember(whiteMage);
+//        party.clearMembers();
+//        assertEquals(0, party.getMembersCount());
+//    }
+
 }

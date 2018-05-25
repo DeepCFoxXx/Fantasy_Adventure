@@ -22,4 +22,14 @@ public class Party {
         this.members.remove(player);
     }
 
+    public int totalHealthValue() {
+
+        int total = 0;
+
+        for (Player health : members) {
+            total += health.getHealthValue();
+        }
+        return total;
+    }
+
 }
