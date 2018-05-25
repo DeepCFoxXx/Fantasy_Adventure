@@ -81,17 +81,17 @@ public class Party_Test {
     }
 
 
-//    @Test 
-//    public void canClearParty() {
-//        party.addMember(barbarian);
-//        party.addMember(darkKnight);
-//        party.addMember(enchantress);
-//        party.addMember(paladin);
-//        party.addMember(shadowRogue);
-//        party.addMember(sorcerer);
-//        party.addMember(whiteMage);
-//        party.clearMembers();
-//        assertEquals(0, party.getMembersCount());
-//    }
+    @Test
+    public void canClearParty() {
+        party.addMember(barbarian);
+        party.addMember(darkKnight);
+        party.addMember(enchantress);
+        party.addMember(paladin);
+        party.addMember(shadowRogue);
+        party.addMember(sorcerer);
+        party.addMember(whiteMage);
+        party.clearParty();
+        assertEquals(0, party.getMembersCount());
+    }
 
 }

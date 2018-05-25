@@ -667,7 +667,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Party_Test.canAddAllMembers">
+  <component name="RunManager" selected="JUnit.Party_Test.canClearParty">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -737,6 +737,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Party_Test.canClearParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
+      <option name="METHOD_NAME" value="canClearParty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Party_Test.canRemovePlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -750,29 +773,6 @@
       <option name="PACKAGE_NAME" value="Player_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
       <option name="METHOD_NAME" value="canRemovePlayer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Party_Test.partyStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Player_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Player_Tests.Party_Test" />
-      <option name="METHOD_NAME" value="partyStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -836,18 +836,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
       <item itemvalue="JUnit.Party_Test.canAddToParty" />
       <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
       <item itemvalue="JUnit.Party_Test.canAddAllMembers" />
+      <item itemvalue="JUnit.Party_Test.canClearParty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Party_Test.canClearParty" />
         <item itemvalue="JUnit.Party_Test.canAddAllMembers" />
         <item itemvalue="JUnit.Party_Test.canRemovePlayer" />
         <item itemvalue="JUnit.Party_Test.canAddToParty" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.Party_Test.partyStartsEmpty" />
       </list>
     </recent_temporary>
   </component>

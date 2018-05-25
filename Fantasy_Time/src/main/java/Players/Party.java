@@ -32,4 +32,7 @@ public class Party {
         return total;
     }
 
+    public void clearParty() {
+        this.members.clear();
+    }
 }
