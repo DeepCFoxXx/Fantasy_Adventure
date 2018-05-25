@@ -17,4 +17,9 @@ public class Party {
     public void addMember(Player player) {
         this.members.add(player);
     }
+
+    public void removePlayer(Player player) {
+        this.members.remove(player);
+    }
+
 }

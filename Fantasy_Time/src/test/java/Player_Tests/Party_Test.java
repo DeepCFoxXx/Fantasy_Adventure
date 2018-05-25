@@ -61,4 +61,11 @@ public class Party_Test {
         assertEquals(1, party.getMembersCount());
     }
 
+    @Test
+    public void canRemovePlayer() {
+        party.addMember(barbarian);
+        party.removePlayer(barbarian);
+        assertEquals(0, party.getMembersCount());
+    }
+
 }
