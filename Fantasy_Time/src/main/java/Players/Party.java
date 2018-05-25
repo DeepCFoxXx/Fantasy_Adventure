@@ -13,4 +13,8 @@ public class Party {
     public int getMembersCount() {
         return this.members.size();
     }
+
+    public void addMember(Player player) {
+        this.members.add(player);
+    }
 }
