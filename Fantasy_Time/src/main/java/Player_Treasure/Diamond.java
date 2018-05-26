@@ -8,7 +8,6 @@ public class Diamond implements ITreasure{
         this.value = 100000;
     }
 
-
     public int getValue() {
         return this.value;
     }

@@ -1,6 +1,6 @@
 package Player_Treasure;
 
-public class GoldCoins {
+public class GoldCoins implements ITreasure {
 
     private int value;
 

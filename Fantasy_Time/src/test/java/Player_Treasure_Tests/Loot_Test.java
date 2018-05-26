@@ -18,9 +18,9 @@ public class Loot_Test {
     public void before() {
         loot = new Loot();
         diamond = new Diamond();
-//        goldCoins = new GoldCoins();
-//        ruby = new Ruby();
-//        silverCoins = new SilverCoins();
+        goldCoins = new GoldCoins();
+        ruby = new Ruby();
+        silverCoins = new SilverCoins();
     }
 
     @Test
@@ -39,6 +39,15 @@ public class Loot_Test {
         loot.addTreasure(diamond);
         loot.removeTreasure(diamond);
         assertEquals(0, loot.getLootCount());
+    }
+
+    @Test
+    public void canAddAllLoot() {
+        loot.addTreasure(diamond);
+        loot.addTreasure(goldCoins);
+        loot.addTreasure(ruby);
+        loot.addTreasure(silverCoins);
+        assertEquals(4, loot.getLootCount());
     }
 
 }

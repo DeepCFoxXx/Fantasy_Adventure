@@ -1,6 +1,6 @@
 package Player_Treasure;
 
-public class Ruby {
+public class Ruby implements ITreasure {
 
     private int value;
 
