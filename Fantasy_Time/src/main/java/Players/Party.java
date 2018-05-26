@@ -7,7 +7,7 @@ public class Party {
     ArrayList<Player>members;
 
     public Party() {
-        this.members = new ArrayList<Player>();
+        this.members = new ArrayList<>();
     }
 
     public int getMembersCount() {
