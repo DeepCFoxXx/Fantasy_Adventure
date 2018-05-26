@@ -27,4 +27,9 @@ public class Room_Test {
        assertEquals( Exit.NORTH, room1.getDirection());
    }
 
+   @Test
+   public void room2HasExit() {
+      assertEquals( Exit.EAST, room2.getDirection());
+   }
+
 }

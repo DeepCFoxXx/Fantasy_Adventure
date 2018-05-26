@@ -9,7 +9,7 @@ public class Room {
     }
 
     public Exit getDirection() {
-        return direction;
+        return this.direction;
     }
 
 }

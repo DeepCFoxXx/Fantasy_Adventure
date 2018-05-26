@@ -15,7 +15,7 @@ public enum Exit {
     }
 
     public String getDirection() {
-        return direction;
+        return this.direction;
     }
 
 }
