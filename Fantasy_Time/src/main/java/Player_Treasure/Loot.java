@@ -26,4 +26,14 @@ public class Loot {
         this.loot.clear();
     }
 
+    public int getTotalLoot() {
+
+        int total = 0;
+
+        for (ITreasure treasure : loot) {
+            total += treasure.getValue();
+        }
+        return total;
+
+    }
 }

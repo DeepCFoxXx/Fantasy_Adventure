@@ -60,4 +60,13 @@ public class Loot_Test {
         assertEquals(0, loot.getLootCount());
     }
 
+    @Test
+    public void canGetTotalValue() {
+        loot.addTreasure(diamond);
+        loot.addTreasure(goldCoins);
+        loot.addTreasure(ruby);
+        loot.addTreasure(silverCoins);
+        assertEquals(111100, loot.getTotalLoot());
+    }
+
 }
