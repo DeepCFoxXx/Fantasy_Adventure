@@ -50,4 +50,14 @@ public class Loot_Test {
         assertEquals(4, loot.getLootCount());
     }
 
+    @Test
+    public void canClearLoot() {
+        loot.addTreasure(diamond);
+        loot.addTreasure(goldCoins);
+        loot.addTreasure(ruby);
+        loot.addTreasure(silverCoins);
+        loot.clearLoot();
+        assertEquals(0, loot.getLootCount());
+    }
+
 }

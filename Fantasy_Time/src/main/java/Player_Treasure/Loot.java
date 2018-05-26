@@ -22,4 +22,8 @@ public class Loot {
         this.loot.remove(loot);
     }
 
+    public void clearLoot() {
+        this.loot.clear();
+    }
+
 }
