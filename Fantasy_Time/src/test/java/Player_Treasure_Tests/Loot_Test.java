@@ -28,4 +28,10 @@ public class Loot_Test {
         assertEquals(0, loot.getLootCount());
     }
 
+    @Test
+    public void canAddToLoot() {
+        loot.addTreasure(diamond);
+        assertEquals(1, loot.getLootCount());
+    }
+
 }

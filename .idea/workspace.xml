@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/Loot_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Room.java" afterDir="false" />
-    </list>
+    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,12 +28,11 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
@@ -54,7 +48,7 @@
       <file leaf-file-name="Party_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="1280">
               <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,10 +62,13 @@
       <file leaf-file-name="Loot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="135">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +77,13 @@
       <file leaf-file-name="Loot_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/Loot_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" selection-end-line="23" />
+            <state relative-caret-position="304">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -585,13 +587,13 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Levels/Level.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Levels/Level_1.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Level.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Exit.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Room.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/Loot_Test.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java" />
       </list>
     </option>
   </component>
@@ -722,7 +724,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Loot_Test.lootStartsEmpty">
+  <component name="RunManager" selected="JUnit.Loot_Test.canAddToLoot">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -746,6 +748,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Loot_Test.canAddToLoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player_Treasure_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Player_Treasure_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Player_Treasure_Tests.Loot_Test" />
+      <option name="METHOD_NAME" value="canAddToLoot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Loot_Test.lootStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -759,29 +784,6 @@
       <option name="PACKAGE_NAME" value="Player_Treasure_Tests" />
       <option name="MAIN_CLASS_NAME" value="Player_Treasure_Tests.Loot_Test" />
       <option name="METHOD_NAME" value="lootStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Room_Test.room2HasExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Room_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
-      <option name="METHOD_NAME" value="room2HasExit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -890,19 +892,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Room_Test.room2HasExit" />
       <item itemvalue="JUnit.Room_Test.room3HasExit" />
       <item itemvalue="JUnit.Room_Test.room4HasExit" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.Loot_Test.lootStartsEmpty" />
+      <item itemvalue="JUnit.Loot_Test.canAddToLoot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Loot_Test.canAddToLoot" />
         <item itemvalue="JUnit.Loot_Test.lootStartsEmpty" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.Room_Test.room4HasExit" />
         <item itemvalue="JUnit.Room_Test.room3HasExit" />
-        <item itemvalue="JUnit.Room_Test.room2HasExit" />
       </list>
     </recent_temporary>
   </component>
@@ -920,12 +922,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Room_Test_roomHasExit - 2018.05.26 at 13h 23m 35s.xml">
-      <configuration name="Room_Test.roomHasExit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Room_Test_roomHasExit - 2018.05.26 at 13h 23m 52s.xml">
-      <configuration name="Room_Test.roomHasExit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Room_Test_roomHasExit - 2018.05.26 at 13h 24m 20s.xml">
       <configuration name="Room_Test.roomHasExit" configurationId="JUnit" />
     </history-entry>
@@ -950,9 +946,16 @@
     <history-entry file="Room_Test_room4HasExit - 2018.05.26 at 13h 34m 28s.xml">
       <configuration name="Room_Test.room4HasExit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.26 at 14h 02m 45s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Loot_Test_lootStartsEmpty - 2018.05.26 at 14h 05m 54s.xml">
+      <configuration name="Loot_Test.lootStartsEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -962,12 +965,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.31098545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.31098545" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -1336,25 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/GoldCoins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1395,19 +1379,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java">
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Players/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="180">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Tests/Party_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
+        <state relative-caret-position="1280">
           <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1417,10 +1409,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Player_Treasure/Loot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Player_Treasure_Tests/Loot_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-end-line="23" />
+        <state relative-caret-position="304">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

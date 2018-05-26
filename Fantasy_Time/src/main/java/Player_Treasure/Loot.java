@@ -14,4 +14,8 @@ public class Loot {
         return this.loot.size();
     }
 
+    public void addTreasure(ITreasure loot) {
+        this.loot.add(loot);
+    }
+
 }
