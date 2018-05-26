@@ -22,9 +22,9 @@ public class Room_Test {
        room4 = new Room(Exit.WEST);
    }
 
-//   @Test
-//    public void roomHasExit() {
-//       assertEquals("North", room1.());
-//   }
+   @Test
+    public void room1HasExit() {
+       assertEquals( Exit.NORTH, room1.getDirection());
+   }
 
 }

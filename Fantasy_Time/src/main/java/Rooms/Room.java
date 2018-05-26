@@ -2,11 +2,14 @@ package Rooms;
 
 public class Room {
 
-    private Exit exit;
+    private Exit direction;
 
-    public Room(Exit exit) {
-        this.exit = exit;
+    public Room(Exit direction) {
+        this.direction = direction;
     }
 
+    public Exit getDirection() {
+        return direction;
+    }
 
 }
