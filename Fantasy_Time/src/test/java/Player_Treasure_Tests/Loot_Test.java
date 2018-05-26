@@ -34,4 +34,11 @@ public class Loot_Test {
         assertEquals(1, loot.getLootCount());
     }
 
+    @Test
+    public void canRemoveLoot() {
+        loot.addTreasure(diamond);
+        loot.removeTreasure(diamond);
+        assertEquals(0, loot.getLootCount());
+    }
+
 }

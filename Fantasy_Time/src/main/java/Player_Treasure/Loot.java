@@ -18,4 +18,8 @@ public class Loot {
         this.loot.add(loot);
     }
 
+    public void removeTreasure(ITreasure loot) {
+        this.loot.remove(loot);
+    }
+
 }
