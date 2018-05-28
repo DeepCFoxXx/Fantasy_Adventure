@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Enemy_Tests/EnemyParty_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Enemy_Tests/EnemyParty_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,22 +47,13 @@
       <file leaf-file-name="EnemyParty_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+            <state relative-caret-position="186">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1352#1353#0" expanded="true" />
                 <element signature="e#1418#1419#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MasterVampire_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Boss_Tests/MasterVampire_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="27" selection-start-line="26" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -719,7 +706,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnemyParty_Test.canClearEnemyParty">
+  <component name="RunManager" selected="JUnit.EnemyParty_Test.canGetTotalEnemyHealth">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -901,9 +888,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
         <item itemvalue="JUnit.EnemyParty_Test.canClearEnemyParty" />
         <item itemvalue="JUnit.EnemyParty_Test.canAddAllEnemies" />
-        <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
         <item itemvalue="JUnit.EnemyParty_Test.canGetTotalHealth" />
         <item itemvalue="JUnit.EnemyParty_Test.canRemoveEnemy" />
       </list>
@@ -923,12 +910,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.26 at 15h 31m 27s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Fantasy_Time_test - 2018.05.28 at 11h 01m 08s.xml">
-      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnemyParty_Test_canAddToEnemyParty - 2018.05.28 at 12h 44m 13s.xml">
       <configuration name="EnemyParty_Test.canAddToEnemyParty" configurationId="JUnit" />
     </history-entry>
@@ -952,6 +933,12 @@
     </history-entry>
     <history-entry file="EnemyParty_Test_canAddAllEnemies - 2018.05.28 at 15h 04m 19s.xml">
       <configuration name="EnemyParty_Test.canAddAllEnemies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnemyParty_Test_canClearEnemyParty - 2018.05.28 at 15h 05m 39s.xml">
+      <configuration name="EnemyParty_Test.canClearEnemyParty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnemyParty_Test_canClearEnemyParty - 2018.05.28 at 15h 05m 52s.xml">
+      <configuration name="EnemyParty_Test.canClearEnemyParty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1366,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="186">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1352#1353#0" expanded="true" />

@@ -106,7 +106,9 @@ public class EnemyParty_Test {
         enemyparty.addEnemy(hellKnight);
         enemyparty.addEnemy(lich);
         enemyparty.addEnemy(orc);
-        assertEquals(4500, enemyparty.getTotalHealth());
+        enemyparty.addEnemy(ebonyWarrior);
+        enemyparty.addEnemy(masterVampire);
+        assertEquals(7700, enemyparty.getTotalHealth());
     }
 
 }
