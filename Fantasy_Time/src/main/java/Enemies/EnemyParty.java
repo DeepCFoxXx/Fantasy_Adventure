@@ -26,4 +26,14 @@ public class EnemyParty {
         this.enemies.clear();
     }
 
+    public int getTotalHealth() {
+
+        int total = 0;
+
+        for (Enemy health : enemies) {
+            total += health.getHealthValue();
+        }
+        return total;
+    }
+
 }

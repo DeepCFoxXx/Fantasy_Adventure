@@ -83,4 +83,15 @@ public class EnemyParty_Test {
         assertEquals(0, enemyparty.getEnemyCount());
     }
 
+    @Test
+    public void canGetTotalEnemyHealth() {
+        enemyparty.addEnemy(bloodCultist);
+        enemyparty.addEnemy(cursedVampire);
+        enemyparty.addEnemy(darkElf);
+        enemyparty.addEnemy(hellKnight);
+        enemyparty.addEnemy(lich);
+        enemyparty.addEnemy(orc);
+        assertEquals(4500, enemyparty.getTotalHealth());
+    }
+
 }
