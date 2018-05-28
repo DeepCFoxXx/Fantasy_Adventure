@@ -10,9 +10,10 @@ import Enemies.Fighters.DarkElf;
 import Enemies.Fighters.HellKnight;
 import Enemies.Fighters.Orc;
 import Enemies.Fighters.Weapons.IWeaponEnemy;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class EnemyParty_Test {
 
@@ -43,7 +44,13 @@ public class EnemyParty_Test {
 
     @Test
     public void enemyPartyStartsEmpty() {
-        Assert.assertEquals(0, enemyparty.getEnemyCount());
+        assertEquals(0, enemyparty.getEnemyCount());
+    }
+
+    @Test
+    public void canAddToEnemyParty() {
+        enemyparty.addEnemy(bloodCultist);
+        assertEquals(1, enemyparty.getEnemyCount());
     }
 
 }

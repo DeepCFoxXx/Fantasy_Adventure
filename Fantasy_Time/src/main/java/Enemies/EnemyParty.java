@@ -14,4 +14,8 @@ public class EnemyParty {
         return this.enemies.size();
     }
 
+    public void addEnemy(Enemy enemy) {
+        this.enemies.add(enemy);
+    }
+
 }
