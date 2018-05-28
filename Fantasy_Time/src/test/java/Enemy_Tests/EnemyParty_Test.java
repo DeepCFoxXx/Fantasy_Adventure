@@ -1,5 +1,9 @@
 package Enemy_Tests;
 
+import Enemies.Boss_Enemies.Boss;
+import Enemies.Boss_Enemies.Boss_Weapons.IBossWeapon;
+import Enemies.Boss_Enemies.EbonyWarrior;
+import Enemies.Boss_Enemies.MasterVampire;
 import Enemies.Enemy;
 import Enemies.Enemy_Magic_Users.BloodCultist;
 import Enemies.Enemy_Magic_Users.Lich;
@@ -30,6 +34,10 @@ public class EnemyParty_Test {
     ISpellEnemy drain;
     Enemy orc;
     IWeaponEnemy warhammer;
+    Boss ebonyWarrior;
+    IBossWeapon deathScythe;
+    Boss masterVampire;
+    IBossWeapon abyssalSpear;
 
     @Before
     public void before() {
@@ -40,6 +48,9 @@ public class EnemyParty_Test {
         hellKnight = new HellKnight("Dante", 1200, 100, 100, battleAxe);
         lich = new Lich("Zhengyi", 650, 100, 100, drain);
         orc = new Orc("Uzul", 1000, 100, 100, warhammer);
+        ebonyWarrior = new EbonyWarrior("Reymon", 2000, 200, 200, deathScythe);
+        masterVampire = new MasterVampire("Constantia", 1200, 200, 500, abyssalSpear);
+
     }
 
     @Test
@@ -68,7 +79,9 @@ public class EnemyParty_Test {
         enemyparty.addEnemy(hellKnight);
         enemyparty.addEnemy(lich);
         enemyparty.addEnemy(orc);
-        assertEquals(6, enemyparty.getEnemyCount());
+        enemyparty.addEnemy(ebonyWarrior);
+        enemyparty.addEnemy(masterVampire);
+        assertEquals(8, enemyparty.getEnemyCount());
     }
 
     @Test
