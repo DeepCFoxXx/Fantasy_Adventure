@@ -1,4 +1,4 @@
-package Rooms;
+package Quest;
 
 
 public enum Exit {
