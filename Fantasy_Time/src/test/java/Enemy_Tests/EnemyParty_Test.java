@@ -92,6 +92,8 @@ public class EnemyParty_Test {
         enemyparty.addEnemy(hellKnight);
         enemyparty.addEnemy(lich);
         enemyparty.addEnemy(orc);
+        enemyparty.addEnemy(ebonyWarrior);
+        enemyparty.addEnemy(masterVampire);
         enemyparty.clearParty();
         assertEquals(0, enemyparty.getEnemyCount());
     }
