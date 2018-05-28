@@ -18,4 +18,8 @@ public class EnemyParty {
         this.enemies.add(enemy);
     }
 
+    public void removeEnemy(Enemy enemy) {
+        this.enemies.remove(enemy);
+    }
+
 }

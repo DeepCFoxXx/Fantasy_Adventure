@@ -53,4 +53,11 @@ public class EnemyParty_Test {
         assertEquals(1, enemyparty.getEnemyCount());
     }
 
+    @Test
+    public void canRemoveEnemy() {
+        enemyparty.addEnemy(bloodCultist);
+        enemyparty.removeEnemy(bloodCultist);
+        assertEquals(0, enemyparty.getEnemyCount());
+    }
+
 }
