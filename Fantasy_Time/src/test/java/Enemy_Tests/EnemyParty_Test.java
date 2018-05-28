@@ -71,4 +71,16 @@ public class EnemyParty_Test {
         assertEquals(6, enemyparty.getEnemyCount());
     }
 
+    @Test
+    public void canClearEnemyParty() {
+        enemyparty.addEnemy(bloodCultist);
+        enemyparty.addEnemy(cursedVampire);
+        enemyparty.addEnemy(darkElf);
+        enemyparty.addEnemy(hellKnight);
+        enemyparty.addEnemy(lich);
+        enemyparty.addEnemy(orc);
+        enemyparty.clearParty();
+        assertEquals(0, enemyparty.getEnemyCount());
+    }
+
 }

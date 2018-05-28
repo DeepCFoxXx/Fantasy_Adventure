@@ -22,4 +22,8 @@ public class EnemyParty {
         this.enemies.remove(enemy);
     }
 
+    public void clearParty() {
+        this.enemies.clear();
+    }
+
 }
