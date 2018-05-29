@@ -711,7 +711,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Room_Test.canAddEnemyToEnemies">
+  <component name="RunManager" selected="JUnit.Room_Test.canRemoveEnemyFromEnemies">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -764,7 +764,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Room_Test.canAddPlayerToMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Room_Test.canRemoveEnemyFromEnemies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
@@ -776,7 +776,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Room_Tests" />
       <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
-      <option name="METHOD_NAME" value="canAddPlayerToMembers" />
+      <option name="METHOD_NAME" value="canRemoveEnemyFromEnemies" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -885,19 +885,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
       <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
       <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
       <item itemvalue="JUnit.Room_Test.canRemoveLootFromLoot" />
       <item itemvalue="JUnit.Room_Test.canAddEnemyToEnemies" />
+      <item itemvalue="JUnit.Room_Test.canRemoveEnemyFromEnemies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Room_Test.canRemoveEnemyFromEnemies" />
         <item itemvalue="JUnit.Room_Test.canAddEnemyToEnemies" />
         <item itemvalue="JUnit.Room_Test.canRemoveLootFromLoot" />
         <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
         <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
-        <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
       </list>
     </recent_temporary>
   </component>

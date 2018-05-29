@@ -11,7 +11,6 @@ import Quest.Room;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -68,6 +67,13 @@ public class Room_Test {
    public void canAddEnemyToEnemies() {
       enemies1.addEnemy(enemy);
       assertEquals(1, enemies1.getEnemyCount());
+   }
+
+   @Test
+   public void canRemoveEnemyFromEnemies() {
+      enemies1.addEnemy(enemy);
+      enemies1.removeEnemy(enemy);
+      assertEquals(0, enemies1.getEnemyCount());
    }
 
 }
