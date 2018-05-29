@@ -711,7 +711,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Room_Test.canRemovePlayerFromMembers">
+  <component name="RunManager" selected="JUnit.Room_Test.canAddLootToLoot">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -735,19 +735,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EnemyParty_Test.canGetTotalEnemyHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Room_Test.canAddLootToLoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="PATTERN" value="Room_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.EnemyParty_Test" />
-      <option name="METHOD_NAME" value="canGetTotalEnemyHealth" />
+      <option name="PACKAGE_NAME" value="Room_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
+      <option name="METHOD_NAME" value="canAddLootToLoot" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -879,19 +879,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
       <item itemvalue="JUnit.Room_Test.room1HasExit" />
       <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
       <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
+      <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
         <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
         <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
         <item itemvalue="JUnit.Room_Test.room1HasExit" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
-        <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
       </list>
     </recent_temporary>
   </component>

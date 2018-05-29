@@ -51,5 +51,11 @@ public class Room_Test {
       assertEquals(0, memebers1.getMembersCount());
    }
 
+   @Test
+   public void canAddLootToLoot() {
+      loot1.addTreasure(loot);
+      assertEquals(1, loot1.getLootCount());
+   }
+
 
 }
