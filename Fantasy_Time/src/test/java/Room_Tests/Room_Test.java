@@ -57,5 +57,17 @@ public class Room_Test {
       assertEquals(1, loot1.getLootCount());
    }
 
+   @Test
+   public void canRemoveLootFromLoot() {
+      loot1.addTreasure(loot);
+      loot1.removeTreasure(loot);
+      assertEquals(0, loot1.getLootCount());
+   }
+
+   @Test
+   public void canAddEnemyToEnemies() {
+      enemies1.addEnemy(enemy);
+      assertEquals(1, enemies1.getEnemyCount());
+   }
 
 }

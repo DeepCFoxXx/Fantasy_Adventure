@@ -77,8 +77,8 @@
       <file leaf-file-name="Room_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="379">
+              <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#789#790#0" expanded="true" />
@@ -711,21 +711,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Room_Test.canAddLootToLoot">
+  <component name="RunManager" selected="JUnit.Room_Test.canAddEnemyToEnemies">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in Fantasy_Time_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Room_Test.canAddEnemyToEnemies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Room_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Room_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
+      <option name="METHOD_NAME" value="canAddEnemyToEnemies" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -781,6 +787,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Room_Test.canRemoveLootFromLoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Room_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Room_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
+      <option name="METHOD_NAME" value="canRemoveLootFromLoot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Room_Test.canRemovePlayerFromMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
@@ -794,29 +823,6 @@
       <option name="PACKAGE_NAME" value="Room_Tests" />
       <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
       <option name="METHOD_NAME" value="canRemovePlayerFromMembers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Room_Test.room1HasExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Room_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
-      <option name="METHOD_NAME" value="room1HasExit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -879,19 +885,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Fantasy_Time_test" />
-      <item itemvalue="JUnit.Room_Test.room1HasExit" />
       <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
       <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
       <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
+      <item itemvalue="JUnit.Room_Test.canRemoveLootFromLoot" />
+      <item itemvalue="JUnit.Room_Test.canAddEnemyToEnemies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Room_Test.canAddEnemyToEnemies" />
+        <item itemvalue="JUnit.Room_Test.canRemoveLootFromLoot" />
         <item itemvalue="JUnit.Room_Test.canAddLootToLoot" />
         <item itemvalue="JUnit.Room_Test.canRemovePlayerFromMembers" />
         <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
-        <item itemvalue="JUnit.Room_Test.room1HasExit" />
-        <item itemvalue="JUnit.All in Fantasy_Time_test" />
       </list>
     </recent_temporary>
   </component>
@@ -909,15 +915,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnemyParty_Test_canAddAllEnemies - 2018.05.28 at 15h 04m 19s.xml">
-      <configuration name="EnemyParty_Test.canAddAllEnemies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnemyParty_Test_canClearEnemyParty - 2018.05.28 at 15h 05m 39s.xml">
-      <configuration name="EnemyParty_Test.canClearEnemyParty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnemyParty_Test_canClearEnemyParty - 2018.05.28 at 15h 05m 52s.xml">
-      <configuration name="EnemyParty_Test.canClearEnemyParty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnemyParty_Test_canGetTotalEnemyHealth - 2018.05.28 at 15h 10m 58s.xml">
       <configuration name="EnemyParty_Test.canGetTotalEnemyHealth" configurationId="JUnit" />
     </history-entry>
@@ -938,6 +935,15 @@
     </history-entry>
     <history-entry file="Room_Test_canAddPlayerToMembers - 2018.05.29 at 11h 38m 37s.xml">
       <configuration name="Room_Test.canAddPlayerToMembers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Room_Test_canRemovePlayerFromMembers - 2018.05.29 at 11h 43m 33s.xml">
+      <configuration name="Room_Test.canRemovePlayerFromMembers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Room_Test_canAddLootToLoot - 2018.05.29 at 11h 45m 25s.xml">
+      <configuration name="Room_Test.canAddLootToLoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Room_Test_canRemoveLootFromLoot - 2018.05.29 at 11h 46m 34s.xml">
+      <configuration name="Room_Test.canRemoveLootFromLoot" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1363,8 +1369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="379">
+          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#789#790#0" expanded="true" />
