@@ -44,5 +44,12 @@ public class Room_Test {
       assertEquals(1, memebers1.getMembersCount());
    }
 
+   @Test
+   public void canRemovePlayerFromMembers() {
+      memebers1.addMember(player);
+      memebers1.removePlayer(player);
+      assertEquals(0, memebers1.getMembersCount());
+   }
+
 
 }
