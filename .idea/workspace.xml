@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e0121a3-bde7-4bdb-94fc-29b942c07d15" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Rooms/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/production/classes/Rooms/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Room_Tests/Room_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/out/test/classes/Room_Tests/Room_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Quest/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/main/java/Quest/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,18 +33,16 @@
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/EnemyParty.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,12 +51,12 @@
       <file leaf-file-name="EnemyParty_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+            <state relative-caret-position="740">
+              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="e#1879#1880#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,12 +65,12 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Quest/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,18 +79,12 @@
       <file leaf-file-name="Room_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="330">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +100,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Fantasy_Time/src/test/java</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -605,8 +598,8 @@
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/Enemy_Party.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/Enemy_Party_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/EnemyParty.java" />
-        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/main/java/Quest/Room.java" />
+        <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java" />
         <option value="$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java" />
       </list>
     </option>
@@ -628,7 +621,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -699,8 +691,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,7 +713,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Fantasy_Time_test">
+  <component name="RunManager" selected="JUnit.Room_Test.canAddPlayerToMembers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -735,29 +728,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EnemyParty_Test.canAddAllEnemies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fantasy_Time_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.EnemyParty_Test" />
-      <option name="METHOD_NAME" value="canAddAllEnemies" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -813,19 +783,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EnemyParty_Test.canGetTotalHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Room_Test.canAddPlayerToMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy_Time_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enemy_Tests.*" />
+          <option name="PATTERN" value="Room_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Enemy_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Enemy_Tests.EnemyParty_Test" />
-      <option name="METHOD_NAME" value="canGetTotalHealth" />
+      <option name="PACKAGE_NAME" value="Room_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
+      <option name="METHOD_NAME" value="canAddPlayerToMembers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Room_Test.room1HasExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy_Time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Room_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Room_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Room_Tests.Room_Test" />
+      <option name="METHOD_NAME" value="room1HasExit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -888,19 +881,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EnemyParty_Test.canAddAllEnemies" />
       <item itemvalue="JUnit.EnemyParty_Test.canClearEnemyParty" />
-      <item itemvalue="JUnit.EnemyParty_Test.canGetTotalHealth" />
       <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
       <item itemvalue="JUnit.All in Fantasy_Time_test" />
+      <item itemvalue="JUnit.Room_Test.room1HasExit" />
+      <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Room_Test.canAddPlayerToMembers" />
+        <item itemvalue="JUnit.Room_Test.room1HasExit" />
         <item itemvalue="JUnit.All in Fantasy_Time_test" />
         <item itemvalue="JUnit.EnemyParty_Test.canGetTotalEnemyHealth" />
         <item itemvalue="JUnit.EnemyParty_Test.canClearEnemyParty" />
-        <item itemvalue="JUnit.EnemyParty_Test.canAddAllEnemies" />
-        <item itemvalue="JUnit.EnemyParty_Test.canGetTotalHealth" />
       </list>
     </recent_temporary>
   </component>
@@ -918,15 +911,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnemyParty_Test_canClearEnemyParty - 2018.05.28 at 13h 44m 49s.xml">
-      <configuration name="EnemyParty_Test.canClearEnemyParty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnemyParty_Test_canGetTotalHealth - 2018.05.28 at 13h 47m 23s.xml">
-      <configuration name="EnemyParty_Test.canGetTotalHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnemyParty_Test_canGetTotalHealth - 2018.05.28 at 13h 47m 32s.xml">
-      <configuration name="EnemyParty_Test.canGetTotalHealth" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnemyParty_Test_canGetTotalEnemyHealth - 2018.05.28 at 13h 47m 42s.xml">
       <configuration name="EnemyParty_Test.canGetTotalEnemyHealth" configurationId="JUnit" />
     </history-entry>
@@ -948,6 +932,15 @@
     <history-entry file="All_in_Fantasy_Time_test - 2018.05.28 at 15h 14m 07s.xml">
       <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.28 at 15h 29m 56s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Fantasy_Time_test - 2018.05.28 at 15h 30m 17s.xml">
+      <configuration name="All in Fantasy_Time_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Room_Test_room1HasExit - 2018.05.29 at 11h 16m 34s.xml">
+      <configuration name="Room_Test.room1HasExit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -961,13 +954,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.315832" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.3206785" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -981,6 +973,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.27310345" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1312,11 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,63 +1322,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Enemies/EnemyParty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Enemy_Tests/EnemyParty_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/main/java/Quest/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fantasy_Time/src/test/java/Room_Tests/Room_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="330">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
       </provider>

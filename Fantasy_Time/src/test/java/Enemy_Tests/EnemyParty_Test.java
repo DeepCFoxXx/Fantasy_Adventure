@@ -50,7 +50,6 @@ public class EnemyParty_Test {
         orc = new Orc("Uzul", 1000, 100, 100, warhammer);
         ebonyWarrior = new EbonyWarrior("Reymon", 2000, 200, 200, deathScythe);
         masterVampire = new MasterVampire("Constantia", 1200, 200, 500, abyssalSpear);
-
     }
 
     @Test

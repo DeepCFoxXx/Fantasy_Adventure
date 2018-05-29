@@ -1,5 +1,10 @@
 package Room_Tests;
 
+import Enemies.Enemy;
+import Enemies.EnemyParty;
+import Player_Treasure.ITreasure;
+import Player_Treasure.Loot;
+import Players.Party;
 import Players.Player;
 import Quest.Exit;
 import Quest.Room;
@@ -13,37 +18,31 @@ import static org.junit.Assert.assertEquals;
 public class Room_Test {
 
    Room room1;
-   Room room2;
-   Room room3;
-   Room room4;
-   Player barbarian;
+   Party memebers1;
+   Player player;
+   EnemyParty enemies1;
+   Enemy enemy;
+   Loot loot1;
+   ITreasure loot;
 
    @Before
     public void before() {
-//       room1 = new Room(Exit.NORTH, barbarian);
-//       room2 = new Room(Exit.EAST);
-//       room3 = new Room(Exit.SOUTH);
-//       room4 = new Room(Exit.WEST);
+       room1 = new Room(Exit.NORTH, memebers1, loot1, enemies1);
+       memebers1 = new Party();
+       enemies1 = new EnemyParty();
+       loot1 = new Loot();
    }
 
-//   @Test
-//    public void room1HasExit() {
-//       assertEquals( Exit.NORTH, room1.getDirection());
-//   }
-//
-//   @Test
-//   public void room2HasExit() {
-//      assertEquals( Exit.EAST, room2.getDirection());
-//   }
-//
-//   @Test
-//   public void room3HasExit() {
-//      assertEquals( Exit.SOUTH, room3.getDirection());
-//   }
-//
-//   @Test
-//   public void room4HasExit() {
-//      assertEquals( Exit.WEST, room4.getDirection());
-//   }
+   @Test
+    public void room1HasExit() {
+       assertEquals( Exit.NORTH, room1.getDirection());
+   }
+
+   @Test
+   public void canAddPlayerToMembers() {
+      memebers1.addMember(player);
+      assertEquals(1, memebers1.getMembersCount());
+   }
+
 
 }
